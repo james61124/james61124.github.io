@@ -5,3 +5,8 @@ import './assets/tailwind.css'
 
 // Vue.use(VueTailwind, components)
 createApp(App).mount('#app')
+// new Vue({
+//     router,
+//     store,
+//     render: h => h(App)
+// }).$mount('#app');
