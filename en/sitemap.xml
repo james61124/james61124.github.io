@@ -2,21 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://james61124.github.io/blogs/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/blogs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/blogs/"
-                />
-  </url><url>
     <loc>https://james61124.github.io/categories/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -28,11 +15,21 @@
                 href="https://james61124.github.io/categories/"
                 />
   </url><url>
-    <loc>https://james61124.github.io/tags/Hackathon/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <loc>https://james61124.github.io/tags/Guitar-Club/</loc>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/Guitar-Club/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/Guitar-Club/"
+                />
   </url><url>
     <loc>https://james61124.github.io/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -45,10 +42,46 @@
                 />
   </url><url>
     <loc>https://james61124.github.io/categories/Life/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/categories/Life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/categories/Life/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/life/</loc>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/life/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/life/guitar-club/</loc>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/life/guitar-club/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/life/guitar-club/"
+                />
   </url><url>
     <loc>https://james61124.github.io/tags/</loc>
-    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -60,305 +93,225 @@
                 href="https://james61124.github.io/tags/"
                 />
   </url><url>
-    <loc>https://james61124.github.io/blogs/11th-meichu-hackathon/</loc>
+    <loc>https://james61124.github.io/life/2022-line-fresh/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/life/2022-line-fresh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/life/2022-line-fresh/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/tags/LINE-FRESH/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/LINE-FRESH/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/LINE-FRESH/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/tags/Paris/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/Paris/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/Paris/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/tags/Travel/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/Travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/Travel/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/travel/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/travel/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/travel/paris-20240125/</loc>
+    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/travel/paris-20240125/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/travel/paris-20240125/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/tags/Hackathon/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/Hackathon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/Hackathon/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/life/meichu-hackathon-event-planning-leader/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/life/meichu-hackathon-event-planning-leader/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/life/meichu-hackathon-event-planning-leader/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/life/11th-meichu-hackathon/</loc>
+    <lastmod>2024-02-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/life/11th-meichu-hackathon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/life/11th-meichu-hackathon/"
+                />
   </url><url>
     <loc>https://james61124.github.io/tags/Algorithm/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/Algorithm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/Algorithm/"
+                />
   </url><url>
     <loc>https://james61124.github.io/categories/Algorithm/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/categories/Algorithm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/categories/Algorithm/"
+                />
   </url><url>
-    <loc>https://james61124.github.io/blogs/the-rod-cutting-problem/</loc>
+    <loc>https://james61124.github.io/program/the-rod-cutting-problem/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/program/the-rod-cutting-problem/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/program/the-rod-cutting-problem/"
+                />
   </url><url>
     <loc>https://james61124.github.io/tags/Dynamic-Programming/</loc>
     <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/Dynamic-Programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/Dynamic-Programming/"
+                />
+  </url><url>
+    <loc>https://james61124.github.io/program/</loc>
+    <lastmod>2024-01-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/program/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/program/"
+                />
   </url><url>
     <loc>https://james61124.github.io/tags/Github/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/tags/Github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/tags/Github/"
+                />
   </url><url>
     <loc>https://james61124.github.io/categories/Github/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://james61124.github.io/zh/categories/Github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://james61124.github.io/categories/Github/"
+                />
   </url><url>
-    <loc>https://james61124.github.io/blogs/github/</loc>
+    <loc>https://james61124.github.io/program/github/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://james61124.github.io/posts/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://james61124.github.io/zh/posts/"
+                href="https://james61124.github.io/zh/program/github/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://james61124.github.io/posts/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/posts/table-of-content/</loc>
-    <lastmod>2023-05-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/posts/table-of-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/posts/table-of-content/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/posts/math-typesetting/</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/posts/math-typesetting/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/posts/markdown-syntax/</loc>
-    <lastmod>2023-02-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/posts/markdown-syntax/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/posts/rich-content/</loc>
-    <lastmod>2023-02-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/posts/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/posts/rich-content/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/posts/placeholder-text/</loc>
-    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/posts/placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/posts/placeholder-text/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/tags/emoji/</loc>
-    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/tags/emoji/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/posts/emoji-support/</loc>
-    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/posts/emoji-support/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/categories/Documentation/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://james61124.github.io/tags/Example/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-  </url><url>
-    <loc>https://james61124.github.io/tags/Markdown-syntax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/tags/Markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/tags/Markdown-syntax/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/tags/Mathjax/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/tags/Mathjax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/tags/Mathjax/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/blogs/math/</loc>
-    <lastmod>2022-12-09T19:53:33+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/blogs/math/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/blogs/math/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/blogs/markdown-syntax/</loc>
-    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/blogs/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/blogs/markdown-syntax/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/tags/Sample/</loc>
-    <lastmod>2021-04-03T23:29:21+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/tags/Sample/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/tags/Sample/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/tags/Emoji-support/</loc>
-    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/tags/Emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/tags/Emoji-support/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/blogs/emoji-support/</loc>
-    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/blogs/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/blogs/emoji-support/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/tags/Placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/tags/Placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/tags/Placeholder-text/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/blogs/placeholder-text/</loc>
-    <lastmod>2021-04-03T22:41:10+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/blogs/placeholder-text/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/blogs/placeholder-text/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/tags/Rich-content/</loc>
-    <lastmod>2021-04-03T19:53:33+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/tags/Rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/tags/Rich-content/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/blogs/rich-content/</loc>
-    <lastmod>2021-04-03T19:53:33+05:30</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/blogs/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/blogs/rich-content/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/pages/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/pages/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/pages/about/"
-                />
-  </url><url>
-    <loc>https://james61124.github.io/pages/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://james61124.github.io/zh/pages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://james61124.github.io/pages/"
+                href="https://james61124.github.io/program/github/"
                 />
   </url>
 </urlset>

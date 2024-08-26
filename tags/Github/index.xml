@@ -1,14 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Github - tag - Hugo Profile</title>
+        <title>Github - tag - James Blog</title>
         <link>https://james61124.github.io/tags/Github/</link>
-        <description>Github - tag - Hugo Profile</description>
+        <description>Github - tag - James Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/tags/Github/" rel="self" type="application/rss+xml" /><item>
-    <title>Github 新手入門</title>
-    <link>https://james61124.github.io/blogs/github/</link>
+    <title>Introduction to Github for Beginners</title>
+    <link>https://james61124.github.io/program/github/</link>
     <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
-    </author><guid>https://james61124.github.io/blogs/github/</guid>
-    <description><![CDATA[什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作]]></description>
+    </author><guid>https://james61124.github.io/program/github/</guid>
+    <description><![CDATA[What is Github？ Git is a version control software, while Github is an online platform for storing code. It organizes projects into repositories, allowing users to use Git for version control and making collaboration within a team easier.
+Why Use Github In a project, I make changes to A, someone else modifies B, and I update C. Things can quickly get messy.
+It can store a large collection of your work portfolio.]]></description>
 </item></channel>
 </rss>

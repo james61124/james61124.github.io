@@ -1,68 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Hugo Profile</title>
-    <link>https://james61124.github.io/blogs/</link>
-    <description>Recent content in Blogs on Hugo Profile</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Blogs on James Blog</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on James Blog</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://james61124.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>交大吉他社社團生活分享 - 社團生活帶給我的改變</title>
+      <link>http://localhost:1313/blogs/guitar-club/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/guitar-club/</guid>
+      <description>我是交大吉他社 13 級社長，大二的社團生活於我而言，不僅僅是享受大學時光並結交新朋友，他是一個人生重要的歷練，也是一次對音樂認真地奉獻。 為什麼會</description>
+    </item>
+    <item>
+      <title>2022 LINE FRESH 參賽過程與參賽心得</title>
+      <link>http://localhost:1313/blogs/2022-line-fresh/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/2022-line-fresh/</guid>
+      <description>作品介紹 我們設計了一個 Dida Dream - 及時予系統，期望透過即期品整合平台搭配線上剩食捐贈管道來達成剩食再分配的目標。我們主要功能有四個，即期品資料蒐集</description>
+    </item>
+    <item>
+      <title>梅竹黑客松籌備心得</title>
+      <link>http://localhost:1313/blogs/meichu-hackathon-event-planning-leader/</link>
+      <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/meichu-hackathon-event-planning-leader/</guid>
+      <description>梅竹黑客松是全台最大的校園黑客松，先稍微介紹一下黑客松，黑客松其實就是「Hack」跟「Marathon」兩個字合在一起的結果，比賽期間參賽者</description>
+    </item>
     <item>
       <title>第 11 屆梅竹黑客松參賽過程與心得</title>
-      <link>https://james61124.github.io/blogs/11th-meichu-hackathon/</link>
+      <link>http://localhost:1313/blogs/11th-meichu-hackathon/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/blogs/11th-meichu-hackathon/</guid>
+      <guid>http://localhost:1313/blogs/11th-meichu-hackathon/</guid>
       <description>因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何</description>
-    </item>
-    <item>
-      <title>DP 系列 - The Rod Cutting Problem</title>
-      <link>https://james61124.github.io/blogs/the-rod-cutting-problem/</link>
-      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/blogs/the-rod-cutting-problem/</guid>
-      <description>如果賣出長度是 i 的 rod 可以得 pi 元，怎麼切一條長度是 n 的 rod 使總收入最大 方法一、遞迴 最直觀的方式就是用遞迴解，如下圖所示，rn 為切割長度 n 的 rod 可得</description>
-    </item>
-    <item>
-      <title>Github 新手入門</title>
-      <link>https://james61124.github.io/blogs/github/</link>
-      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/blogs/github/</guid>
-      <description>什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作</description>
-    </item>
-    <item>
-      <title>Render Math With Mathjax</title>
-      <link>https://james61124.github.io/blogs/math/</link>
-      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
-      <guid>https://james61124.github.io/blogs/math/</guid>
-      <description>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.&#xA;Optionally enable this on a per-page basis by adding mathjax: true to your frontmatter.&#xA;Then, use $$ ... $$ on a line by itself to render a block equation:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$&#xA;The raw version is:&#xA;$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | &amp;lt; \text{negligible} $$ Write in-line equations with \\( .</description>
-    </item>
-    <item>
-      <title>Markdown Syntax</title>
-      <link>https://james61124.github.io/blogs/markdown-syntax/</link>
-      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
-      <guid>https://james61124.github.io/blogs/markdown-syntax/</guid>
-      <description>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga.</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>https://james61124.github.io/blogs/emoji-support/</link>
-      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
-      <guid>https://james61124.github.io/blogs/emoji-support/</guid>
-      <description>Emoji can be enabled in a Hugo project in a number of ways. :zap:&#xA;Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.&#xA;To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.&#xA;The Emoji cheat sheet is a useful reference for emoji shorthand codes.&#xA;N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform.</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://james61124.github.io/blogs/placeholder-text/</link>
-      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
-      <guid>https://james61124.github.io/blogs/placeholder-text/</guid>
-      <description>Lorem est tota propiore conpellat pectoribus de pectora summo.&#xA;Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&#xA;Exierant elisi ambit vivere dedere Duce pollice Eris modo Spargitque ferrea quos palude Rursus nulli murmur; hastile inridet ut ab gravi sententia!</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>https://james61124.github.io/blogs/rich-content/</link>
-      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
-      <guid>https://james61124.github.io/blogs/rich-content/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&#xA;Gist Simple Shortcode {{&amp;lt; gist spf13 7896402 &amp;#34;img.html&amp;#34; &amp;gt;}} Twitter Simple Shortcode {{&amp;lt; tweet GoHugoIO 1315233626070503424 &amp;gt;}} Profile is a customizable single-page portfolio theme for Hugo featuring a contact form and blog. Made by @gurusabarishh.https://t.co/KwYcwfdy16&#xA;&amp;mdash; GoHugo.io (@GoHugoIO) October 11, 2020 Vimeo Simple Shortcode {{&amp;lt; vimeo 146022717 &amp;gt;}} Youtube Simple Shortcode {{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}} Theme Custom Shortcodes These shortcodes are not Hugo built-ins, but are provided by the theme.</description>
     </item>
   </channel>
 </rss>

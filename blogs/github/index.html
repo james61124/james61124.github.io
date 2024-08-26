@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.png type="image/gif">
+<link rel="icon" href=/icon.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,16 +28,24 @@
 
 
 
-<meta property="og:title" content="Github 新手入門" />
-<meta property="og:description" content="什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://james61124.github.io/blogs/github/" /><meta property="article:section" content="blogs" />
-<meta property="article:published_time" content="2024-01-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-01-18T00:00:00+00:00" /><meta property="og:site_name" content="Hugo Profile" />
+  
 
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Github 新手入門"/>
-<meta name="twitter:description" content="什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作"/>
+<meta property="og:url" content="http://localhost:1313/blogs/github/">
+  <meta property="og:site_name" content="James Blog">
+  <meta property="og:title" content="Github 新手入門">
+  <meta property="og:description" content="什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2024-01-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-01-18T00:00:00+00:00">
+    <meta property="article:tag" content="Github">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Github 新手入門">
+  <meta name="twitter:description" content="什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -108,7 +116,7 @@
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
   <title>
-Github 新手入門 | Hugo Profile
+Github 新手入門 | James Blog
 
   </title>
 </head>
@@ -169,9 +177,9 @@ Github 新手入門 | Hugo Profile
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/fav.png" width="30" height="30"
+                <img src="/icon.png" width="30" height="30"
                     class="d-inline-block align-top">
-                Hugo Profile
+                James Blog
                 
             </a>
 
@@ -219,33 +227,25 @@ Github 新手入門 | Hugo Profile
                     
                     
                     
-                    <li class="nav-item navbar-text dropdown">
-                        <a class="nav-link dropdown-toggle" href="/blogs" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Blog posts">
-                            Blog
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/life" title="life posts">
+                            
+                            Life
                         </a>
-                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
-                            
-                            <a class="dropdown-item text-center nav-link" href="/blogs"
-                                title="Blog posts">
-                                Post
-                            </a>
-                            
-                            <a class="dropdown-item text-center nav-link" href="/categories/"
-                                title="Category">
-                                Category
-                            </a>
-                            
-                            <a class="dropdown-item text-center nav-link" href="/tags/"
-                                title="Tag">
-                                Tag
-                            </a>
-                            
-                        </div>
                     </li>
                     
                     
 
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        
+                        
+                        <a class="nav-link" href="/zh/blogs/github/" hreflang="zh">
+                            中文
+                        </a>
+                        
+                    </li>
                     
 
                     
@@ -282,33 +282,33 @@ Github 新手入門 | Hugo Profile
           </div>
           
           <article class="page-content  p-2">
-          <h1 id="什麼是-github">什麼是 Github？</h1>
+          <h2 id="什麼是-github"><strong>什麼是 Github？</strong></h2>
 <p>git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作</p>
-<h1 id="為什麼要使用-github">為什麼要使用 Github</h1>
-<blockquote>
+<h2 id="為什麼要使用-github"><strong>為什麼要使用 Github</strong></h2>
+<hr>
 <p>一份專案我改 A，他改 B，我再改 C，非常容易打結</p>
-</blockquote>
+<hr>
 <ol>
 <li>可以存放大量自己的作品集</li>
 <li>可以輕鬆進行版本控制、分支何並追蹤能力</li>
 <li>免費且開源，可以參考並學習其他作者的開源碼</li>
 </ol>
-<h1 id="前置作業">前置作業</h1>
+<h2 id="前置作業"><strong>前置作業</strong></h2>
 <ol>
 <li>安裝 git</li>
 </ol>
-<h1 id="建立第一個-github-repository">建立第一個 github repository</h1>
+<h2 id="建立第一個-github-repository"><strong>建立第一個 github repository</strong></h2>
 <p>進入 github，點擊 your repository，點擊 new，填寫 Repository name，就可以 create 了
 有兩個方式可以編輯剛剛建立的空的 repository：</p>
 <ol>
 <li>在 repository 建立檔案後 clone 到本地端</li>
 <li>直接將程式碼上傳至 repository</li>
 </ol>
-<h1 id="clone-到本地端">clone 到本地端</h1>
+<h2 id="clone-到本地端"><strong>clone 到本地端</strong></h2>
 <p>repository 上隨便新增檔案，然後回來本地，開啟 terminal 輸入</p>
 <pre tabindex="0"><code class="language-shell=1" data-lang="shell=1">git clone &lt;repo-url&gt;
 </code></pre><p>再來就會看到本地端多了一個資料夾，然後修改過後就可以接著將修改的程式碼再上傳上來</p>
-<h1 id="將程式碼上傳至-repository">將程式碼上傳至 repository</h1>
+<h2 id="將程式碼上傳至-repository"><strong>將程式碼上傳至 repository</strong></h2>
 <p>如果剛剛沒有 clone 空白的專案下來，可以先在電腦建立一個專案 ( 資料夾 )，或是你已經有一個你想要上傳的專案。terminal 進入這個資料夾後</p>
 <pre tabindex="0"><code class="language-shell=1" data-lang="shell=1">git init
 git remote add origin &lt;repo-url&gt;
@@ -323,7 +323,7 @@ git push origin master
 <li><mark>git commit -m </mark> 要幫每一次提交的版本都下註解，your_commit 就是打上你自己的註解</li>
 <li><mark>git push origin master</mark> 就是將整個專案推到 repo，推到 master 這個預設的分支</li>
 </ol>
-<h1 id="branch-介紹">branch 介紹</h1>
+<h2 id="branch-介紹"><strong>branch 介紹</strong></h2>
 <p>首先我們先來了解甚麼是 branch，可以把 branch 想像成平行時空，他們可以互相獨立開發不影響彼此，那 branch 主要有三大功能：</p>
 <ol>
 <li>一個專案可能會經歷更新的過程，在更新的過程中想要定版備份舊功能又同時要開發新功能，就可以開新的 branch 實作，舊的 branch 擁有原本的功能，這樣就可以在不會影響到原本主功能的前提下實作新的功能</li>
@@ -350,7 +350,17 @@ git push origin master
                 Table Of Contents
               </h5>
               <div class="toc-content">
-                <nav id="TableOfContents"></nav>
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#什麼是-github"><strong>什麼是 Github？</strong></a></li>
+    <li><a href="#為什麼要使用-github"><strong>為什麼要使用 Github</strong></a></li>
+    <li><a href="#前置作業"><strong>前置作業</strong></a></li>
+    <li><a href="#建立第一個-github-repository"><strong>建立第一個 github repository</strong></a></li>
+    <li><a href="#clone-到本地端"><strong>clone 到本地端</strong></a></li>
+    <li><a href="#將程式碼上傳至-repository"><strong>將程式碼上傳至 repository</strong></a></li>
+    <li><a href="#branch-介紹"><strong>branch 介紹</strong></a></li>
+  </ul>
+</nav>
               </div>
           </aside>
           
@@ -360,7 +370,7 @@ git push origin master
             <h5>Tags</h5>
             <ul class="tags-ul list-unstyled list-inline">
               
-              <li class="list-inline-item"><a href="https://james61124.github.io/tags/Github" target="_blank">Github</a></li>
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/Github" target="_blank">Github</a></li>
               
             </ul>
           </aside>

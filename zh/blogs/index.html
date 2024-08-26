@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.png type="image/gif">
+<link rel="icon" href=/icon.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,14 +28,20 @@
 
 
 
-<meta property="og:title" content="Blogs" />
-<meta property="og:description" content="Text about my cool site" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://james61124.github.io/zh/blogs/" /><meta property="og:site_name" content="Hugo Profile" />
+  
 
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Blogs"/>
-<meta name="twitter:description" content="Text about my cool site"/>
+<meta property="og:url" content="http://localhost:1313/zh/blogs/">
+  <meta property="og:site_name" content="James Blog">
+  <meta property="og:title" content="Blogs">
+  <meta property="og:description" content="Text about my cool site">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="website">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blogs">
+  <meta name="twitter:description" content="Text about my cool site">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -99,11 +105,11 @@
     }
 </style>
 
-<meta name="description" content="Blogs of Hugo Profile">
+<meta name="description" content="Blogs of James Blog">
 <link rel="stylesheet" href="/css/list.css" media="all">
 
   <title>
-Blogs | Hugo Profile
+Blogs | James Blog
 
   </title>
 </head>
@@ -164,9 +170,9 @@ Blogs | Hugo Profile
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
-                <img src="/fav.png" width="30" height="30"
+                <img src="/icon.png" width="30" height="30"
                     class="d-inline-block align-top">
-                Hugo Profile
+                James Blog
                 
             </a>
 
@@ -199,7 +205,7 @@ Blogs | Hugo Profile
                     
                         
                             <li class="nav-item navbar-text">
-                                <a class="nav-link" href="https://james61124.github.io//zh/" aria-label="about">
+                                <a class="nav-link" href="http://localhost:1313//zh/" aria-label="about">
                                     關於我
                                 </a>
                             </li>
@@ -215,9 +221,29 @@ Blogs | Hugo Profile
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/zh/blogs" title="Blog posts">
+                        <a class="nav-link" href="/zh/life" title="life posts">
                             
-                            部落格
+                            生活
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/zh/travel" title="travel posts">
+                            
+                            旅行
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/zh/program" title="program posts">
+                            
+                            程式
                         </a>
                     </li>
                     
@@ -235,6 +261,28 @@ Blogs | Hugo Profile
                     </li>
                     
 
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
                     
 
                     
@@ -258,17 +306,16 @@ Blogs | Hugo Profile
                 <div class="card h-100">
                     
                     <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/zh/blogs/math/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Render Math With Mathjax">Render Math With Mathjax</h5>
+                        <a href="/zh/blogs/2022-line-fresh/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="2022 LINE FRESH 參賽過程與參賽心得">2022 LINE FRESH 參賽過程與參賽心得</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p>Mathjax Math equations can be rendered using Mathjax syntax with AMS symbol support.
-Optionally …</p>
+                            <p>作品介紹 我們設計了一個 Dida Dream - 及時予系統，期望透過即期品整合平台搭配線上剩食捐贈管道來達成剩食再分配的目標。我們主要功能有四個，即期品資料蒐集</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Dec 9, 2022</span>
-                        <a href="/zh/blogs/math/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                        <span class="float-start bg-transparent">Feb 20, 2024</span>
+                        <a href="/zh/blogs/2022-line-fresh/" class="float-end btn btn-outline-info btn-sm">Read</a>
                     </div>
                 </div>
             </div>
@@ -279,16 +326,16 @@ Optionally …</p>
                 <div class="card h-100">
                     
                     <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/zh/blogs/markdown-syntax/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
+                        <a href="/zh/blogs/11th-meichu-hackathon/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="第 11 屆梅竹黑客松參賽過程與心得">第 11 屆梅竹黑客松參賽過程與心得</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p>Paragraph Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur …</p>
+                            <p>因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 3, 2021</span>
-                        <a href="/zh/blogs/markdown-syntax/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                        <span class="float-start bg-transparent">Feb 17, 2024</span>
+                        <a href="/zh/blogs/11th-meichu-hackathon/" class="float-end btn btn-outline-info btn-sm">Read</a>
                     </div>
                 </div>
             </div>
@@ -299,17 +346,16 @@ Optionally …</p>
                 <div class="card h-100">
                     
                     <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/zh/blogs/emoji-support/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Emoji Support">Emoji Support</h5>
+                        <a href="/zh/blogs/the-rod-cutting-problem/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="DP 系列 - The Rod Cutting Problem">DP 系列 - The Rod Cutting …</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p>Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function …</p>
+                            <p>如果賣出長度是 i 的 rod 可以得 pi 元，怎麼切一條長度是 n 的 rod 使總收入最大 方法一、遞迴 最直觀的方式就是用遞迴解，如下圖所示，rn 為切割長度 n 的 rod 可得</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 3, 2021</span>
-                        <a href="/zh/blogs/emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                        <span class="float-start bg-transparent">Jan 21, 2024</span>
+                        <a href="/zh/blogs/the-rod-cutting-problem/" class="float-end btn btn-outline-info btn-sm">Read</a>
                     </div>
                 </div>
             </div>
@@ -320,37 +366,16 @@ Emoji Support The emojify function …</p>
                 <div class="card h-100">
                     
                     <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/zh/blogs/placeholder-text/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Placeholder Text">Placeholder Text</h5>
+                        <a href="/zh/blogs/github/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Github 新手入門">Github 新手入門</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p>Lorem est tota propiore conpellat pectoribus de pectora summo.
-Redit teque digerit hominumque toris …</p>
+                            <p>什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 3, 2021</span>
-                        <a href="/zh/blogs/placeholder-text/" class="float-end btn btn-outline-info btn-sm">Read</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card-columns">
-                <div class="card h-100">
-                    
-                    <div class="card-body bg-transparent p-4 shadow-sm">
-                        <a href="/zh/blogs/rich-content/" class="primary-font card-title">
-                            <h5 class="card-title bg-transparent" title="Rich Content">Rich Content</h5>
-                        </a>
-                        <div class="card-text secondary-font">
-                            <p>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set …</p>
-                        </div>
-                    </div>
-                    <div class="mt-auto post-footer bg-transparent py-3">
-                        <span class="float-start bg-transparent">Apr 3, 2021</span>
-                        <a href="/zh/blogs/rich-content/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                        <span class="float-start bg-transparent">Jan 18, 2024</span>
+                        <a href="/zh/blogs/github/" class="float-end btn btn-outline-info btn-sm">Read</a>
                     </div>
                 </div>
             </div>
@@ -476,6 +501,22 @@ Redit teque digerit hominumque toris …</p>
         document.body.classList.add('dark');
         localStorage.setItem("pref-theme", 'dark');
     }
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
 </script>
 
 
