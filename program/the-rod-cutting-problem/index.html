@@ -28,6 +28,17 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PS8N6815C"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-1PS8N6815C', { 'anonymize_ip': false });
+}
+</script>
+
 <meta property="og:title" content="DP Series - The Rod Cutting Problem" />
 <meta property="og:description" content="Given that selling a rod of length i yields a profit of pi , how do we cut a rod of length n to maximize the total revenue?
 Method 1: Recursion The most straightforward approach is to solve it using recursion. As shown in the figure below, rn represents the maximum revenue obtainable by cutting a rod of length n. Suppose i is the length of the first segment in the optimal solution; then rn = pi &#43; rn−i, because pi is the revenue from the first segment in the optimal solution, and adding the maximum revenue from the remaining part gives us the answer." />
