@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on James Blog</title>
-    <link>https://james61124.github.io/</link>
+    <link>https://jamesblogger.com/</link>
     <description>Recent content in Home on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://james61124.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesblogger.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NCTU Guitar Club Experience</title>
-      <link>https://james61124.github.io/life/guitar-club/</link>
+      <link>https://jamesblogger.com/life/guitar-club/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/guitar-club/</guid>
+      <guid>https://jamesblogger.com/life/guitar-club/</guid>
       <description>I was the president of the NCTU Guitar Club. My sophomore year in the club was more than just enjoying university life and making new friends; it was an important life experience and a serious dedication to music.&#xA;Why I Wanted to Become President There were two key reasons: developing leadership skills and my passion for music.&#xA;I’ve always believed that university is a time when you can afford to take risks.</description>
     </item>
     <item>
       <title>Insights from the 2022 LINE FRESH Competition</title>
-      <link>https://james61124.github.io/life/2022-line-fresh/</link>
+      <link>https://jamesblogger.com/life/2022-line-fresh/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/2022-line-fresh/</guid>
+      <guid>https://jamesblogger.com/life/2022-line-fresh/</guid>
       <description>Project Overview We designed a system called &amp;ldquo;Dida Dream - Timely Assistance System,&amp;rdquo; aiming to achieve food redistribution by integrating a platform for near-expiry products with an online donation channel. Our main features include data collection of near-expiry products, customized notifications, donation plans, and a membership system.&#xA;Project Introduction Data Collection of Near-Expiry Products We aimed to collaborate with chain and local businesses, integrating a backend database to collect all near-expiry product information.</description>
     </item>
     <item>
       <title>Two-Day Trip to Paris - 2024-01-25</title>
-      <link>https://james61124.github.io/travel/paris-20240125/</link>
+      <link>https://jamesblogger.com/travel/paris-20240125/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/travel/paris-20240125/</guid>
+      <guid>https://jamesblogger.com/travel/paris-20240125/</guid>
       <description>Day 1 My first solo trip was to Europe, and the moment I got off the plane, everything felt new. Standing in a foreign city, surrounded by an unfamiliar environment and language, the word &amp;ldquo;unknown&amp;rdquo; defined our entire journey. No matter how well-prepared we were, exploring a new country and culture always brings unexpected surprises and insights. The main takeaway from this trip was experiencing these cities firsthand, not just for the attractions, but also for their overall atmosphere and culture.</description>
     </item>
     <item>
       <title>Insights from Organizing the Mei-Chu Hackathon</title>
-      <link>https://james61124.github.io/life/meichu-hackathon-event-planning-leader/</link>
+      <link>https://jamesblogger.com/life/meichu-hackathon-event-planning-leader/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/meichu-hackathon-event-planning-leader/</guid>
+      <guid>https://jamesblogger.com/life/meichu-hackathon-event-planning-leader/</guid>
       <description>The Mei-Chu Hackathon is the largest student-run hackathon in Taiwan. Let me first briefly introduce what a hackathon is: the term combines &amp;ldquo;Hack&amp;rdquo; and &amp;ldquo;Marathon.&amp;rdquo; During the competition, participants are required to complete a project within a very short timeframe, from idea generation to actual implementation. This makes it a highly challenging event. As part of the organizing team, our goal is to ensure the smooth running of the event while addressing past issues and introducing new innovations to make the event better every year.</description>
     </item>
     <item>
       <title>Insights from the 11th Meichu Hackathon</title>
-      <link>https://james61124.github.io/life/11th-meichu-hackathon/</link>
+      <link>https://jamesblogger.com/life/11th-meichu-hackathon/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/11th-meichu-hackathon/</guid>
+      <guid>https://jamesblogger.com/life/11th-meichu-hackathon/</guid>
       <description>Due to my role as an organizer for the Meichu Hackathon over the past two years, it was only natural for me to return and participate again. Apart from gaining practical experience, I also wanted to see how the next generation of students prepared for the event.&#xA;Project Introduction Text Mode This feature is designed for individuals with poor vision. Many elderly people often struggle to read small text, such as labels and instructions.</description>
     </item>
     <item>
       <title>DP Series - The Rod Cutting Problem</title>
-      <link>https://james61124.github.io/program/the-rod-cutting-problem/</link>
+      <link>https://jamesblogger.com/program/the-rod-cutting-problem/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/program/the-rod-cutting-problem/</guid>
+      <guid>https://jamesblogger.com/program/the-rod-cutting-problem/</guid>
       <description>Given that selling a rod of length i yields a profit of pi , how do we cut a rod of length n to maximize the total revenue?&#xA;Method 1: Recursion The most straightforward approach is to solve it using recursion. As shown in the figure below, rn represents the maximum revenue obtainable by cutting a rod of length n. Suppose i is the length of the first segment in the optimal solution; then rn = pi + rn−i, because pi is the revenue from the first segment in the optimal solution, and adding the maximum revenue from the remaining part gives us the answer.</description>
     </item>
     <item>
       <title>Introduction to Github for Beginners</title>
-      <link>https://james61124.github.io/program/github/</link>
+      <link>https://jamesblogger.com/program/github/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/program/github/</guid>
+      <guid>https://jamesblogger.com/program/github/</guid>
       <description>What is Github？ Git is a version control software, while Github is an online platform for storing code. It organizes projects into repositories, allowing users to use Git for version control and making collaboration within a team easier.&#xA;Why Use Github In a project, I make changes to A, someone else modifies B, and I update C. Things can quickly get messy.&#xA;It can store a large collection of your work portfolio.</description>
     </item>
   </channel>

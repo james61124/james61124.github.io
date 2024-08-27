@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Algorithm - tag - James Blog</title>
-        <link>https://james61124.github.io/tags/Algorithm/</link>
+        <link>https://jamesblogger.com/tags/Algorithm/</link>
         <description>Algorithm - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/tags/Algorithm/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Algorithm/" rel="self" type="application/rss+xml" /><item>
     <title>DP Series - The Rod Cutting Problem</title>
-    <link>https://james61124.github.io/program/the-rod-cutting-problem/</link>
+    <link>https://jamesblogger.com/program/the-rod-cutting-problem/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
-    </author><guid>https://james61124.github.io/program/the-rod-cutting-problem/</guid>
+    </author><guid>https://jamesblogger.com/program/the-rod-cutting-problem/</guid>
     <description><![CDATA[Given that selling a rod of length i yields a profit of pi , how do we cut a rod of length n to maximize the total revenue?
 Method 1: Recursion The most straightforward approach is to solve it using recursion. As shown in the figure below, rn represents the maximum revenue obtainable by cutting a rod of length n. Suppose i is the length of the first segment in the optimal solution; then rn = pi + rn−i, because pi is the revenue from the first segment in the optimal solution, and adding the maximum revenue from the remaining part gives us the answer.]]></description>
 </item></channel>

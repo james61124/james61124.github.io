@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Travels on James Blog</title>
-    <link>https://james61124.github.io/travel/</link>
+    <link>https://jamesblogger.com/travel/</link>
     <description>Recent content in Travels on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://james61124.github.io/travel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesblogger.com/travel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Two-Day Trip to Paris - 2024-01-25</title>
-      <link>https://james61124.github.io/travel/paris-20240125/</link>
+      <link>https://jamesblogger.com/travel/paris-20240125/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/travel/paris-20240125/</guid>
+      <guid>https://jamesblogger.com/travel/paris-20240125/</guid>
       <description>Day 1 My first solo trip was to Europe, and the moment I got off the plane, everything felt new. Standing in a foreign city, surrounded by an unfamiliar environment and language, the word &amp;ldquo;unknown&amp;rdquo; defined our entire journey. No matter how well-prepared we were, exploring a new country and culture always brings unexpected surprises and insights. The main takeaway from this trip was experiencing these cities firsthand, not just for the attractions, but also for their overall atmosphere and culture.</description>
     </item>
   </channel>

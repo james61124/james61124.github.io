@@ -1,28 +1,28 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - category - James Blog</title>
-        <link>https://james61124.github.io/zh/categories/</link>
+        <link>https://jamesblogger.com/zh/categories/</link>
         <description>Categories - category - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/zh/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/categories/" rel="self" type="application/rss+xml" /><item>
     <title>Life</title>
-    <link>https://james61124.github.io/zh/categories/Life/</link>
+    <link>https://jamesblogger.com/zh/categories/Life/</link>
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/categories/Life/</guid>
+    </author><guid>https://jamesblogger.com/zh/categories/Life/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Algorithm</title>
-    <link>https://james61124.github.io/zh/categories/Algorithm/</link>
+    <link>https://jamesblogger.com/zh/categories/Algorithm/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/categories/Algorithm/</guid>
+    </author><guid>https://jamesblogger.com/zh/categories/Algorithm/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Github</title>
-    <link>https://james61124.github.io/zh/categories/Github/</link>
+    <link>https://jamesblogger.com/zh/categories/Github/</link>
     <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/categories/Github/</guid>
+    </author><guid>https://jamesblogger.com/zh/categories/Github/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

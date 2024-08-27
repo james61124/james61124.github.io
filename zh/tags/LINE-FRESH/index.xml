@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>LINE FRESH - tag - James Blog</title>
-        <link>https://james61124.github.io/zh/tags/LINE-FRESH/</link>
+        <link>https://jamesblogger.com/zh/tags/LINE-FRESH/</link>
         <description>LINE FRESH - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/zh/tags/LINE-FRESH/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/LINE-FRESH/" rel="self" type="application/rss+xml" /><item>
     <title>2022 LINE FRESH 參賽過程與參賽心得</title>
-    <link>https://james61124.github.io/zh/life/2022-line-fresh/</link>
+    <link>https://jamesblogger.com/zh/life/2022-line-fresh/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
-    </author><guid>https://james61124.github.io/zh/life/2022-line-fresh/</guid>
+    </author><guid>https://jamesblogger.com/zh/life/2022-line-fresh/</guid>
     <description><![CDATA[作品介紹 我們設計了一個 Dida Dream - 及時予系統，期望透過即期品整合平台搭配線上剩食捐贈管道來達成剩食再分配的目標。我們主要功能有四個，即期品資料蒐集]]></description>
 </item></channel>
 </rss>

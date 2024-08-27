@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Github - category - James Blog</title>
-        <link>https://james61124.github.io/zh/categories/Github/</link>
+        <link>https://jamesblogger.com/zh/categories/Github/</link>
         <description>Github - category - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/zh/categories/Github/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/categories/Github/" rel="self" type="application/rss+xml" /><item>
     <title>Github 新手入門</title>
-    <link>https://james61124.github.io/zh/program/github/</link>
+    <link>https://jamesblogger.com/zh/program/github/</link>
     <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
-    </author><guid>https://james61124.github.io/zh/program/github/</guid>
+    </author><guid>https://jamesblogger.com/zh/program/github/</guid>
     <description><![CDATA[什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作]]></description>
 </item></channel>
 </rss>

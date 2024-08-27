@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NCTU Guitar Club Experience on James Blog</title>
-    <link>https://james61124.github.io/life/guitar-club/</link>
+    <link>https://jamesblogger.com/life/guitar-club/</link>
     <description>Recent content in NCTU Guitar Club Experience on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://james61124.github.io/life/guitar-club/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesblogger.com/life/guitar-club/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on James Blog</title>
-    <link>https://james61124.github.io/zh/</link>
+    <link>https://jamesblogger.com/zh/</link>
     <description>Recent content in Home on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://james61124.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesblogger.com/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>交大吉他社社團生活分享</title>
-      <link>https://james61124.github.io/zh/life/guitar-club/</link>
+      <link>https://jamesblogger.com/zh/life/guitar-club/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/zh/life/guitar-club/</guid>
+      <guid>https://jamesblogger.com/zh/life/guitar-club/</guid>
       <description>我是交大吉他社 13 級社長，大二的社團生活於我而言，不僅僅是享受大學時光並結交新朋友，他是一個人生重要的歷練，也是一次對音樂認真地奉獻。 為什麼會</description>
     </item>
     <item>
       <title>2022 LINE FRESH 參賽過程與參賽心得</title>
-      <link>https://james61124.github.io/zh/life/2022-line-fresh/</link>
+      <link>https://jamesblogger.com/zh/life/2022-line-fresh/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/zh/life/2022-line-fresh/</guid>
+      <guid>https://jamesblogger.com/zh/life/2022-line-fresh/</guid>
       <description>作品介紹 我們設計了一個 Dida Dream - 及時予系統，期望透過即期品整合平台搭配線上剩食捐贈管道來達成剩食再分配的目標。我們主要功能有四個，即期品資料蒐集</description>
     </item>
     <item>
       <title>巴黎兩日遊 2024-01-25</title>
-      <link>https://james61124.github.io/zh/travel/paris-20240125/</link>
+      <link>https://jamesblogger.com/zh/travel/paris-20240125/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/zh/travel/paris-20240125/</guid>
+      <guid>https://jamesblogger.com/zh/travel/paris-20240125/</guid>
       <description>Day 1 第一次自助行就獻給了歐洲，下飛機的時候帶給我一種新奇的感覺，第一次自己站在陌生的城市，面對陌生的環境跟陌生的語言，「未知」這個詞貫穿了我</description>
     </item>
     <item>
       <title>第 11 屆梅竹黑客松參賽過程與心得</title>
-      <link>https://james61124.github.io/zh/life/11th-meichu-hackathon/</link>
+      <link>https://jamesblogger.com/zh/life/11th-meichu-hackathon/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/zh/life/11th-meichu-hackathon/</guid>
+      <guid>https://jamesblogger.com/zh/life/11th-meichu-hackathon/</guid>
       <description>因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何</description>
     </item>
     <item>
       <title>梅竹黑客松籌備心得</title>
-      <link>https://james61124.github.io/zh/life/meichu-hackathon-event-planning-leader/</link>
+      <link>https://jamesblogger.com/zh/life/meichu-hackathon-event-planning-leader/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/zh/life/meichu-hackathon-event-planning-leader/</guid>
+      <guid>https://jamesblogger.com/zh/life/meichu-hackathon-event-planning-leader/</guid>
       <description>梅竹黑客松是全台最大的校園黑客松，先稍微介紹一下黑客松，黑客松其實就是「Hack」跟「Marathon」兩個字合在一起的結果，比賽期間參賽者</description>
     </item>
     <item>
       <title>DP 系列 - The Rod Cutting Problem</title>
-      <link>https://james61124.github.io/zh/program/the-rod-cutting-problem/</link>
+      <link>https://jamesblogger.com/zh/program/the-rod-cutting-problem/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/zh/program/the-rod-cutting-problem/</guid>
+      <guid>https://jamesblogger.com/zh/program/the-rod-cutting-problem/</guid>
       <description>如果賣出長度是 i 的 rod 可以得 pi 元，怎麼切一條長度是 n 的 rod 使總收入最大 方法一、遞迴 最直觀的方式就是用遞迴解，如下圖所示，rn 為切割長度 n 的 rod 可得</description>
     </item>
     <item>
       <title>Github 新手入門</title>
-      <link>https://james61124.github.io/zh/program/github/</link>
+      <link>https://jamesblogger.com/zh/program/github/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/zh/program/github/</guid>
+      <guid>https://jamesblogger.com/zh/program/github/</guid>
       <description>什麼是 Github？ git 是版本控制的軟體，而 Github 是程式碼線上儲存平台，將專案存成一個個儲存庫 ( repository )，利用 git 來進行版本控制，也方便一個團隊來做協作</description>
     </item>
   </channel>

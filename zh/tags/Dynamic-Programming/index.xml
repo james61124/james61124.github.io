@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Dynamic Programming - tag - James Blog</title>
-        <link>https://james61124.github.io/zh/tags/Dynamic-Programming/</link>
+        <link>https://jamesblogger.com/zh/tags/Dynamic-Programming/</link>
         <description>Dynamic Programming - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/zh/tags/Dynamic-Programming/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Dynamic-Programming/" rel="self" type="application/rss+xml" /><item>
     <title>DP 系列 - The Rod Cutting Problem</title>
-    <link>https://james61124.github.io/zh/program/the-rod-cutting-problem/</link>
+    <link>https://jamesblogger.com/zh/program/the-rod-cutting-problem/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
-    </author><guid>https://james61124.github.io/zh/program/the-rod-cutting-problem/</guid>
+    </author><guid>https://jamesblogger.com/zh/program/the-rod-cutting-problem/</guid>
     <description><![CDATA[如果賣出長度是 i 的 rod 可以得 pi 元，怎麼切一條長度是 n 的 rod 使總收入最大 方法一、遞迴 最直觀的方式就是用遞迴解，如下圖所示，rn 為切割長度 n 的 rod 可得]]></description>
 </item></channel>
 </rss>

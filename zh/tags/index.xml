@@ -1,63 +1,63 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - tag - James Blog</title>
-        <link>https://james61124.github.io/zh/tags/</link>
+        <link>https://jamesblogger.com/zh/tags/</link>
         <description>Tags - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/zh/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Guitar Club</title>
-    <link>https://james61124.github.io/zh/tags/Guitar-Club/</link>
+    <link>https://jamesblogger.com/zh/tags/Guitar-Club/</link>
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/Guitar-Club/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/Guitar-Club/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>LINE FRESH</title>
-    <link>https://james61124.github.io/zh/tags/LINE-FRESH/</link>
+    <link>https://jamesblogger.com/zh/tags/LINE-FRESH/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/LINE-FRESH/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/LINE-FRESH/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Paris</title>
-    <link>https://james61124.github.io/zh/tags/Paris/</link>
+    <link>https://jamesblogger.com/zh/tags/Paris/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/Paris/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/Paris/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Travel</title>
-    <link>https://james61124.github.io/zh/tags/Travel/</link>
+    <link>https://jamesblogger.com/zh/tags/Travel/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/Travel/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/Travel/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Hackathon</title>
-    <link>https://james61124.github.io/zh/tags/Hackathon/</link>
+    <link>https://jamesblogger.com/zh/tags/Hackathon/</link>
     <pubDate>Sat, 17 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/Hackathon/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/Hackathon/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Algorithm</title>
-    <link>https://james61124.github.io/zh/tags/Algorithm/</link>
+    <link>https://jamesblogger.com/zh/tags/Algorithm/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/Algorithm/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/Algorithm/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Dynamic Programming</title>
-    <link>https://james61124.github.io/zh/tags/Dynamic-Programming/</link>
+    <link>https://jamesblogger.com/zh/tags/Dynamic-Programming/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/Dynamic-Programming/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/Dynamic-Programming/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Github</title>
-    <link>https://james61124.github.io/zh/tags/Github/</link>
+    <link>https://jamesblogger.com/zh/tags/Github/</link>
     <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/zh/tags/Github/</guid>
+    </author><guid>https://jamesblogger.com/zh/tags/Github/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -1,63 +1,63 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - tag - James Blog</title>
-        <link>https://james61124.github.io/tags/</link>
+        <link>https://jamesblogger.com/tags/</link>
         <description>Tags - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Guitar Club</title>
-    <link>https://james61124.github.io/tags/Guitar-Club/</link>
+    <link>https://jamesblogger.com/tags/Guitar-Club/</link>
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/Guitar-Club/</guid>
+    </author><guid>https://jamesblogger.com/tags/Guitar-Club/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>LINE FRESH</title>
-    <link>https://james61124.github.io/tags/LINE-FRESH/</link>
+    <link>https://jamesblogger.com/tags/LINE-FRESH/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/LINE-FRESH/</guid>
+    </author><guid>https://jamesblogger.com/tags/LINE-FRESH/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Paris</title>
-    <link>https://james61124.github.io/tags/Paris/</link>
+    <link>https://jamesblogger.com/tags/Paris/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/Paris/</guid>
+    </author><guid>https://jamesblogger.com/tags/Paris/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Travel</title>
-    <link>https://james61124.github.io/tags/Travel/</link>
+    <link>https://jamesblogger.com/tags/Travel/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/Travel/</guid>
+    </author><guid>https://jamesblogger.com/tags/Travel/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Hackathon</title>
-    <link>https://james61124.github.io/tags/Hackathon/</link>
+    <link>https://jamesblogger.com/tags/Hackathon/</link>
     <pubDate>Sat, 17 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/Hackathon/</guid>
+    </author><guid>https://jamesblogger.com/tags/Hackathon/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Algorithm</title>
-    <link>https://james61124.github.io/tags/Algorithm/</link>
+    <link>https://jamesblogger.com/tags/Algorithm/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/Algorithm/</guid>
+    </author><guid>https://jamesblogger.com/tags/Algorithm/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Dynamic Programming</title>
-    <link>https://james61124.github.io/tags/Dynamic-Programming/</link>
+    <link>https://jamesblogger.com/tags/Dynamic-Programming/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/Dynamic-Programming/</guid>
+    </author><guid>https://jamesblogger.com/tags/Dynamic-Programming/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Github</title>
-    <link>https://james61124.github.io/tags/Github/</link>
+    <link>https://jamesblogger.com/tags/Github/</link>
     <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
-    </author><guid>https://james61124.github.io/tags/Github/</guid>
+    </author><guid>https://jamesblogger.com/tags/Github/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

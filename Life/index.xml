@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lives on James Blog</title>
-    <link>https://james61124.github.io/life/</link>
+    <link>https://jamesblogger.com/life/</link>
     <description>Recent content in Lives on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://james61124.github.io/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesblogger.com/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NCTU Guitar Club Experience</title>
-      <link>https://james61124.github.io/life/guitar-club/</link>
+      <link>https://jamesblogger.com/life/guitar-club/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/guitar-club/</guid>
+      <guid>https://jamesblogger.com/life/guitar-club/</guid>
       <description>I was the president of the NCTU Guitar Club. My sophomore year in the club was more than just enjoying university life and making new friends; it was an important life experience and a serious dedication to music.&#xA;Why I Wanted to Become President There were two key reasons: developing leadership skills and my passion for music.&#xA;I’ve always believed that university is a time when you can afford to take risks.</description>
     </item>
     <item>
       <title>Insights from the 2022 LINE FRESH Competition</title>
-      <link>https://james61124.github.io/life/2022-line-fresh/</link>
+      <link>https://jamesblogger.com/life/2022-line-fresh/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/2022-line-fresh/</guid>
+      <guid>https://jamesblogger.com/life/2022-line-fresh/</guid>
       <description>Project Overview We designed a system called &amp;ldquo;Dida Dream - Timely Assistance System,&amp;rdquo; aiming to achieve food redistribution by integrating a platform for near-expiry products with an online donation channel. Our main features include data collection of near-expiry products, customized notifications, donation plans, and a membership system.&#xA;Project Introduction Data Collection of Near-Expiry Products We aimed to collaborate with chain and local businesses, integrating a backend database to collect all near-expiry product information.</description>
     </item>
     <item>
       <title>Insights from Organizing the Mei-Chu Hackathon</title>
-      <link>https://james61124.github.io/life/meichu-hackathon-event-planning-leader/</link>
+      <link>https://jamesblogger.com/life/meichu-hackathon-event-planning-leader/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/meichu-hackathon-event-planning-leader/</guid>
+      <guid>https://jamesblogger.com/life/meichu-hackathon-event-planning-leader/</guid>
       <description>The Mei-Chu Hackathon is the largest student-run hackathon in Taiwan. Let me first briefly introduce what a hackathon is: the term combines &amp;ldquo;Hack&amp;rdquo; and &amp;ldquo;Marathon.&amp;rdquo; During the competition, participants are required to complete a project within a very short timeframe, from idea generation to actual implementation. This makes it a highly challenging event. As part of the organizing team, our goal is to ensure the smooth running of the event while addressing past issues and introducing new innovations to make the event better every year.</description>
     </item>
     <item>
       <title>Insights from the 11th Meichu Hackathon</title>
-      <link>https://james61124.github.io/life/11th-meichu-hackathon/</link>
+      <link>https://jamesblogger.com/life/11th-meichu-hackathon/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://james61124.github.io/life/11th-meichu-hackathon/</guid>
+      <guid>https://jamesblogger.com/life/11th-meichu-hackathon/</guid>
       <description>Due to my role as an organizer for the Meichu Hackathon over the past two years, it was only natural for me to return and participate again. Apart from gaining practical experience, I also wanted to see how the next generation of students prepared for the event.&#xA;Project Introduction Text Mode This feature is designed for individuals with poor vision. Many elderly people often struggle to read small text, such as labels and instructions.</description>
     </item>
   </channel>

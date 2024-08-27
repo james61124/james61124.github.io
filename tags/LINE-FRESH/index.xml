@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>LINE FRESH - tag - James Blog</title>
-        <link>https://james61124.github.io/tags/LINE-FRESH/</link>
+        <link>https://jamesblogger.com/tags/LINE-FRESH/</link>
         <description>LINE FRESH - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://james61124.github.io/tags/LINE-FRESH/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/LINE-FRESH/" rel="self" type="application/rss+xml" /><item>
     <title>Insights from the 2022 LINE FRESH Competition</title>
-    <link>https://james61124.github.io/life/2022-line-fresh/</link>
+    <link>https://jamesblogger.com/life/2022-line-fresh/</link>
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
-    </author><guid>https://james61124.github.io/life/2022-line-fresh/</guid>
+    </author><guid>https://jamesblogger.com/life/2022-line-fresh/</guid>
     <description><![CDATA[Project Overview We designed a system called &ldquo;Dida Dream - Timely Assistance System,&rdquo; aiming to achieve food redistribution by integrating a platform for near-expiry products with an online donation channel. Our main features include data collection of near-expiry products, customized notifications, donation plans, and a membership system.
 Project Introduction Data Collection of Near-Expiry Products We aimed to collaborate with chain and local businesses, integrating a backend database to collect all near-expiry product information.]]></description>
 </item></channel>

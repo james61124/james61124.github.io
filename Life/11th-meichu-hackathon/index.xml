@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Insights from the 11th Meichu Hackathon on James Blog</title>
-    <link>https://james61124.github.io/life/11th-meichu-hackathon/</link>
+    <link>https://jamesblogger.com/life/11th-meichu-hackathon/</link>
     <description>Recent content in Insights from the 11th Meichu Hackathon on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://james61124.github.io/life/11th-meichu-hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jamesblogger.com/life/11th-meichu-hackathon/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
