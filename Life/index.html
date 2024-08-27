@@ -519,12 +519,38 @@ Lives | James Blog
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
+        
+        if (window.DISQUS) {
+            DISQUS.reset({
+                reload: true,
+                config: function () {  
+                    this.theme = 'dark';
+                }
+            });
+        }
     } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
+        document.body.classList.remove('dark');
+        
+        if (window.DISQUS) {
+            DISQUS.reset({
+                reload: true,
+                config: function () {  
+                    this.theme = 'light';
+                }
+            });
+        }
     } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
+        
+        if (window.DISQUS) {
+            DISQUS.reset({
+                reload: true,
+                config: function () {  
+                    this.theme = 'dark';
+                }
+            });
+        }
     }
-
 </script>
 <script>
     console.log('theme')
@@ -532,9 +558,27 @@ Lives | James Blog
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
+            
+            if (window.DISQUS) {
+                DISQUS.reset({
+                    reload: true,
+                    config: function () {  
+                        this.theme = 'light';
+                    }
+                });
+            }
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
+            
+            if (window.DISQUS) {
+                DISQUS.reset({
+                    reload: true,
+                    config: function () {  
+                        this.theme = 'dark';
+                    }
+                });
+            }
         }
     })
 
