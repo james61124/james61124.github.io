@@ -28,27 +28,41 @@
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E46R7ZG7V8"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-E46R7ZG7V8', { 'anonymize_ip': false });
-}
-</script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1PS8N6815C"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-1PS8N6815C');
+        }
+      </script>
+    
+  
 
-<meta property="og:title" content="第 11 屆梅竹黑客松參賽過程與心得" />
-<meta property="og:description" content="因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://jamesblogger.com/zh/life/11th-meichu-hackathon/" /><meta property="article:section" content="life" />
-<meta property="article:published_time" content="2024-02-17T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-02-17T00:00:00+00:00" /><meta property="og:site_name" content="James Blog" />
+
+<meta property="og:url" content="https://jamesblogger.com/zh/life/11th-meichu-hackathon/">
+  <meta property="og:site_name" content="James Blog">
+  <meta property="og:title" content="第 11 屆梅竹黑客松參賽過程與心得">
+  <meta property="og:description" content="因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="life">
+    <meta property="article:published_time" content="2024-02-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-02-17T00:00:00+00:00">
+    <meta property="article:tag" content="Hackathon">
 
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="第 11 屆梅竹黑客松參賽過程與心得"/>
-<meta name="twitter:description" content="因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何"/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="第 11 屆梅竹黑客松參賽過程與心得">
+  <meta name="twitter:description" content="因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -336,16 +350,16 @@ if (!doNotTrack) {
           <p>因為前兩年擔任梅竹黑客松籌備幹部的關係，所以很自然的就跟大家講好說一定要再回來參加比賽，除了累積實務經驗，也順便看看下一屆的學弟妹籌備的如何。</p>
 <h2 id="作品介紹"><strong>作品介紹</strong></h2>
 <h3 id="text-mode"><strong>Text Mode</strong></h3>
-<p><img src="/images/posts/11th-meichu-hackathon/text-mode-introduction.png" alt="image"></p>
+<p><img alt="image" src="/images/posts/11th-meichu-hackathon/text-mode-introduction.png"></p>
 <p>這個功能主要是為了視力不好的人設計的，家裡有些長輩看一些小字的時候常常會看不清楚，例如說標籤、說明書等等，因此我們設計了文字放大鏡來解決這個問題。
 使用者可以將當下他要閱讀的文本拍攝下來，利用圖像轉文字的 API 我們可以分離出文字，再來結合大型語言模型重新整合資訊並排版再呈現給使用者，同時使用者可以根據文本的內容作提問，例如說他可以問：這瓶飲料保存期限為何？我們的 App 整合完資訊後就會回答使用者，方便他們擷取自己需要的資訊。</p>
 <h3 id="object-mode"><strong>Object Mode</strong></h3>
-<p><img src="/images/posts/11th-meichu-hackathon/object-mode-introduction.png" alt="image"></p>
+<p><img alt="image" src="/images/posts/11th-meichu-hackathon/object-mode-introduction.png"></p>
 <p>這個功能主要是為了讓視障者有獨立生活的能力，我們的目標是視障者在找尋物品的時候，透過影像辨識，可以根據 APP 給的提示就走到物品真正的位置。使用者首先會告訴 APP 說他想要找尋甚麼樣的物品，再來根據影像辨識的結果，APP 匯提示使用者方位，例如：向左走、向右走等等，最終就可以找到目標物品。</p>
 <h2 id="技術架構"><strong>技術架構</strong></h2>
-<p><img src="/images/posts/11th-meichu-hackathon/text-mode-technique.png" alt="image"></p>
+<p><img alt="image" src="/images/posts/11th-meichu-hackathon/text-mode-technique.png"></p>
 <p>Text Mode 的部分我們利用 ML Kit 將圖片轉成文字，再來利用大型語言模型，給定設計過的 Prompt 讓其整合我們傳過去的資料，並讓他可以回答使用者的問題。</p>
-<p><img src="/images/posts/11th-meichu-hackathon/object-mode-technique.png" alt="image"></p>
+<p><img alt="image" src="/images/posts/11th-meichu-hackathon/object-mode-technique.png"></p>
 <p>Object Mode 我們利用 lightweight Yolov5 來處理影像判斷物體位置，我們可以直接讓輕量的模型跑在手機上，這樣可以實現離線處理的功能以及提高它的效能。再來我們使用客製化的 Dataset 來 fine tune 我們的 model，讓他可以更精準的判斷目標物體的位置。</p>
 <h2 id="參賽心得"><strong>參賽心得</strong></h2>
 <p>我們很幸運的抽到 Google 組，這次題目是透過 Android Accessibility API 發想並設計好的功能用戶體驗，這個題目對我們來說是非常困難的，「無障礙 APP」這個主題能發揮的空間太有限了，我們前前後後想了非常多主題，但是永遠繞不過兩個問題，一是已經有競品出現，二是技術層面過於簡單不利於比賽，這種比賽最困難的地方我認為反而不是實作，反而是要想出一個既有技術層面的展現，又有創意並且正確解決到使用者痛點的專案，才可以真正從比賽中脫穎而出。</p>
