@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Den - tag - James Blog</title>
+        <link>http://localhost:1313/zh/tags/Den/</link>
+        <description>Den - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sat, 17 Aug 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/Den/" rel="self" type="application/rss+xml" /><item>
+    <title>荷蘭 - 海牙一日遊 20240728</title>
+    <link>http://localhost:1313/zh/travel/Den-Haag-20240810/</link>
+    <pubDate>Sat, 17 Aug 2024 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>http://localhost:1313/zh/travel/Den-Haag-20240810/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

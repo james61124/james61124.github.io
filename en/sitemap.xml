@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jamesblogger.com/categories/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -14,6 +14,89 @@
                 hreflang="en"
                 href="https://jamesblogger.com/categories/"
                 />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Den-Haag/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Netherlands/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/Den-Haag-20240810/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/Den-Haag-20240810/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/Den-Haag-20240810/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/tags/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Travel/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/categories/Travel/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Belgium/</loc>
+    <lastmod>2024-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/bruges-20240713/</loc>
+    <lastmod>2024-08-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/bruges-20240713/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/bruges-20240713/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Bruges/</loc>
+    <lastmod>2024-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesblogger.com/tags/Guitar-Club/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
@@ -26,19 +109,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://jamesblogger.com/tags/Guitar-Club/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/"
                 />
   </url><url>
     <loc>https://jamesblogger.com/categories/Life/</loc>
@@ -80,19 +150,6 @@
                 href="https://jamesblogger.com/life/guitar-club/"
                 />
   </url><url>
-    <loc>https://jamesblogger.com/tags/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/tags/"
-                />
-  </url><url>
     <loc>https://jamesblogger.com/life/2022-line-fresh/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -121,42 +178,6 @@
   </url><url>
     <loc>https://jamesblogger.com/tags/Paris/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/tags/Paris/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/tags/Paris/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/tags/Travel/</loc>
-    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/tags/Travel/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/tags/Travel/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/travel/</loc>
-    <lastmod>2024-02-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/travel/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/travel/"
-                />
   </url><url>
     <loc>https://jamesblogger.com/travel/paris-20240125/</loc>
     <lastmod>2024-02-20T00:00:00+00:00</lastmod>

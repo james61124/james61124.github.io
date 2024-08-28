@@ -4,10 +4,24 @@
     <title>Home on James Blog</title>
     <link>https://jamesblogger.com/zh/</link>
     <description>Recent content in Home on James Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesblogger.com/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>荷蘭 - 海牙一日遊 20240728</title>
+      <link>https://jamesblogger.com/zh/travel/Den-Haag-20240810/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/travel/Den-Haag-20240810/</guid>
+      <description>這次可以說就是奔著海灘去的，所以其實沒去很多點，本來想要再下一周去，不過突然發現這周天氣超好，差不多有 30 度，荷蘭這邊天氣變化很快，好天氣都沒</description>
+    </item>
+    <item>
+      <title>比利時 - 布魯日兩日遊 20240713</title>
+      <link>https://jamesblogger.com/zh/travel/bruges-20240713/</link>
+      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/travel/bruges-20240713/</guid>
+      <description>Day 1 我們從 Eindhoven 搭 Flixbus 到 Brussels，然後再搭火車到 Bruges，比利時的火車要買一下票，不過公車的部分信用卡就可以直接刷了。 分享兩個寫得很好</description>
+    </item>
     <item>
       <title>交大吉他社社團生活分享</title>
       <link>https://jamesblogger.com/zh/life/guitar-club/</link>
@@ -23,7 +37,7 @@
       <description>作品介紹 我們設計了一個 Dida Dream - 及時予系統，期望透過即期品整合平台搭配線上剩食捐贈管道來達成剩食再分配的目標。我們主要功能有四個，即期品資料蒐集</description>
     </item>
     <item>
-      <title>巴黎兩日遊 2024-01-25</title>
+      <title>法國 - 巴黎兩日遊 2024-01-25</title>
       <link>https://jamesblogger.com/zh/travel/paris-20240125/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://jamesblogger.com/zh/travel/paris-20240125/</guid>

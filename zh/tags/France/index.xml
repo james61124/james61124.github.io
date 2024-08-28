@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>France - tag - James Blog</title>
+        <link>http://localhost:1313/zh/tags/France/</link>
+        <description>France - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/France/" rel="self" type="application/rss+xml" /><item>
+    <title>法國 - 巴黎兩日遊 2024-01-25</title>
+    <link>http://localhost:1313/zh/travel/paris-20240125/</link>
+    <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>http://localhost:1313/zh/travel/paris-20240125/</guid>
+    <description><![CDATA[Day 1 第一次自助行就獻給了歐洲，下飛機的時候帶給我一種新奇的感覺，第一次自己站在陌生的城市，面對陌生的環境跟陌生的語言，「未知」這個詞貫穿了我]]></description>
+</item></channel>
+</rss>
