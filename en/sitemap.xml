@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesblogger.com/tags/Belgium/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/ghent-20240728/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/ghent-20240728/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/ghent-20240728/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Brussels/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesblogger.com/categories/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -16,6 +35,9 @@
                 />
   </url><url>
     <loc>https://jamesblogger.com/tags/Den-Haag/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Ghent/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesblogger.com/</loc>
@@ -78,9 +100,6 @@
                 hreflang="en"
                 href="https://jamesblogger.com/travel/"
                 />
-  </url><url>
-    <loc>https://jamesblogger.com/tags/Belgium/</loc>
-    <lastmod>2024-08-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jamesblogger.com/travel/bruges-20240713/</loc>
     <lastmod>2024-08-17T00:00:00+00:00</lastmod>

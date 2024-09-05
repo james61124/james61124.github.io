@@ -4,11 +4,32 @@
         <link>https://jamesblogger.com/tags/</link>
         <description>Tags - tag - James Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 28 Aug 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Belgium</title>
+    <link>https://jamesblogger.com/tags/Belgium/</link>
+    <pubDate>Wed, 28 Aug 2024 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Belgium/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Brussels</title>
+    <link>https://jamesblogger.com/tags/Brussels/</link>
+    <pubDate>Wed, 28 Aug 2024 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Brussels/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Den Haag</title>
     <link>https://jamesblogger.com/tags/Den-Haag/</link>
     <pubDate>Wed, 28 Aug 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Den-Haag/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Ghent</title>
+    <link>https://jamesblogger.com/tags/Ghent/</link>
+    <pubDate>Wed, 28 Aug 2024 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Ghent/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Netherlands</title>
@@ -23,13 +44,6 @@
     <pubDate>Wed, 28 Aug 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Travel/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Belgium</title>
-    <link>https://jamesblogger.com/tags/Belgium/</link>
-    <pubDate>Sat, 17 Aug 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Belgium/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Bruges</title>
@@ -58,20 +72,6 @@
     <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Paris/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Hackathon</title>
-    <link>https://jamesblogger.com/tags/Hackathon/</link>
-    <pubDate>Sat, 17 Feb 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Hackathon/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Algorithm</title>
-    <link>https://jamesblogger.com/tags/Algorithm/</link>
-    <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Algorithm/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
