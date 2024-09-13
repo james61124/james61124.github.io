@@ -3,7 +3,28 @@
         <title>Tags - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/</link>
         <description>Tags - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 05 Sep 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Germany</title>
+    <link>https://jamesblogger.com/tags/Germany/</link>
+    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Germany/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Munich</title>
+    <link>https://jamesblogger.com/tags/Munich/</link>
+    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Munich/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Travel</title>
+    <link>https://jamesblogger.com/tags/Travel/</link>
+    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Travel/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Belgium</title>
     <link>https://jamesblogger.com/tags/Belgium/</link>
     <pubDate>Thu, 05 Sep 2024 00:00:00 &#43;0000</pubDate><author>
@@ -23,13 +44,6 @@
     <pubDate>Thu, 05 Sep 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Ghent/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Travel</title>
-    <link>https://jamesblogger.com/tags/Travel/</link>
-    <pubDate>Thu, 05 Sep 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Travel/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Den Haag</title>
@@ -58,20 +72,6 @@
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Guitar-Club/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>LINE FRESH</title>
-    <link>https://jamesblogger.com/tags/LINE-FRESH/</link>
-    <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/LINE-FRESH/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Paris</title>
-    <link>https://jamesblogger.com/tags/Paris/</link>
-    <pubDate>Tue, 20 Feb 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Paris/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

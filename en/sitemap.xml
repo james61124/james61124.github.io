@@ -2,6 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesblogger.com/categories/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/categories/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Germany/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/Munich-20240823/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/Munich-20240823/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/Munich-20240823/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Munich/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/tags/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/tags/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Travel/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/categories/Travel/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/</loc>
+    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/"
+                />
+  </url><url>
     <loc>https://jamesblogger.com/tags/Belgium/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -21,66 +98,8 @@
     <loc>https://jamesblogger.com/tags/Brussels/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jamesblogger.com/categories/</loc>
-    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/categories/"
-                />
-  </url><url>
     <loc>https://jamesblogger.com/tags/Ghent/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesblogger.com/</loc>
-    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/tags/</loc>
-    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/tags/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/tags/Travel/</loc>
-    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesblogger.com/categories/Travel/</loc>
-    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesblogger.com/travel/</loc>
-    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/travel/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/travel/"
-                />
   </url><url>
     <loc>https://jamesblogger.com/tags/Den-Haag/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
