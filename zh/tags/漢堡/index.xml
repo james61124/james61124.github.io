@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>漢堡 - tag - James Blog</title>
+        <link>http://localhost:1313/zh/tags/%E6%BC%A2%E5%A0%A1/</link>
+        <description>漢堡 - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/%E6%BC%A2%E5%A0%A1/" rel="self" type="application/rss+xml" /><item>
+    <title>德國 - 漢堡三日遊 20240829</title>
+    <link>http://localhost:1313/zh/travel/Hamburg-20240829/</link>
+    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>http://localhost:1313/zh/travel/Hamburg-20240829/</guid>
+    <description><![CDATA[漢堡簡單來說就是一個海港，我覺得德國的城市特色都不會到太鮮明，像義大利的城市可能各個城市之間就差距很大，德國就是務實，不會有太多很浮誇的東西]]></description>
+</item><item>
+    <title>德國 - 微縮景觀世界 Miniatur Wunderland</title>
+    <link>http://localhost:1313/zh/travel/Miniatur-Wunderland/</link>
+    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>http://localhost:1313/zh/travel/Miniatur-Wunderland/</guid>
+    <description><![CDATA[太喜歡這裡了所以決定拉一篇出來寫，這裡因為太熱門了所以一定要提前預約，然後要選好的時段，因為我們總共在這裡待了 5 個小時，如果逛到最後時間不夠]]></description>
+</item></channel>
+</rss>
