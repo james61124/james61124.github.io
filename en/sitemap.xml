@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesblogger.com/tags/Bern/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesblogger.com/categories/</loc>
-    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -13,6 +16,76 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://jamesblogger.com/categories/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Inerlaken/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Jungfraujoch/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/Switzerland-20240914/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/Switzerland-20240914/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/Switzerland-20240914/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Swizerland/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/tags/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/tags/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Top-of-Europe/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/tags/Travel/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/categories/Travel/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/travel/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/travel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/travel/"
                 />
   </url><url>
     <loc>https://jamesblogger.com/tags/England/</loc>
@@ -31,53 +104,8 @@
                 href="https://jamesblogger.com/travel/London-20240906/"
                 />
   </url><url>
-    <loc>https://jamesblogger.com/</loc>
-    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/"
-                />
-  </url><url>
     <loc>https://jamesblogger.com/tags/London/</loc>
     <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesblogger.com/tags/</loc>
-    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/tags/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/tags/Travel/</loc>
-    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesblogger.com/categories/Travel/</loc>
-    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jamesblogger.com/travel/</loc>
-    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/travel/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/travel/"
-                />
   </url><url>
     <loc>https://jamesblogger.com/tags/Germany/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>

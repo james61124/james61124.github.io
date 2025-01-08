@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>瑞士 - tag - James Blog</title>
-        <link>http://localhost:1313/zh/tags/%E7%91%9E%E5%A3%AB/</link>
+        <link>https://jamesblogger.com/zh/tags/%E7%91%9E%E5%A3%AB/</link>
         <description>瑞士 - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/%E7%91%9E%E5%A3%AB/" rel="self" type="application/rss+xml" /><item>
-    <title>瑞士四天遊記 20240914</title>
-    <link>http://localhost:1313/zh/travel/Switzerland-20240914/</link>
-    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/%E7%91%9E%E5%A3%AB/" rel="self" type="application/rss+xml" /><item>
+    <title>瑞士自由行｜4天沉浸阿爾卑斯秘境，從湖泊到雪山的奇幻旅程</title>
+    <link>https://jamesblogger.com/zh/travel/Switzerland-20240914/</link>
+    <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
-    </author><guid>http://localhost:1313/zh/travel/Switzerland-20240914/</guid>
+    </author><guid>https://jamesblogger.com/zh/travel/Switzerland-20240914/</guid>
     <description><![CDATA[瑞士就是一個全世界物價最高的地方，原本以為荷蘭、英國已經很貴了，但這裡的物價體感幾乎是這些地區的 1.5 ~ 2 倍。不過即便是這樣，瑞士還是目前所有國]]></description>
 </item></channel>
 </rss>
