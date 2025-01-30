@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Search Algorithms - tag - James Blog</title>
+        <link>https://jamesblogger.com/tags/Search-Algorithms/</link>
+        <description>Search Algorithms - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 28 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Search-Algorithms/" rel="self" type="application/rss+xml" /><item>
+    <title>Binary Search</title>
+    <link>https://jamesblogger.com/program/binary-search/</link>
+    <pubDate>Tue, 28 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/binary-search/</guid>
+    <description><![CDATA[Binary Search is a searching algorithm used to find the position of a key value in a sorted array. It works by repeatedly narrowing the search range in half, allowing it to quickly locate the target. As a result, the time complexity of Binary Search is O(logn).
+Basic Steps Compare the target with the middle value. If they are equal, return the index. If the target is less than the middle value, narrow the search range to the left half.]]></description>
+</item></channel>
+</rss>

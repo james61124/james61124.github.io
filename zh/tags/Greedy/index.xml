@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Greedy - tag - James Blog</title>
+        <link>https://jamesblogger.com/zh/tags/Greedy/</link>
+        <description>Greedy - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Greedy/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 300 ] Longest Increasing Subsequence | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-300/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-300/</guid>
+    <description><![CDATA[在一個給定的 array 中，找出一個長度最長的遞增的 sub array，這個 sub array 中的 element 必須是按順序排列，但並不要求它們在原本的 array 中的位置是連續的。 題目連結🔗]]></description>
+</item></channel>
+</rss>

@@ -3,7 +3,18 @@
         <title>Dynamic Programming - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/Dynamic-Programming/</link>
         <description>Dynamic Programming - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Dynamic-Programming/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Dynamic-Programming/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 300 ] Longest Increasing Subsequence | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-300/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-300/</guid>
+    <description><![CDATA[Given an array, find the longest increasing subsequence (LIS). The elements in this subsequence must appear in increasing order but do not need to be consecutive in the original array.
+Link🔗：https://leetcode.com/problems/longest-increasing-subsequence/
+Method 1 - Dynamic Programming Time Complexity - O( n^2 ), due to the nested loops.
+Space Complexity - O( n ), as we need an array of size n for dp.
+Step 1 Create a dp array where dp[i] represents the length of the LIS that ends at nums[i].]]></description>
+</item><item>
     <title>DP Series - The Rod Cutting Problem</title>
     <link>https://jamesblogger.com/program/the-rod-cutting-problem/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>

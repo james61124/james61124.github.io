@@ -6,8 +6,29 @@
     <description>Recent content in Home on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesblogger.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ Leetcode 209 ] Minimum Size Subarray Sum | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-209/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-209/</guid>
+      <description>Given a positive integer array nums and a target value target, find the smallest contiguous subarray whose sum is greater than or equal to target. If no such subarray exists, return 0.&#xA;Link🔗：https://leetcode.com/problems/minimum-size-subarray-sum/&#xA;Method 1 - Sliding Window This problem can be solved using the Sliding Window technique. Since all numbers in the array are positive, we know that if a subarray sum reaches or exceeds target, adding more numbers will only make it longer but won&amp;rsquo;t help find the shortest subarray.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 300 ] Longest Increasing Subsequence | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-300/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-300/</guid>
+      <description>Given an array, find the longest increasing subsequence (LIS). The elements in this subsequence must appear in increasing order but do not need to be consecutive in the original array.&#xA;Link🔗：https://leetcode.com/problems/longest-increasing-subsequence/&#xA;Method 1 - Dynamic Programming Time Complexity - O( n^2 ), due to the nested loops.&#xA;Space Complexity - O( n ), as we need an array of size n for dp.&#xA;Step 1 Create a dp array where dp[i] represents the length of the LIS that ends at nums[i].</description>
+    </item>
+    <item>
+      <title>Binary Search</title>
+      <link>https://jamesblogger.com/program/binary-search/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/binary-search/</guid>
+      <description>Binary Search is a searching algorithm used to find the position of a key value in a sorted array. It works by repeatedly narrowing the search range in half, allowing it to quickly locate the target. As a result, the time complexity of Binary Search is O(logn).&#xA;Basic Steps Compare the target with the middle value. If they are equal, return the index. If the target is less than the middle value, narrow the search range to the left half.</description>
+    </item>
     <item>
       <title>Switzerland Free Travel | 4-Day Immersive Journey into the Alpine Wonderland – From Lakes to Snowy Peaks</title>
       <link>https://jamesblogger.com/travel/Switzerland-20240914/</link>

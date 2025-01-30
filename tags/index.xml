@@ -3,7 +3,63 @@
         <title>Tags - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/</link>
         <description>Tags - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Algorithms</title>
+    <link>https://jamesblogger.com/tags/Algorithms/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Algorithms/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Binary Search</title>
+    <link>https://jamesblogger.com/tags/Binary-Search/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Binary-Search/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Dynamic Programming</title>
+    <link>https://jamesblogger.com/tags/Dynamic-Programming/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Dynamic-Programming/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Greedy</title>
+    <link>https://jamesblogger.com/tags/Greedy/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Greedy/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Leetcode</title>
+    <link>https://jamesblogger.com/tags/Leetcode/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Leetcode/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Prefix Sum</title>
+    <link>https://jamesblogger.com/tags/Prefix-Sum/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Prefix-Sum/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Sliding Window</title>
+    <link>https://jamesblogger.com/tags/Sliding-Window/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Sliding-Window/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Search Algorithms</title>
+    <link>https://jamesblogger.com/tags/Search-Algorithms/</link>
+    <pubDate>Tue, 28 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Search-Algorithms/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Bern</title>
     <link>https://jamesblogger.com/tags/Bern/</link>
     <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
@@ -16,62 +72,6 @@
     <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Inerlaken/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Jungfraujoch</title>
-    <link>https://jamesblogger.com/tags/Jungfraujoch/</link>
-    <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Jungfraujoch/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Swizerland</title>
-    <link>https://jamesblogger.com/tags/Swizerland/</link>
-    <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Swizerland/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Top of Europe</title>
-    <link>https://jamesblogger.com/tags/Top-of-Europe/</link>
-    <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Top-of-Europe/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Travel</title>
-    <link>https://jamesblogger.com/tags/Travel/</link>
-    <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Travel/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>England</title>
-    <link>https://jamesblogger.com/tags/England/</link>
-    <pubDate>Sun, 10 Nov 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/England/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>London</title>
-    <link>https://jamesblogger.com/tags/London/</link>
-    <pubDate>Sun, 10 Nov 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/London/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Germany</title>
-    <link>https://jamesblogger.com/tags/Germany/</link>
-    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Germany/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Munich</title>
-    <link>https://jamesblogger.com/tags/Munich/</link>
-    <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Munich/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

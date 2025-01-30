@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Sliding Window - tag - James Blog</title>
+        <link>https://jamesblogger.com/zh/tags/Sliding-Window/</link>
+        <description>Sliding Window - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Sliding-Window/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 209 ] Minimum Size Subarray Sum | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-209/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-209/</guid>
+    <description><![CDATA[給定一個正整數陣列 nums 和一個目標數 target，找出最短的連續子陣列，使得其數字總和大於或等於 target。如果沒有符合條件的子陣列，則回傳 0]]></description>
+</item></channel>
+</rss>

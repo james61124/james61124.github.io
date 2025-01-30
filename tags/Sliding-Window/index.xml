@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Sliding Window - tag - James Blog</title>
+        <link>https://jamesblogger.com/tags/Sliding-Window/</link>
+        <description>Sliding Window - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Sliding-Window/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 209 ] Minimum Size Subarray Sum | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-209/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-209/</guid>
+    <description><![CDATA[Given a positive integer array nums and a target value target, find the smallest contiguous subarray whose sum is greater than or equal to target. If no such subarray exists, return 0.
+Link🔗：https://leetcode.com/problems/minimum-size-subarray-sum/
+Method 1 - Sliding Window This problem can be solved using the Sliding Window technique. Since all numbers in the array are positive, we know that if a subarray sum reaches or exceeds target, adding more numbers will only make it longer but won&rsquo;t help find the shortest subarray.]]></description>
+</item></channel>
+</rss>
