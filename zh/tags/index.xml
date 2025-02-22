@@ -3,7 +3,28 @@
         <title>Tags - tag - James Blog</title>
         <link>https://jamesblogger.com/zh/tags/</link>
         <description>Tags - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Fri, 21 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>ASML</title>
+    <link>https://jamesblogger.com/zh/tags/ASML/</link>
+    <pubDate>Fri, 21 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/zh/tags/ASML/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>生活</title>
+    <link>https://jamesblogger.com/zh/tags/%E7%94%9F%E6%B4%BB/</link>
+    <pubDate>Fri, 21 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/zh/tags/%E7%94%9F%E6%B4%BB/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>實習</title>
+    <link>https://jamesblogger.com/zh/tags/%E5%AF%A6%E7%BF%92/</link>
+    <pubDate>Fri, 21 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/zh/tags/%E5%AF%A6%E7%BF%92/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Algorithms</title>
     <link>https://jamesblogger.com/zh/tags/Algorithms/</link>
     <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
@@ -16,6 +37,13 @@
     <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/zh/tags/Binary-Search/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>DFS</title>
+    <link>https://jamesblogger.com/zh/tags/DFS/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/zh/tags/DFS/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Dynamic Programming</title>
@@ -44,34 +72,6 @@
     <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/zh/tags/Prefix-Sum/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Sliding Window</title>
-    <link>https://jamesblogger.com/zh/tags/Sliding-Window/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/zh/tags/Sliding-Window/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Search Algorithms</title>
-    <link>https://jamesblogger.com/zh/tags/Search-Algorithms/</link>
-    <pubDate>Tue, 28 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/zh/tags/Search-Algorithms/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>伯恩</title>
-    <link>https://jamesblogger.com/zh/tags/%E4%BC%AF%E6%81%A9/</link>
-    <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/zh/tags/%E4%BC%AF%E6%81%A9/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>旅行</title>
-    <link>https://jamesblogger.com/zh/tags/%E6%97%85%E8%A1%8C/</link>
-    <pubDate>Fri, 06 Dec 2024 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/zh/tags/%E6%97%85%E8%A1%8C/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

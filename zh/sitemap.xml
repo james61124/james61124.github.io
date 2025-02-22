@@ -2,6 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jamesblogger.com/zh/tags/ASML/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/tags/ASML/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/tags/ASML/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/zh/categories/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/categories/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/zh/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/zh/life/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/life/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/zh/tags/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/tags/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/zh/life/ASML/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/life/ASML/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/life/ASML/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/zh/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/zh/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jamesblogger.com/zh/tags/%E5%AF%A6%E7%BF%92/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jamesblogger.com/zh/program/leetcode-209/</loc>
     <lastmod>2025-01-29T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -26,6 +113,19 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://jamesblogger.com/zh/program/leetcode-300/"
+                />
+  </url><url>
+    <loc>https://jamesblogger.com/zh/program/leetcode-841/</loc>
+    <lastmod>2025-01-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jamesblogger.com/program/leetcode-841/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://jamesblogger.com/zh/program/leetcode-841/"
                 />
   </url><url>
     <loc>https://jamesblogger.com/zh/categories/Algorithm/</loc>
@@ -67,17 +167,17 @@
                 href="https://jamesblogger.com/zh/tags/Binary-Search/"
                 />
   </url><url>
-    <loc>https://jamesblogger.com/zh/categories/</loc>
+    <loc>https://jamesblogger.com/zh/tags/DFS/</loc>
     <lastmod>2025-01-29T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jamesblogger.com/categories/"
+                href="https://jamesblogger.com/tags/DFS/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://jamesblogger.com/zh/categories/"
+                href="https://jamesblogger.com/zh/tags/DFS/"
                 />
   </url><url>
     <loc>https://jamesblogger.com/zh/tags/Dynamic-Programming/</loc>
@@ -104,19 +204,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://jamesblogger.com/zh/tags/Greedy/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/zh/</loc>
-    <lastmod>2025-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/"
                 />
   </url><url>
     <loc>https://jamesblogger.com/zh/tags/Leetcode/</loc>
@@ -169,19 +256,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://jamesblogger.com/zh/tags/Sliding-Window/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/zh/tags/</loc>
-    <lastmod>2025-01-29T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/tags/"
                 />
   </url><url>
     <loc>https://jamesblogger.com/zh/program/binary-search/</loc>
@@ -360,32 +434,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://jamesblogger.com/zh/tags/Guitar-Club/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/zh/categories/Life/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/categories/Life/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/categories/Life/"
-                />
-  </url><url>
-    <loc>https://jamesblogger.com/zh/life/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jamesblogger.com/life/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://jamesblogger.com/zh/life/"
                 />
   </url><url>
     <loc>https://jamesblogger.com/zh/life/guitar-club/</loc>

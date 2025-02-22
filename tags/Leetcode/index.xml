@@ -23,5 +23,14 @@ Link🔗：https://leetcode.com/problems/longest-increasing-subsequence/
 Method 1 - Dynamic Programming Time Complexity - O( n^2 ), due to the nested loops.
 Space Complexity - O( n ), as we need an array of size n for dp.
 Step 1 Create a dp array where dp[i] represents the length of the LIS that ends at nums[i].]]></description>
+</item><item>
+    <title>[ Leetcode 841 ] Keys and Rooms | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-841/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-841/</guid>
+    <description><![CDATA[There are n rooms labeled from 0 to n-1. Each rooms[i] contains a list of keys that can be used to unlock other rooms. Initially, you start in room 0, which is already unlocked. The goal is to determine whether you can visit all rooms.
+Link🔗：https://leetcode.com/problems/keys-and-rooms/
+Solution - DFS This problem can be solved using Depth-First Search (DFS), as it is essentially a graph traversal problem. The rooms and their keys form a directed graph, where a key in rooms[i] represents an edge from room i to another room.]]></description>
 </item></channel>
 </rss>

@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>DFS - tag - James Blog</title>
+        <link>https://jamesblogger.com/zh/tags/DFS/</link>
+        <description>DFS - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/DFS/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 841 ] Keys and Rooms | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-841/</link>
+    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-841/</guid>
+    <description><![CDATA[有 n 個房間，編號從 0 到 n-1，其中 rooms[i] 包含一個 list，代表房間 i 中可以獲得的鑰匙，這些鑰匙可以用來打開其他房間。最開始，你在房間 0，且已經打]]></description>
+</item></channel>
+</rss>
