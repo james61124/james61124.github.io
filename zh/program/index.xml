@@ -6,8 +6,15 @@
     <description>Recent content in Programs on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesblogger.com/zh/program/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-167/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-167/</guid>
+      <description>這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」 題目連</description>
+    </item>
     <item>
       <title>[ Leetcode 209 ] Minimum Size Subarray Sum | 解題思路分享</title>
       <link>https://jamesblogger.com/zh/program/leetcode-209/</link>

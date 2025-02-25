@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Two Pointer - tag - James Blog</title>
+        <link>https://jamesblogger.com/tags/Two-Pointer/</link>
+        <description>Two Pointer - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Two-Pointer/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</title>
+    <link>https://jamesblogger.com/program/leetcode-167/</link>
+    <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-167/</guid>
+    <description><![CDATA[This problem is a variation of Two Sum. Given an array sorted in ascending order, the goal is to find two numbers whose sum equals the target value and return their 1-based indices. Link🔗：https://leetcode.com/problems/t]]></description>
+</item></channel>
+</rss>

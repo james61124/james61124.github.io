@@ -39,14 +39,16 @@ if (!doNotTrack) {
 }
 </script>
 
-<meta property="og:title" content="Algorithms" />
-<meta property="og:description" content="Text about my cool site" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jamesblogger.com/zh/tags/Algorithms/" /><meta property="og:site_name" content="James Blog" />
+<meta property="og:title" content="[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享" />
+<meta property="og:description" content="這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」 題目連" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jamesblogger.com/zh/program/leetcode-167/" /><meta property="article:section" content="program" />
+<meta property="article:published_time" content="2025-02-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-02-23T00:00:00+00:00" /><meta property="og:site_name" content="James Blog" />
 
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Algorithms"/>
-<meta name="twitter:description" content="Text about my cool site"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享"/>
+<meta name="twitter:description" content="這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」 題目連"/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -110,11 +112,14 @@ if (!doNotTrack) {
     }
 </style>
 
-<meta name="description" content="Algorithms of James Blog">
-<link rel="stylesheet" href="/css/list.css" media="all">
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
   <title>
-Algorithms | James Blog
+[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享 | James Blog
 
   </title>
 </head>
@@ -261,7 +266,7 @@ Algorithms | James Blog
                         
                         
                         
-                        <a class="nav-link" href="/tags/Algorithms/" hreflang="en">
+                        <a class="nav-link" href="/program/leetcode-167/" hreflang="en">
                             English
                         </a>
                         
@@ -302,40 +307,199 @@ Algorithms | James Blog
         </div>
     </nav>
 </header>
-<div id="content"><div class="container pt-5" id="list-page" style="min-height: 100vh;">
-    <h2 class="text-center pb-2">Algorithms</h2>
-    <div class="row">
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</h1>
+            <div class="text-center">
+              James 
+              <small>|</small>
+              Feb 23, 2025
 
-        <div class="col-lg-4 col-md-6 mx-auto my-3">
-            <div class="card-columns"><div class="card h-100 mb-4">
-                        <div class="card-body bg-transparent p-4 shadow-sm">
-                            <h3 class="text-center pb-2" >
-                                <a href="/tags/Algorithms" class="primary-font card-title">
-                                    <h5 class="card-title bg-transparent">Algorithms</h5>
-                                </a>
-                            </h3>
-                            
-                                <a href="https://jamesblogger.com/zh/program/leetcode-167/" class="card-text secondary-font">
-                                    <h6 style="color: var(--text-secondary-color) !important;">[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</h6>
-                                </a>
-                                <a href="https://jamesblogger.com/zh/program/leetcode-209/" class="card-text secondary-font">
-                                    <h6 style="color: var(--text-secondary-color) !important;">[ Leetcode 209 ] Minimum Size Subarray Sum | 解題思路分享</h6>
-                                </a>
-                                <a href="https://jamesblogger.com/zh/program/leetcode-300/" class="card-text secondary-font">
-                                    <h6 style="color: var(--text-secondary-color) !important;">[ Leetcode 300 ] Longest Increasing Subsequence | 解題思路分享</h6>
-                                </a>
-                                <a href="https://jamesblogger.com/zh/program/leetcode-841/" class="card-text secondary-font">
-                                    <h6 style="color: var(--text-secondary-color) !important;">[ Leetcode 841 ] Keys and Rooms | 解題思路分享</h6>
-                                </a>
-                                <a href="https://jamesblogger.com/zh/program/binary-search/" class="card-text secondary-font">
-                                    <h6 style="color: var(--text-secondary-color) !important;">Binary Search</h6>
-                                </a></div>
-                    </div></div>
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="/images/program/Leetcode.jpeg" alt="[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享">
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」</p>
+<p>題目連結🔗：<a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/</a></p>
+<h3 id="解題思路---two-pointersopposite-direction"><strong>解題思路 - Two Pointers（Opposite Direction）</strong></h3>
+<p>這題可以用 opposite direction 的 two pointer 來解，因為這題算是在 sorted array 中找到某些約束條件的元素，left 先指在第一個元素，right 指在最後一個，如果兩個數的和大於 target，就移動 right，反之，就移動 left。</p>
+<p><strong>Time Complexity</strong> - O( n )，每個元素最多被 right 或 left 掃過。</p>
+<p><strong>Space Complexity</strong> - O( 1 )，只使用了兩個指針</p>
+<h4 id="implementation"><strong>Implementation</strong></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> twoSum(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> numbers, <span style="color:#66d9ef">int</span> target) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> numbers.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span>(left <span style="color:#f92672">&lt;=</span> right) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(numbers[left] <span style="color:#f92672">+</span> numbers[right] <span style="color:#f92672">&lt;</span> target) left<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(numbers[left] <span style="color:#f92672">+</span> numbers[right] <span style="color:#f92672">&gt;</span> target) right<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">return</span> {left<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, right<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>};
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {};
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+          </article>
         </div>
-    </div>
-</div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#解題思路---two-pointersopposite-direction"><strong>解題思路 - Two Pointers（Opposite Direction）</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
 
-<footer style="bottom: 0; width: 100%;">
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+                
+                <li class="list-inline-item"><a href="https://jamesblogger.com//zh/tags/Two-Pointer" target="_blank">Two Pointer</a></li>
+                
+                <li class="list-inline-item"><a href="https://jamesblogger.com//zh/tags/Algorithms" target="_blank">Algorithms</a></li>
+                
+                <li class="list-inline-item"><a href="https://jamesblogger.com//zh/tags/Leetcode" target="_blank">Leetcode</a></li>
+                
+              
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Share</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=%5b%20Leetcode%20167%20%5d%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted%20%7c%20%e8%a7%a3%e9%a1%8c%e6%80%9d%e8%b7%af%e5%88%86%e4%ba%ab&url=https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=%5b%20Leetcode%20167%20%5d%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted%20%7c%20%e8%a7%a3%e9%a1%8c%e6%80%9d%e8%b7%af%e5%88%86%e4%ba%ab: https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=%5b%20Leetcode%20167%20%5d%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted%20%7c%20%e8%a7%a3%e9%a1%8c%e6%80%9d%e8%b7%af%e5%88%86%e4%ba%ab&amp;body=Check%20out%20this%20site https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </aside>
+          
+           
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jamesBlog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+
+
+  </div><footer>
     
 <div class="text-center pt-2">
     
@@ -440,11 +604,94 @@ Algorithms | James Blog
             </div>
         </div>
     </div>
-</div></footer>
+</div></footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+        
+        if (window.DISQUS) {
+            DISQUS.reset({
+                reload: true,
+                config: function () {  
+                    this.theme = 'dark';
+                }
+            });
+        }
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark');
+        
+        if (window.DISQUS) {
+            DISQUS.reset({
+                reload: true,
+                config: function () {  
+                    this.theme = 'light';
+                }
+            });
+        }
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+        
+        if (window.DISQUS) {
+            DISQUS.reset({
+                reload: true,
+                config: function () {  
+                    this.theme = 'dark';
+                }
+            });
+        }
+    }
+</script>
+<script>
+    console.log('theme')
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+            
+            if (window.DISQUS) {
+                DISQUS.reset({
+                    reload: true,
+                    config: function () {  
+                        this.theme = 'light';
+                    }
+                });
+            }
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+            
+            if (window.DISQUS) {
+                DISQUS.reset({
+                    reload: true,
+                    config: function () {  
+                        this.theme = 'dark';
+                    }
+                });
+            }
+        }
+    })
 
-        
-        
-        
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+</script>
+
+
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
   <section id="search-content" class="py-2">
     <div class="container" id="search-results"></div>
   </section>
