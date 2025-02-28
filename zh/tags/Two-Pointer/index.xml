@@ -3,12 +3,19 @@
         <title>Two Pointer - tag - James Blog</title>
         <link>https://jamesblogger.com/zh/tags/Two-Pointer/</link>
         <description>Two Pointer - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Two-Pointer/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Two-Pointer/" rel="self" type="application/rss+xml" /><item>
     <title>[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</title>
     <link>https://jamesblogger.com/zh/program/leetcode-167/</link>
-    <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
     </author><guid>https://jamesblogger.com/zh/program/leetcode-167/</guid>
     <description><![CDATA[這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」 題目連]]></description>
+</item><item>
+    <title>[ Leetcode 125 ] Valid Palindrome | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-125/</link>
+    <pubDate>Sat, 15 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-125/</guid>
+    <description><![CDATA[這題要求判斷給定的字串是否是「回文」（Palindrome），忽略大小寫和非字母數字字符。 題目連結🔗：https://leetcode.co]]></description>
 </item></channel>
 </rss>

@@ -3,12 +3,23 @@
         <title>Two Pointer - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/Two-Pointer/</link>
         <description>Two Pointer - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Two-Pointer/" rel="self" type="application/rss+xml" /><item>
-    <title>[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</title>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Two-Pointer/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | Solution Approach &amp; Explanation</title>
     <link>https://jamesblogger.com/program/leetcode-167/</link>
-    <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
         <name>James</name>
     </author><guid>https://jamesblogger.com/program/leetcode-167/</guid>
-    <description><![CDATA[This problem is a variation of Two Sum. Given an array sorted in ascending order, the goal is to find two numbers whose sum equals the target value and return their 1-based indices. Link🔗：https://leetcode.com/problems/t]]></description>
+    <description><![CDATA[This problem is a variation of Two Sum. Given an array sorted in ascending order, the goal is to find two numbers whose sum equals the target value and return their 1-based indices.
+Link🔗：https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+Method - Opposite Direction Two Pointers This problem can be solved using opposite direction two-pointer technique, since this problem is about finding elements under certain constraints in a sorted array. Set left pointer at the first element and right pointer at the last element.]]></description>
+</item><item>
+    <title>[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-125/</link>
+    <pubDate>Sat, 15 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-125/</guid>
+    <description><![CDATA[This problem requires determining whether a given string is a palindrome, ignoring case and non-alphanumeric characters.
+Link🔗：https://leetcode.com/problems/valid-palindrome/
+Solution - Opposite Direction Two Pointers This problem can be solved using an opposite direction two-pointer approach. The idea is to check whether the characters at the left and right pointers are the same. If they are, both pointers move inward. The main points to consider are ensuring that left and right do not go out of bounds and using isalnum() to check whether a character is alphanumeric.]]></description>
 </item></channel>
 </rss>

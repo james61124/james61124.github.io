@@ -39,16 +39,20 @@ if (!doNotTrack) {
 }
 </script>
 
-<meta property="og:title" content="[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享" />
-<meta property="og:description" content="這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」 題目連" />
+<meta property="og:title" content="[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation" />
+<meta property="og:description" content="This problem requires determining whether a given string is a palindrome, ignoring case and non-alphanumeric characters.
+Link🔗：https://leetcode.com/problems/valid-palindrome/
+Solution - Opposite Direction Two Pointers This problem can be solved using an opposite direction two-pointer approach. The idea is to check whether the characters at the left and right pointers are the same. If they are, both pointers move inward. The main points to consider are ensuring that left and right do not go out of bounds and using isalnum() to check whether a character is alphanumeric." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jamesblogger.com/zh/program/leetcode-167/" /><meta property="article:section" content="program" />
-<meta property="article:published_time" content="2025-02-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-02-26T00:00:00+00:00" /><meta property="og:site_name" content="James Blog" />
+<meta property="og:url" content="https://jamesblogger.com/program/leetcode-125/" /><meta property="article:section" content="program" />
+<meta property="article:published_time" content="2025-02-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-02-15T00:00:00+00:00" /><meta property="og:site_name" content="James Blog" />
 
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享"/>
-<meta name="twitter:description" content="這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」 題目連"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation"/>
+<meta name="twitter:description" content="This problem requires determining whether a given string is a palindrome, ignoring case and non-alphanumeric characters.
+Link🔗：https://leetcode.com/problems/valid-palindrome/
+Solution - Opposite Direction Two Pointers This problem can be solved using an opposite direction two-pointer approach. The idea is to check whether the characters at the left and right pointers are the same. If they are, both pointers move inward. The main points to consider are ensuring that left and right do not go out of bounds and using isalnum() to check whether a character is alphanumeric."/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -119,7 +123,7 @@ if (!doNotTrack) {
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
   <title>
-[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享 | James Blog
+[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation | James Blog
 
   </title>
 </head>
@@ -223,9 +227,9 @@ if (!doNotTrack) {
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/zh/life" title="life posts">
+                        <a class="nav-link" href="/life" title="life posts">
                             
-                            生活
+                            life
                         </a>
                     </li>
                     
@@ -233,9 +237,9 @@ if (!doNotTrack) {
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/zh/travel" title="travel posts">
+                        <a class="nav-link" href="/travel" title="travel posts">
                             
-                            旅行
+                            Travel
                         </a>
                     </li>
                     
@@ -243,9 +247,9 @@ if (!doNotTrack) {
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/zh/program" title="program posts">
+                        <a class="nav-link" href="/program" title="program posts">
                             
-                            程式
+                            Program
                         </a>
                     </li>
                     
@@ -254,8 +258,8 @@ if (!doNotTrack) {
                     
                         
                             <li class="nav-item navbar-text">
-                                <a class="nav-link" href="https://jamesblogger.com//zh/" aria-label="about">
-                                    關於我
+                                <a class="nav-link" href="/" aria-label="about">
+                                    About Me
                                 </a>
                             </li>
                         
@@ -266,8 +270,8 @@ if (!doNotTrack) {
                         
                         
                         
-                        <a class="nav-link" href="/program/leetcode-167/" hreflang="en">
-                            English
+                        <a class="nav-link" href="/zh/program/leetcode-125/" hreflang="zh">
+                            中文
                         </a>
                         
                     </li>
@@ -314,11 +318,11 @@ if (!doNotTrack) {
       <div class="col-sm-12 col-md-12 col-lg-6">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</h1>
+            <h1 class="text-center mb-4">[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation</h1>
             <div class="text-center">
               James 
               <small>|</small>
-              Feb 26, 2025
+              Feb 15, 2025
 
               
               <span id="readingTime">
@@ -329,26 +333,28 @@ if (!doNotTrack) {
           </div>
           
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="/images/program/Leetcode.jpeg" alt="[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享">
+            <img class="img-fluid mx-auto d-block" src="/images/program/Leetcode.jpeg" alt="[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation">
           </div>
           
           <article class="page-content  p-2">
-          <p>這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」</p>
-<p>題目連結🔗：<a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/</a></p>
-<h3 id="解題思路---opposite-direction-two-pointers"><strong>解題思路 - Opposite Direction Two Pointers</strong></h3>
-<p>這題可以用 opposite direction 的 two pointer 來解，因為這題算是在 sorted array 中找到某些約束條件的元素，left 先指在第一個元素，right 指在最後一個，如果兩個數的和大於 target，就移動 right，反之，就移動 left。</p>
-<p><strong>Time Complexity</strong> - O( n )，每個元素最多被 right 或 left 掃過。</p>
-<p><strong>Space Complexity</strong> - O( 1 )，只使用了兩個指針</p>
+          <p>This problem requires determining whether a given string is a palindrome, ignoring case and non-alphanumeric characters.</p>
+<p>Link🔗：<a href="https://leetcode.com/problems/valid-palindrome/">https://leetcode.com/problems/valid-palindrome/</a></p>
+<h3 id="solution---opposite-direction-two-pointers"><strong>Solution - Opposite Direction Two Pointers</strong></h3>
+<p>This problem can be solved using an opposite direction two-pointer approach. The idea is to check whether the characters at the left and right pointers are the same. If they are, both pointers move inward. The main points to consider are ensuring that left and right do not go out of bounds and using isalnum() to check whether a character is alphanumeric.</p>
+<p><strong>Time Complexity</strong> - O( n ), as each element is checked at most once by either left or right.</p>
+<p><strong>Space Complexity</strong> - O( 1 ), since only two pointers are used.</p>
 <h4 id="implementation"><strong>Implementation</strong></h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> twoSum(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> numbers, <span style="color:#66d9ef">int</span> target) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> <span style="color:#a6e22e">isPalindrome</span>(string s) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> left <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> numbers.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span>(left <span style="color:#f92672">&lt;=</span> right) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(numbers[left] <span style="color:#f92672">+</span> numbers[right] <span style="color:#f92672">&lt;</span> target) left<span style="color:#f92672">++</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> <span style="color:#a6e22e">if</span>(numbers[left] <span style="color:#f92672">+</span> numbers[right] <span style="color:#f92672">&gt;</span> target) right<span style="color:#f92672">--</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">return</span> {left<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, right<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>};
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> right <span style="color:#f92672">=</span> s.size()<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span>(left <span style="color:#f92672">&lt;</span> right) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(left <span style="color:#f92672">&lt;</span> right <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>isalnum(s[left])) left<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span>(left <span style="color:#f92672">&lt;</span> right <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>isalnum(s[right])) right<span style="color:#f92672">--</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(tolower(s[left])<span style="color:#f92672">!=</span>tolower(s[right])) <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>        left<span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>        right<span style="color:#f92672">--</span>;
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> {};
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> true;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
           </article>
@@ -366,7 +372,7 @@ if (!doNotTrack) {
   <ul>
     <li>
       <ul>
-        <li><a href="#解題思路---opposite-direction-two-pointers"><strong>解題思路 - Opposite Direction Two Pointers</strong></a></li>
+        <li><a href="#solution---opposite-direction-two-pointers"><strong>Solution - Opposite Direction Two Pointers</strong></a></li>
       </ul>
     </li>
   </ul>
@@ -380,11 +386,11 @@ if (!doNotTrack) {
             <h5>Tags</h5>
             <ul class="tags-ul list-unstyled list-inline">
                 
-                <li class="list-inline-item"><a href="https://jamesblogger.com//zh/tags/Two-Pointer" target="_blank">Two Pointer</a></li>
+                <li class="list-inline-item"><a href="https://jamesblogger.com/tags/Two-Pointer" target="_blank">Two Pointer</a></li>
                 
-                <li class="list-inline-item"><a href="https://jamesblogger.com//zh/tags/Algorithms" target="_blank">Algorithms</a></li>
+                <li class="list-inline-item"><a href="https://jamesblogger.com/tags/Algorithms" target="_blank">Algorithms</a></li>
                 
-                <li class="list-inline-item"><a href="https://jamesblogger.com//zh/tags/Leetcode" target="_blank">Leetcode</a></li>
+                <li class="list-inline-item"><a href="https://jamesblogger.com/tags/Leetcode" target="_blank">Leetcode</a></li>
                 
               
               
@@ -398,22 +404,22 @@ if (!doNotTrack) {
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://twitter.com/share?text=%5b%20Leetcode%20167%20%5d%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted%20%7c%20%e8%a7%a3%e9%a1%8c%e6%80%9d%e8%b7%af%e5%88%86%e4%ba%ab&url=https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f">
+                  <a target="_blank" href="https://twitter.com/share?text=%5b%20Leetcode%20125%20%5d%20Valid%20Palindrome%20%7c%20Solution%20Approach%20%26%20Explanation&url=https%3a%2f%2fjamesblogger.com%2fprogram%2fleetcode-125%2f">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=%5b%20Leetcode%20167%20%5d%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted%20%7c%20%e8%a7%a3%e9%a1%8c%e6%80%9d%e8%b7%af%e5%88%86%e4%ba%ab: https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=%5b%20Leetcode%20125%20%5d%20Valid%20Palindrome%20%7c%20Solution%20Approach%20%26%20Explanation: https%3a%2f%2fjamesblogger.com%2fprogram%2fleetcode-125%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=%5b%20Leetcode%20167%20%5d%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted%20%7c%20%e8%a7%a3%e9%a1%8c%e6%80%9d%e8%b7%af%e5%88%86%e4%ba%ab&amp;body=Check%20out%20this%20site https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f'>
+                  <a target="_blank" href='mailto:?subject=%5b%20Leetcode%20125%20%5d%20Valid%20Palindrome%20%7c%20Solution%20Approach%20%26%20Explanation&amp;body=Check%20out%20this%20site https%3a%2f%2fjamesblogger.com%2fprogram%2fleetcode-125%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesblogger.com%2fzh%2fprogram%2fleetcode-167%2f">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjamesblogger.com%2fprogram%2fleetcode-125%2f">
                     <i class="fab fa-facebook"></i>
                   </a>
                 </li>
