@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hash Table - tag - James Blog</title>
+        <link>https://jamesblogger.com/tags/Hash-Table/</link>
+        <description>Hash Table - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Hash-Table/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 349 ] Intersection of Two Arrays | 解題思路分享</title>
+    <link>https://jamesblogger.com/program/leetcode-349/</link>
+    <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-349/</guid>
+    <description><![CDATA[Given two integer arrays nums1 and nums2, find their intersection, ensuring that each element appears only once in the result. Link🔗：https://leetcode.com/problems/intersection-o]]></description>
+</item></channel>
+</rss>

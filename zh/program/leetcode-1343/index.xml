@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | 解題思路分享 on James Blog</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-1343/</link>
+    <description>Recent content in [ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | 解題思路分享 on James Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://jamesblogger.com/zh/program/leetcode-1343/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

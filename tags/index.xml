@@ -3,26 +3,61 @@
         <title>Tags - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/</link>
         <description>Tags - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Algorithms</title>
     <link>https://jamesblogger.com/tags/Algorithms/</link>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Algorithms/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>Array</title>
+    <link>https://jamesblogger.com/tags/Array/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Array/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Leetcode</title>
     <link>https://jamesblogger.com/tags/Leetcode/</link>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Leetcode/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>Sliding Window</title>
+    <link>https://jamesblogger.com/tags/Sliding-Window/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Sliding-Window/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Dynamic Programming</title>
+    <link>https://jamesblogger.com/tags/Dynamic-Programming/</link>
+    <pubDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Dynamic-Programming/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>String</title>
+    <link>https://jamesblogger.com/tags/String/</link>
+    <pubDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/String/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Two Pointer</title>
     <link>https://jamesblogger.com/tags/Two-Pointer/</link>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+    <pubDate>Thu, 27 Feb 2025 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Two-Pointer/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Hash Table</title>
+    <link>https://jamesblogger.com/tags/Hash-Table/</link>
+    <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name></name>
+    </author><guid>https://jamesblogger.com/tags/Hash-Table/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>ASML</title>
@@ -37,41 +72,6 @@
     <pubDate>Fri, 21 Feb 2025 00:00:00 &#43;0000</pubDate><author>
         <name></name>
     </author><guid>https://jamesblogger.com/tags/Internship/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Life</title>
-    <link>https://jamesblogger.com/tags/Life/</link>
-    <pubDate>Fri, 21 Feb 2025 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Life/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Binary Search</title>
-    <link>https://jamesblogger.com/tags/Binary-Search/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Binary-Search/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>DFS</title>
-    <link>https://jamesblogger.com/tags/DFS/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/DFS/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Dynamic Programming</title>
-    <link>https://jamesblogger.com/tags/Dynamic-Programming/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Dynamic-Programming/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Greedy</title>
-    <link>https://jamesblogger.com/tags/Greedy/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name></name>
-    </author><guid>https://jamesblogger.com/tags/Greedy/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

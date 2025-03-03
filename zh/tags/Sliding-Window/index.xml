@@ -3,7 +3,14 @@
         <title>Sliding Window - tag - James Blog</title>
         <link>https://jamesblogger.com/zh/tags/Sliding-Window/</link>
         <description>Sliding Window - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Sliding-Window/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Sliding-Window/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-1343/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-1343/</guid>
+    <description><![CDATA[給一個整數 array nums，還有兩個數 k 和 threshold，找出長度為 k 且平均值大於或等於 threshold 的 subarray 數量。 題目連結🔗：https://leetcod]]></description>
+</item><item>
     <title>[ Leetcode 209 ] Minimum Size Subarray Sum | 解題思路分享</title>
     <link>https://jamesblogger.com/zh/program/leetcode-209/</link>
     <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>

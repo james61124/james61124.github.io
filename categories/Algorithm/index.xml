@@ -3,7 +3,37 @@
         <title>Algorithm - category - James Blog</title>
         <link>https://jamesblogger.com/categories/Algorithm/</link>
         <description>Algorithm - category - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/categories/Algorithm/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/categories/Algorithm/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-1343/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-1343/</guid>
+    <description><![CDATA[Given an integer array nums, along with two integers k and threshold, find the number of subarrays of length k whose average is greater than or equal to threshold.
+Link🔗：https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
+Problem Analysis The goal is to find all subarrays of length k that meet the given condition. This means we need to examine every subarray of length k.
+Brute Force A straightforward approach is to enumerate all possible subarrays of length k.]]></description>
+</item><item>
+    <title>[ Leetcode 1143 ] Longest Common Subsequence | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-1143/</link>
+    <pubDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-1143/</guid>
+    <description><![CDATA[Given two strings, text1 and text2, find the length of their Longest Common Subsequence (LCS).
+⚠️ Note:
+A subsequence does not need to be contiguous but must maintain the original order. If there is no common subsequence, return 0. Link🔗：https://leetcode.com/problems/longest-common-subsequence/
+Solution - DP (Double-Sequence Linear DP Problem) This problem can be solved using Double-Sequence Linear DP, as the input consists of two strings. We define dp[i+1][j+1] to represent the length of the longest common subsequence (LCS) ending at text1[i] and text2[j].]]></description>
+</item><item>
+    <title>[ Leetcode 11 ] Container With Most Water | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-11/</link>
+    <pubDate>Thu, 27 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-11/</guid>
+    <description><![CDATA[In a given array, each element represents the height of a vertical line. The task is to choose two lines such that the container formed with the x-axis can hold the maximum amount of water and return that maximum volume.
+Link🔗：https://leetcode.com/problems/container-with-most-water/
+Solution - Opposite Direction Two Pointers The key idea is that the area of the container is determined by:
+Area = min(Height of left, Height of right) × Distance between them We aim to find two lines that maximize this area.]]></description>
+</item><item>
     <title>[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | Solution Approach &amp; Explanation</title>
     <link>https://jamesblogger.com/program/leetcode-167/</link>
     <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
@@ -12,6 +42,22 @@
     <description><![CDATA[This problem is a variation of Two Sum. Given an array sorted in ascending order, the goal is to find two numbers whose sum equals the target value and return their 1-based indices.
 Link🔗：https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 Method - Opposite Direction Two Pointers This problem can be solved using opposite direction two-pointer technique, since this problem is about finding elements under certain constraints in a sorted array. Set left pointer at the first element and right pointer at the last element.]]></description>
+</item><item>
+    <title>[ Leetcode 26 ] Remove Duplicates from Sorted Array | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-26/</link>
+    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-26/</guid>
+    <description><![CDATA[Given an ascending sorted array - nums, the task is to remove duplicate elements in place so that each element appears only once and return the new length of the array.
+⚠ Requirements：
+Extra array space cannot be used; modifications must be done in place. If the returned array length is k, it means the first k elements of nums contain the result after removing duplicates, while the remaining elements can be arbitrary and do not need to be considered.]]></description>
+</item><item>
+    <title>[ Leetcode 349 ] Intersection of Two Arrays | 解題思路分享</title>
+    <link>https://jamesblogger.com/program/leetcode-349/</link>
+    <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-349/</guid>
+    <description><![CDATA[Given two integer arrays nums1 and nums2, find their intersection, ensuring that each element appears only once in the result. Link🔗：https://leetcode.com/problems/intersection-o]]></description>
 </item><item>
     <title>[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation</title>
     <link>https://jamesblogger.com/program/leetcode-125/</link>
@@ -50,21 +96,5 @@ Step 1 Create a dp array where dp[i] represents the length of the LIS that ends 
     <description><![CDATA[There are n rooms labeled from 0 to n-1. Each rooms[i] contains a list of keys that can be used to unlock other rooms. Initially, you start in room 0, which is already unlocked. The goal is to determine whether you can visit all rooms.
 Link🔗：https://leetcode.com/problems/keys-and-rooms/
 Solution - DFS This problem can be solved using Depth-First Search (DFS), as it is essentially a graph traversal problem. The rooms and their keys form a directed graph, where a key in rooms[i] represents an edge from room i to another room.]]></description>
-</item><item>
-    <title>Binary Search</title>
-    <link>https://jamesblogger.com/program/binary-search/</link>
-    <pubDate>Tue, 28 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/program/binary-search/</guid>
-    <description><![CDATA[Binary Search is a searching algorithm used to find the position of a key value in a sorted array. It works by repeatedly narrowing the search range in half, allowing it to quickly locate the target. As a result, the time complexity of Binary Search is O(logn).
-Basic Steps Compare the target with the middle value. If they are equal, return the index. If the target is less than the middle value, narrow the search range to the left half.]]></description>
-</item><item>
-    <title>DP Series - The Rod Cutting Problem</title>
-    <link>https://jamesblogger.com/program/the-rod-cutting-problem/</link>
-    <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/program/the-rod-cutting-problem/</guid>
-    <description><![CDATA[Given that selling a rod of length i yields a profit of pi , how do we cut a rod of length n to maximize the total revenue?
-Method 1: Recursion The most straightforward approach is to solve it using recursion. As shown in the figure below, rn represents the maximum revenue obtainable by cutting a rod of length n. Suppose i is the length of the first segment in the optimal solution; then rn = pi + rn−i, because pi is the revenue from the first segment in the optimal solution, and adding the maximum revenue from the remaining part gives us the answer.]]></description>
 </item></channel>
 </rss>

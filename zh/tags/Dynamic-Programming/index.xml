@@ -3,7 +3,14 @@
         <title>Dynamic Programming - tag - James Blog</title>
         <link>https://jamesblogger.com/zh/tags/Dynamic-Programming/</link>
         <description>Dynamic Programming - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Dynamic-Programming/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Dynamic-Programming/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 1143 ] Longest Common Subsequence | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-1143/</link>
+    <pubDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-1143/</guid>
+    <description><![CDATA[給定兩個字串 text1 和 text2，找出它們的最長公共子序列（LCS，Longest Common Subsequence）的長度。 ⚠️ 注意： 子序列不要求連續，但]]></description>
+</item><item>
     <title>[ Leetcode 300 ] Longest Increasing Subsequence | 解題思路分享</title>
     <link>https://jamesblogger.com/zh/program/leetcode-300/</link>
     <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
