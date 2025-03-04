@@ -14,6 +14,16 @@ Link🔗：https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-aver
 Problem Analysis The goal is to find all subarrays of length k that meet the given condition. This means we need to examine every subarray of length k.
 Brute Force A straightforward approach is to enumerate all possible subarrays of length k.]]></description>
 </item><item>
+    <title>[ Leetcode 3 ] Longest Substring Without Repeating Characters | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-3/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-3/</guid>
+    <description><![CDATA[Given a string s, find the length of the longest substring without repeating characters.
+Link🔗：https://leetcode.com/problems/longest-substring-without-repeating-characters/
+Problem Analysis The objective is to find the longest substring without repeating characters, meaning we must examine every possible substring.
+Brute Force The most straightforward brute-force approach is to enumerate all possible substrings and check for repeated characters. However, this results in a time complexity of O(n²), which is too slow and will cause time limit exceeded (TLE) errors.]]></description>
+</item><item>
     <title>[ Leetcode 349 ] Intersection of Two Arrays | 解題思路分享</title>
     <link>https://jamesblogger.com/program/leetcode-349/</link>
     <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>

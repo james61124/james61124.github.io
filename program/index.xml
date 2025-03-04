@@ -16,6 +16,34 @@
       <description>Given an integer array nums, along with two integers k and threshold, find the number of subarrays of length k whose average is greater than or equal to threshold.&#xA;Link🔗：https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/&#xA;Problem Analysis The goal is to find all subarrays of length k that meet the given condition. This means we need to examine every subarray of length k.&#xA;Brute Force A straightforward approach is to enumerate all possible subarrays of length k.</description>
     </item>
     <item>
+      <title>[ Leetcode 141 ] Linked List Cycle | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-141/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-141/</guid>
+      <description>Given a linked list, determine whether it contains a cycle.&#xA;Link🔗：https://leetcode.com/problems/linked-list-cycle/&#xA;Solution - Fast and Slow Pointers ( Floyd&amp;rsquo;s Cycle Detection Algorithm ) This is one of the classic problems for detecting a cycle in a linked list. The idea is to use two pointers, where the fast pointer moves twice as fast as the slow pointer. If there is a cycle, the fast pointer will eventually catch up to the slow pointer.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 19 ] Remove Nth Node From End of List | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-19/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-19/</guid>
+      <description>Given a linked list, we need to delete the Nth node from the end and return the updated linked list.&#xA;Link🔗：https://leetcode.com/problems/remove-nth-node-from-end-of-list/&#xA;Problem Analysis The key challenge is efficiently finding the Nth node from the end since searching in a linked list takes O(n) time.&#xA;Brute Force A straightforward approach would be to iterate through the list once while numbering each node. After determining the index of the node to delete, we would iterate again to locate and remove it.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 3 ] Longest Substring Without Repeating Characters | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-3/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-3/</guid>
+      <description>Given a string s, find the length of the longest substring without repeating characters.&#xA;Link🔗：https://leetcode.com/problems/longest-substring-without-repeating-characters/&#xA;Problem Analysis The objective is to find the longest substring without repeating characters, meaning we must examine every possible substring.&#xA;Brute Force The most straightforward brute-force approach is to enumerate all possible substrings and check for repeated characters. However, this results in a time complexity of O(n²), which is too slow and will cause time limit exceeded (TLE) errors.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 876 ] Middle of the Linked List | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-876/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-876/</guid>
+      <description>Given a linked list, return the middle node. Link🔗：https://leetcode.com/problems/middle-of-the-linked-list/</description>
+    </item>
+    <item>
       <title>[ Leetcode 1143 ] Longest Common Subsequence | Solution Approach &amp; Explanation</title>
       <link>https://jamesblogger.com/program/leetcode-1143/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>

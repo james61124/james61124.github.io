@@ -14,6 +14,42 @@ Link🔗：https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-aver
 Problem Analysis The goal is to find all subarrays of length k that meet the given condition. This means we need to examine every subarray of length k.
 Brute Force A straightforward approach is to enumerate all possible subarrays of length k.]]></description>
 </item><item>
+    <title>[ Leetcode 141 ] Linked List Cycle | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-141/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-141/</guid>
+    <description><![CDATA[Given a linked list, determine whether it contains a cycle.
+Link🔗：https://leetcode.com/problems/linked-list-cycle/
+Solution - Fast and Slow Pointers ( Floyd&rsquo;s Cycle Detection Algorithm ) This is one of the classic problems for detecting a cycle in a linked list. The idea is to use two pointers, where the fast pointer moves twice as fast as the slow pointer. If there is a cycle, the fast pointer will eventually catch up to the slow pointer.]]></description>
+</item><item>
+    <title>[ Leetcode 19 ] Remove Nth Node From End of List | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-19/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-19/</guid>
+    <description><![CDATA[Given a linked list, we need to delete the Nth node from the end and return the updated linked list.
+Link🔗：https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+Problem Analysis The key challenge is efficiently finding the Nth node from the end since searching in a linked list takes O(n) time.
+Brute Force A straightforward approach would be to iterate through the list once while numbering each node. After determining the index of the node to delete, we would iterate again to locate and remove it.]]></description>
+</item><item>
+    <title>[ Leetcode 3 ] Longest Substring Without Repeating Characters | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-3/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-3/</guid>
+    <description><![CDATA[Given a string s, find the length of the longest substring without repeating characters.
+Link🔗：https://leetcode.com/problems/longest-substring-without-repeating-characters/
+Problem Analysis The objective is to find the longest substring without repeating characters, meaning we must examine every possible substring.
+Brute Force The most straightforward brute-force approach is to enumerate all possible substrings and check for repeated characters. However, this results in a time complexity of O(n²), which is too slow and will cause time limit exceeded (TLE) errors.]]></description>
+</item><item>
+    <title>[ Leetcode 876 ] Middle of the Linked List | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-876/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-876/</guid>
+    <description><![CDATA[Given a linked list, return the middle node. Link🔗：https://leetcode.com/problems/middle-of-the-linked-list/]]></description>
+</item><item>
     <title>[ Leetcode 1143 ] Longest Common Subsequence | Solution Approach &amp; Explanation</title>
     <link>https://jamesblogger.com/program/leetcode-1143/</link>
     <pubDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</pubDate><author>
@@ -58,43 +94,5 @@ Extra array space cannot be used; modifications must be done in place. If the re
         <name>James</name>
     </author><guid>https://jamesblogger.com/program/leetcode-349/</guid>
     <description><![CDATA[Given two integer arrays nums1 and nums2, find their intersection, ensuring that each element appears only once in the result. Link🔗：https://leetcode.com/problems/intersection-o]]></description>
-</item><item>
-    <title>[ Leetcode 125 ] Valid Palindrome | Solution Approach &amp; Explanation</title>
-    <link>https://jamesblogger.com/program/leetcode-125/</link>
-    <pubDate>Sat, 15 Feb 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/program/leetcode-125/</guid>
-    <description><![CDATA[This problem requires determining whether a given string is a palindrome, ignoring case and non-alphanumeric characters.
-Link🔗：https://leetcode.com/problems/valid-palindrome/
-Solution - Opposite Direction Two Pointers This problem can be solved using an opposite direction two-pointer approach. The idea is to check whether the characters at the left and right pointers are the same. If they are, both pointers move inward. The main points to consider are ensuring that left and right do not go out of bounds and using isalnum() to check whether a character is alphanumeric.]]></description>
-</item><item>
-    <title>[ Leetcode 209 ] Minimum Size Subarray Sum | Solution Approach &amp; Explanation</title>
-    <link>https://jamesblogger.com/program/leetcode-209/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/program/leetcode-209/</guid>
-    <description><![CDATA[Given a positive integer array nums and a target value target, find the smallest contiguous subarray whose sum is greater than or equal to target. If no such subarray exists, return 0.
-Link🔗：https://leetcode.com/problems/minimum-size-subarray-sum/
-Method 1 - Sliding Window This problem can be solved using the Sliding Window technique. Since all numbers in the array are positive, we know that if a subarray sum reaches or exceeds target, adding more numbers will only make it longer but won&rsquo;t help find the shortest subarray.]]></description>
-</item><item>
-    <title>[ Leetcode 300 ] Longest Increasing Subsequence | Solution Approach &amp; Explanation</title>
-    <link>https://jamesblogger.com/program/leetcode-300/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/program/leetcode-300/</guid>
-    <description><![CDATA[Given an array, find the longest increasing subsequence (LIS). The elements in this subsequence must appear in increasing order but do not need to be consecutive in the original array.
-Link🔗：https://leetcode.com/problems/longest-increasing-subsequence/
-Method 1 - Dynamic Programming Time Complexity - O( n^2 ), due to the nested loops.
-Space Complexity - O( n ), as we need an array of size n for dp.
-Step 1 Create a dp array where dp[i] represents the length of the LIS that ends at nums[i].]]></description>
-</item><item>
-    <title>[ Leetcode 841 ] Keys and Rooms | Solution Approach &amp; Explanation</title>
-    <link>https://jamesblogger.com/program/leetcode-841/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/program/leetcode-841/</guid>
-    <description><![CDATA[There are n rooms labeled from 0 to n-1. Each rooms[i] contains a list of keys that can be used to unlock other rooms. Initially, you start in room 0, which is already unlocked. The goal is to determine whether you can visit all rooms.
-Link🔗：https://leetcode.com/problems/keys-and-rooms/
-Solution - DFS This problem can be solved using Depth-First Search (DFS), as it is essentially a graph traversal problem. The rooms and their keys form a directed graph, where a key in rooms[i] represents an edge from room i to another room.]]></description>
 </item></channel>
 </rss>

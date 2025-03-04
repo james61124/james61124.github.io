@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Two Pointers - tag - James Blog</title>
+        <link>https://jamesblogger.com/tags/Two-Pointers/</link>
+        <description>Two Pointers - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Two-Pointers/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 141 ] Linked List Cycle | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-141/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-141/</guid>
+    <description><![CDATA[Given a linked list, determine whether it contains a cycle.
+Link🔗：https://leetcode.com/problems/linked-list-cycle/
+Solution - Fast and Slow Pointers ( Floyd&rsquo;s Cycle Detection Algorithm ) This is one of the classic problems for detecting a cycle in a linked list. The idea is to use two pointers, where the fast pointer moves twice as fast as the slow pointer. If there is a cycle, the fast pointer will eventually catch up to the slow pointer.]]></description>
+</item><item>
+    <title>[ Leetcode 19 ] Remove Nth Node From End of List | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-19/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-19/</guid>
+    <description><![CDATA[Given a linked list, we need to delete the Nth node from the end and return the updated linked list.
+Link🔗：https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+Problem Analysis The key challenge is efficiently finding the Nth node from the end since searching in a linked list takes O(n) time.
+Brute Force A straightforward approach would be to iterate through the list once while numbering each node. After determining the index of the node to delete, we would iterate again to locate and remove it.]]></description>
+</item><item>
+    <title>[ Leetcode 876 ] Middle of the Linked List | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-876/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-876/</guid>
+    <description><![CDATA[Given a linked list, return the middle node. Link🔗：https://leetcode.com/problems/middle-of-the-linked-list/]]></description>
+</item></channel>
+</rss>

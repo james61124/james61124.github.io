@@ -16,6 +16,34 @@
       <description>給一個整數 array nums，還有兩個數 k 和 threshold，找出長度為 k 且平均值大於或等於 threshold 的 subarray 數量。 題目連結🔗：https://leetcod</description>
     </item>
     <item>
+      <title>[ Leetcode 141 ] Linked List Cycle | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-141/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-141/</guid>
+      <description>給一個 linked list，要判斷有沒有 cycle。 題目連結🔗：https://leetcode.com/problems/linked-list-c</description>
+    </item>
+    <item>
+      <title>[ Leetcode 19 ] Remove Nth Node From End of List | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-19/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-19/</guid>
+      <description>給一個 linked list，要 delete 倒數第 n 個 node，並且 return 整個 linked list。 題目連結🔗：https://leetcode.com/problems/re</description>
+    </item>
+    <item>
+      <title>[ Leetcode 3 ] Longest Substring Without Repeating Characters | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-3/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-3/</guid>
+      <description>給定一個字串 s，找出其中 不含 repeated character 的最長 substring 長度。 題目連結🔗：https://leetcode.com/problems/longest-sub</description>
+    </item>
+    <item>
+      <title>[ Leetcode 876 ] Middle of the Linked List | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-876/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-876/</guid>
+      <description>給一個 linked list，要 return 中間那個 node。 題目連結🔗：https://leetcode.com/problems/middle-of-the-</description>
+    </item>
+    <item>
       <title>[ Leetcode 1143 ] Longest Common Subsequence | 解題思路分享</title>
       <link>https://jamesblogger.com/zh/program/leetcode-1143/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>

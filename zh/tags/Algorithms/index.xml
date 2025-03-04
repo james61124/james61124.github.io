@@ -11,6 +11,13 @@
     </author><guid>https://jamesblogger.com/zh/program/leetcode-1343/</guid>
     <description><![CDATA[給一個整數 array nums，還有兩個數 k 和 threshold，找出長度為 k 且平均值大於或等於 threshold 的 subarray 數量。 題目連結🔗：https://leetcod]]></description>
 </item><item>
+    <title>[ Leetcode 3 ] Longest Substring Without Repeating Characters | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-3/</link>
+    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-3/</guid>
+    <description><![CDATA[給定一個字串 s，找出其中 不含 repeated character 的最長 substring 長度。 題目連結🔗：https://leetcode.com/problems/longest-sub]]></description>
+</item><item>
     <title>[ Leetcode 1143 ] Longest Common Subsequence | 解題思路分享</title>
     <link>https://jamesblogger.com/zh/program/leetcode-1143/</link>
     <pubDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</pubDate><author>
@@ -66,12 +73,5 @@
         <name>James</name>
     </author><guid>https://jamesblogger.com/zh/program/leetcode-300/</guid>
     <description><![CDATA[在一個給定的 array 中，找出一個長度最長的遞增的 sub array，這個 sub array 中的 element 必須是按順序排列，但並不要求它們在原本的 array 中的位置是連續的。 題目連結🔗]]></description>
-</item><item>
-    <title>[ Leetcode 841 ] Keys and Rooms | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-841/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-841/</guid>
-    <description><![CDATA[有 n 個房間，編號從 0 到 n-1，其中 rooms[i] 包含一個 list，代表房間 i 中可以獲得的鑰匙，這些鑰匙可以用來打開其他房間。最開始，你在房間 0，且已經打]]></description>
 </item></channel>
 </rss>
