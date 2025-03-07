@@ -6,8 +6,57 @@
     <description>Recent content in Programs on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesblogger.com/program/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ Leetcode 20 ] Valid Parentheses | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-20/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-20/</guid>
+      <description>Given a string s containing only the characters (, ), {, }, [ and ], check whether the string forms a valid set of parentheses.&#xA;Link🔗：https://leetcode.com/problems/valid-parentheses/&#xA;Problem Analysis This is a classic First In, Last Out (FILO) problem, which makes a stack the ideal data structure for solving it. We also need to consider edge cases carefully.&#xA;Solution - Stack We use a stack while iterating through the string:&#xA;If we encounter a left parenthesis, we push it onto the stack.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 21 ] Merge Two Sorted Lists | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-21/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-21/</guid>
+      <description>Given a positive integer array nums and a positive integer k, find the number of subarrays whose product is less than k.&#xA;Link🔗：https://leetcode.com/problems/merge-two-sorted-lists/&#xA;Problem Analysis This problem is straightforward if you think from a two-pointer perspective. The key is to carefully determine which node points to which, and which pointer moves forward.&#xA;Solution - Two Pointers We need a pointer cur to track the last merged node. We compare the values of list1 and list2, and link cur-&amp;gt;next to the smaller one.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 227 ] Basic Calculator II | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-227/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-227/</guid>
+      <description>Given a string containing non-negative integers, +, -, *, /, and spaces, evaluate its value while following the standard order of operations (multiplication and division before addition and subtraction). The use of eval() is not allowed.&#xA;Link🔗：https://leetcode.com/problems/basic-calculator-ii/&#xA;Problem Analysis Since multiplication and division must be processed before addition and subtraction, the problem requires handling Last In, First Out (LIFO) operations. This suggests that a stack would be an effective data structure to use.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 496 ] Next Greater Element I | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-496/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-496/</guid>
+      <description>Given two arrays nums1 and nums2, where nums1 is a subset of nums2, we need to find the next greater element for each number in nums1 within nums2.&#xA;Link🔗：https://leetcode.com/problems/next-greater-element-i/&#xA;Problem Analysis The key challenge is how to efficiently find the next greater element for each number in nums1 without iterating over nums2 repeatedly. A brute-force approach would be too slow, so we need an optimized method.&#xA;Solution - Monotone Stack The design of the Monotone Stack fits perfectly for this problem because we can ensure that the numbers in the stack are always in decreasing order.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 739 ] Daily Temperatures | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-739/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-739/</guid>
+      <description>Given an integer array temperatures, representing the temperature on each day, for each day, we need to find the nearest future day with a higher temperature and return the number of days between the current day and that day. If there is no higher temperature in the future, return 0.&#xA;Link🔗：https://leetcode.com/problems/daily-temperatures/&#xA;Problem Analysis The key to this problem is finding the next number greater than the current one, so we can directly think of using a Monotone Stack.</description>
+    </item>
+    <item>
+      <title>[ Algorithm ] Sliding Window | Core Concepts &amp; Leetcode Problems Analysis</title>
+      <link>https://jamesblogger.com/program/sliding-window/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/sliding-window/</guid>
+      <description>The Sliding Window technique utilizes two pointers, left and right, to maintain a dynamic range (window). By shifting this window, we can reduce redundant computations, making it particularly useful for problems involving subarrays or substrings.&#xA;Sliding Window is categorized into two types:&#xA;Fixed-Size Sliding Window Variable-Size Sliding Window Fixed-Size Sliding Window Used for problems that require subarrays or substrings of a fixed length. The window moves one step to the right at a time, removing the leftmost element and adding a new rightmost element.</description>
+    </item>
+    <item>
+      <title>[ Leetcode 713 ] Subarray Product Less Than K | Solution Approach &amp; Explanation</title>
+      <link>https://jamesblogger.com/program/leetcode-713/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/program/leetcode-713/</guid>
+      <description>Given a positive integer array nums and a positive integer k, find the number of subarrays whose product is less than k.&#xA;Link🔗：https://leetcode.com/problems/subarray-product-less-than-k/&#xA;Problem Analysis When I see a problem involving a constraint on the subarray&amp;rsquo;s size but with a flexible range, I immediately consider using a variable-size sliding window approach. The key question here is: how should we move the left and right pointers to ensure we capture all valid subarrays without missing any?</description>
+    </item>
     <item>
       <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | Solution Approach &amp; Explanation</title>
       <link>https://jamesblogger.com/program/leetcode-1343/</link>

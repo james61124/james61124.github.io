@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Monotone Stack - tag - James Blog</title>
+        <link>http://localhost:1313/zh/tags/Monotone-Stack/</link>
+        <description>Monotone Stack - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Fri, 07 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/zh/tags/Monotone-Stack/" rel="self" type="application/rss+xml" /><item>
+    <title>Stack &amp; Monotone Stack | 核心概念與 Leetcode 題型解析</title>
+    <link>http://localhost:1313/zh/program/stack/</link>
+    <pubDate>Fri, 07 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>http://localhost:1313/zh/program/stack/</guid>
+    <description><![CDATA[Stack 是一種 Last In, First Out (LIFO) 的 data structure，有點像是疊積木，所以最大的特色就是，你永遠只能看到最上面這個 element，要 remove element 也只能 remove 最上面的]]></description>
+</item></channel>
+</rss>

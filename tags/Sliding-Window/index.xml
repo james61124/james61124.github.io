@@ -3,7 +3,25 @@
         <title>Sliding Window - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/Sliding-Window/</link>
         <description>Sliding Window - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Sliding-Window/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Sliding-Window/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Algorithm ] Sliding Window | Core Concepts &amp; Leetcode Problems Analysis</title>
+    <link>https://jamesblogger.com/program/sliding-window/</link>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/sliding-window/</guid>
+    <description><![CDATA[The Sliding Window technique utilizes two pointers, left and right, to maintain a dynamic range (window). By shifting this window, we can reduce redundant computations, making it particularly useful for problems involving subarrays or substrings.
+Sliding Window is categorized into two types:
+Fixed-Size Sliding Window Variable-Size Sliding Window Fixed-Size Sliding Window Used for problems that require subarrays or substrings of a fixed length. The window moves one step to the right at a time, removing the leftmost element and adding a new rightmost element.]]></description>
+</item><item>
+    <title>[ Leetcode 713 ] Subarray Product Less Than K | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-713/</link>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-713/</guid>
+    <description><![CDATA[Given a positive integer array nums and a positive integer k, find the number of subarrays whose product is less than k.
+Link🔗：https://leetcode.com/problems/subarray-product-less-than-k/
+Problem Analysis When I see a problem involving a constraint on the subarray&rsquo;s size but with a flexible range, I immediately consider using a variable-size sliding window approach. The key question here is: how should we move the left and right pointers to ensure we capture all valid subarrays without missing any?]]></description>
+</item><item>
     <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | Solution Approach &amp; Explanation</title>
     <link>https://jamesblogger.com/program/leetcode-1343/</link>
     <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>

@@ -1,0 +1,46 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Stack - tag - James Blog</title>
+        <link>https://jamesblogger.com/tags/Stack/</link>
+        <description>Stack - tag - James Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Stack/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 20 ] Valid Parentheses | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-20/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-20/</guid>
+    <description><![CDATA[Given a string s containing only the characters (, ), {, }, [ and ], check whether the string forms a valid set of parentheses.
+Link🔗：https://leetcode.com/problems/valid-parentheses/
+Problem Analysis This is a classic First In, Last Out (FILO) problem, which makes a stack the ideal data structure for solving it. We also need to consider edge cases carefully.
+Solution - Stack We use a stack while iterating through the string:
+If we encounter a left parenthesis, we push it onto the stack.]]></description>
+</item><item>
+    <title>[ Leetcode 227 ] Basic Calculator II | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-227/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-227/</guid>
+    <description><![CDATA[Given a string containing non-negative integers, +, -, *, /, and spaces, evaluate its value while following the standard order of operations (multiplication and division before addition and subtraction). The use of eval() is not allowed.
+Link🔗：https://leetcode.com/problems/basic-calculator-ii/
+Problem Analysis Since multiplication and division must be processed before addition and subtraction, the problem requires handling Last In, First Out (LIFO) operations. This suggests that a stack would be an effective data structure to use.]]></description>
+</item><item>
+    <title>[ Leetcode 496 ] Next Greater Element I | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-496/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-496/</guid>
+    <description><![CDATA[Given two arrays nums1 and nums2, where nums1 is a subset of nums2, we need to find the next greater element for each number in nums1 within nums2.
+Link🔗：https://leetcode.com/problems/next-greater-element-i/
+Problem Analysis The key challenge is how to efficiently find the next greater element for each number in nums1 without iterating over nums2 repeatedly. A brute-force approach would be too slow, so we need an optimized method.
+Solution - Monotone Stack The design of the Monotone Stack fits perfectly for this problem because we can ensure that the numbers in the stack are always in decreasing order.]]></description>
+</item><item>
+    <title>[ Leetcode 739 ] Daily Temperatures | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-739/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-739/</guid>
+    <description><![CDATA[Given an integer array temperatures, representing the temperature on each day, for each day, we need to find the nearest future day with a higher temperature and return the number of days between the current day and that day. If there is no higher temperature in the future, return 0.
+Link🔗：https://leetcode.com/problems/daily-temperatures/
+Problem Analysis The key to this problem is finding the next number greater than the current one, so we can directly think of using a Monotone Stack.]]></description>
+</item></channel>
+</rss>

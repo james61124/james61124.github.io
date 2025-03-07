@@ -3,7 +3,14 @@
         <title>Algorithms - tag - James Blog</title>
         <link>https://jamesblogger.com/zh/tags/Algorithms/</link>
         <description>Algorithms - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Algorithms/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Algorithms/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Algorithm ] Sliding Window | 核心概念與 Leetcode 題型解析</title>
+    <link>https://jamesblogger.com/zh/program/sliding-window/</link>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/sliding-window/</guid>
+    <description><![CDATA[Sliding Window 就是利用 left 和 right 兩個指標來維持一個動態區間 ( window )，透過移動這個 window 來減少重複運算，主要用在處理 subarray 或是 substring 之類的問題。 Sliding Window 分成兩種 : Fixed-Size Sliding Window Variable-Size Sliding W]]></description>
+</item><item>
     <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | 解題思路分享</title>
     <link>https://jamesblogger.com/zh/program/leetcode-1343/</link>
     <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
@@ -66,12 +73,5 @@
         <name>James</name>
     </author><guid>https://jamesblogger.com/zh/program/leetcode-209/</guid>
     <description><![CDATA[給定一個正整數陣列 nums 和一個目標數 target，找出最短的連續子陣列，使得其數字總和大於或等於 target。如果沒有符合條件的子陣列，則回傳 0]]></description>
-</item><item>
-    <title>[ Leetcode 300 ] Longest Increasing Subsequence | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-300/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-300/</guid>
-    <description><![CDATA[在一個給定的 array 中，找出一個長度最長的遞增的 sub array，這個 sub array 中的 element 必須是按順序排列，但並不要求它們在原本的 array 中的位置是連續的。 題目連結🔗]]></description>
 </item></channel>
 </rss>

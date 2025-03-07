@@ -6,8 +6,57 @@
     <description>Recent content in Programs on James Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://jamesblogger.com/zh/program/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ Leetcode 20 ] Valid Parentheses | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-20/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-20/</guid>
+      <description>給一個只包含 &amp;rsquo;(&amp;rsquo;, &amp;rsquo;)&amp;rsquo;, &amp;rsquo;{&amp;rsquo;, &amp;rsquo;}&amp;rsquo;, &amp;rsquo;[&amp;rsquo;, &amp;rsquo;]&amp;rsquo; 的 string s，檢查這個 string 是否是 valid 的括號組合。 題目連結🔗：https://leetcode.com/problems/val</description>
+    </item>
+    <item>
+      <title>[ Leetcode 21 ] Merge Two Sorted Lists | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-21/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-21/</guid>
+      <description>給一個正整數 array nums 和一個正整數 k，找出乘積小於 k 的 subarray 數量。 題目連結🔗：https://leetcode.com/problems/merge-</description>
+    </item>
+    <item>
+      <title>[ Leetcode 227 ] Basic Calculator II | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-227/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-227/</guid>
+      <description>給一個只包含非負整數、+、-、*、/ 和空格的 string，計算它的 value。運算順序需符合標準的數學運算規則（ 先乘除，後加減 ），但不允許使</description>
+    </item>
+    <item>
+      <title>[ Leetcode 496 ] Next Greater Element I | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-496/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-496/</guid>
+      <description>給定兩個 array nums1 和 nums2，其中 nums1 是 nums2 的 subset，我們需要在 nums2 中為 nums1 中的每個數字找到下一個較大元素。 題目連結🔗：https://leetc</description>
+    </item>
+    <item>
+      <title>[ Leetcode 739 ] Daily Temperatures | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-739/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-739/</guid>
+      <description>給一個整數 array temperatures，表示每天的溫度，對於每一天，我們需要找到離當天最近的一個更高的日子，並返回該天跟當前天的天數，如果沒有</description>
+    </item>
+    <item>
+      <title>[ Algorithm ] Sliding Window | 核心概念與 Leetcode 題型解析</title>
+      <link>https://jamesblogger.com/zh/program/sliding-window/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/sliding-window/</guid>
+      <description>Sliding Window 就是利用 left 和 right 兩個指標來維持一個動態區間 ( window )，透過移動這個 window 來減少重複運算，主要用在處理 subarray 或是 substring 之類的問題。 Sliding Window 分成兩種 : Fixed-Size Sliding Window Variable-Size Sliding W</description>
+    </item>
+    <item>
+      <title>[ Leetcode 713 ] Subarray Product Less Than K | 解題思路分享</title>
+      <link>https://jamesblogger.com/zh/program/leetcode-713/</link>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jamesblogger.com/zh/program/leetcode-713/</guid>
+      <description>給一個正整數 array nums 和一個正整數 k，找出乘積小於 k 的 subarray 數量。 題目連結🔗：https://leetcode.com/problems/subarr</description>
+    </item>
     <item>
       <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | 解題思路分享</title>
       <link>https://jamesblogger.com/zh/program/leetcode-1343/</link>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[ Algorithm ] Sliding Window | 核心概念與 Leetcode 題型解析 on James Blog</title>
+    <link>https://jamesblogger.com/zh/program/sliding-window/</link>
+    <description>Recent content in [ Algorithm ] Sliding Window | 核心概念與 Leetcode 題型解析 on James Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://jamesblogger.com/zh/program/sliding-window/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

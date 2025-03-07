@@ -3,7 +3,16 @@
         <title>Array - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/Array/</link>
         <description>Array - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Array/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Array/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 713 ] Subarray Product Less Than K | Solution Approach &amp; Explanation</title>
+    <link>https://jamesblogger.com/program/leetcode-713/</link>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/leetcode-713/</guid>
+    <description><![CDATA[Given a positive integer array nums and a positive integer k, find the number of subarrays whose product is less than k.
+Link🔗：https://leetcode.com/problems/subarray-product-less-than-k/
+Problem Analysis When I see a problem involving a constraint on the subarray&rsquo;s size but with a flexible range, I immediately consider using a variable-size sliding window approach. The key question here is: how should we move the left and right pointers to ensure we capture all valid subarrays without missing any?]]></description>
+</item><item>
     <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | Solution Approach &amp; Explanation</title>
     <link>https://jamesblogger.com/program/leetcode-1343/</link>
     <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>

@@ -3,7 +3,56 @@
         <title>Leetcode - tag - James Blog</title>
         <link>https://jamesblogger.com/zh/tags/Leetcode/</link>
         <description>Leetcode - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Leetcode/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh</language><lastBuildDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/zh/tags/Leetcode/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Leetcode 20 ] Valid Parentheses | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-20/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-20/</guid>
+    <description><![CDATA[給一個只包含 &rsquo;(&rsquo;, &rsquo;)&rsquo;, &rsquo;{&rsquo;, &rsquo;}&rsquo;, &rsquo;[&rsquo;, &rsquo;]&rsquo; 的 string s，檢查這個 string 是否是 valid 的括號組合。 題目連結🔗：https://leetcode.com/problems/val]]></description>
+</item><item>
+    <title>[ Leetcode 21 ] Merge Two Sorted Lists | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-21/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-21/</guid>
+    <description><![CDATA[給一個正整數 array nums 和一個正整數 k，找出乘積小於 k 的 subarray 數量。 題目連結🔗：https://leetcode.com/problems/merge-]]></description>
+</item><item>
+    <title>[ Leetcode 227 ] Basic Calculator II | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-227/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-227/</guid>
+    <description><![CDATA[給一個只包含非負整數、+、-、*、/ 和空格的 string，計算它的 value。運算順序需符合標準的數學運算規則（ 先乘除，後加減 ），但不允許使]]></description>
+</item><item>
+    <title>[ Leetcode 496 ] Next Greater Element I | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-496/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-496/</guid>
+    <description><![CDATA[給定兩個 array nums1 和 nums2，其中 nums1 是 nums2 的 subset，我們需要在 nums2 中為 nums1 中的每個數字找到下一個較大元素。 題目連結🔗：https://leetc]]></description>
+</item><item>
+    <title>[ Leetcode 739 ] Daily Temperatures | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-739/</link>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-739/</guid>
+    <description><![CDATA[給一個整數 array temperatures，表示每天的溫度，對於每一天，我們需要找到離當天最近的一個更高的日子，並返回該天跟當前天的天數，如果沒有]]></description>
+</item><item>
+    <title>[ Algorithm ] Sliding Window | 核心概念與 Leetcode 題型解析</title>
+    <link>https://jamesblogger.com/zh/program/sliding-window/</link>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/sliding-window/</guid>
+    <description><![CDATA[Sliding Window 就是利用 left 和 right 兩個指標來維持一個動態區間 ( window )，透過移動這個 window 來減少重複運算，主要用在處理 subarray 或是 substring 之類的問題。 Sliding Window 分成兩種 : Fixed-Size Sliding Window Variable-Size Sliding W]]></description>
+</item><item>
+    <title>[ Leetcode 713 ] Subarray Product Less Than K | 解題思路分享</title>
+    <link>https://jamesblogger.com/zh/program/leetcode-713/</link>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/zh/program/leetcode-713/</guid>
+    <description><![CDATA[給一個正整數 array nums 和一個正整數 k，找出乘積小於 k 的 subarray 數量。 題目連結🔗：https://leetcode.com/problems/subarr]]></description>
+</item><item>
     <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | 解題思路分享</title>
     <link>https://jamesblogger.com/zh/program/leetcode-1343/</link>
     <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
@@ -24,54 +73,5 @@
         <name>James</name>
     </author><guid>https://jamesblogger.com/zh/program/leetcode-19/</guid>
     <description><![CDATA[給一個 linked list，要 delete 倒數第 n 個 node，並且 return 整個 linked list。 題目連結🔗：https://leetcode.com/problems/re]]></description>
-</item><item>
-    <title>[ Leetcode 3 ] Longest Substring Without Repeating Characters | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-3/</link>
-    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-3/</guid>
-    <description><![CDATA[給定一個字串 s，找出其中 不含 repeated character 的最長 substring 長度。 題目連結🔗：https://leetcode.com/problems/longest-sub]]></description>
-</item><item>
-    <title>[ Leetcode 876 ] Middle of the Linked List | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-876/</link>
-    <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-876/</guid>
-    <description><![CDATA[給一個 linked list，要 return 中間那個 node。 題目連結🔗：https://leetcode.com/problems/middle-of-the-]]></description>
-</item><item>
-    <title>[ Leetcode 1143 ] Longest Common Subsequence | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-1143/</link>
-    <pubDate>Sat, 01 Mar 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-1143/</guid>
-    <description><![CDATA[給定兩個字串 text1 和 text2，找出它們的最長公共子序列（LCS，Longest Common Subsequence）的長度。 ⚠️ 注意： 子序列不要求連續，但]]></description>
-</item><item>
-    <title>[ Leetcode 11 ] Container With Most Water | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-11/</link>
-    <pubDate>Thu, 27 Feb 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-11/</guid>
-    <description><![CDATA[在一個 array 中，每個元素代表垂直線的高度，選擇兩條線，讓它們與 x 軸形成的容器能夠容納最多的水，並返回最大水量。 題目連結🔗：https://lee]]></description>
-</item><item>
-    <title>[ Leetcode 167 ] Two Sum II - Input Array Is Sorted | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-167/</link>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-167/</guid>
-    <description><![CDATA[這題是 Two Sum 的變體，給定一個「遞增排序」的 array，要求找出兩個數，使它們的和等於目標值，並返回這兩個數的「1-based index」 題目連]]></description>
-</item><item>
-    <title>[ Leetcode 26 ] Remove Duplicates from Sorted Array | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-26/</link>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-26/</guid>
-    <description><![CDATA[給定一個 ascending sorted array - nums，要原地移除重複出現的元素，使得每個元素只出現一次，並返回移除後的陣列長度。 ⚠ 要求： 不能使用額外的陣列空間，必須在原]]></description>
-</item><item>
-    <title>[ Leetcode 349 ] Intersection of Two Arrays | 解題思路分享</title>
-    <link>https://jamesblogger.com/zh/program/leetcode-349/</link>
-    <pubDate>Sun, 23 Feb 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/zh/program/leetcode-349/</guid>
-    <description><![CDATA[給兩個整數陣列 nums1 和 nums2，找出它們的交集，並且結果中每個元素只能出現一次。 題目連結🔗：https://leetcode.com/prob]]></description>
 </item></channel>
 </rss>

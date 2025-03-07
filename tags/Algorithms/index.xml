@@ -3,7 +3,16 @@
         <title>Algorithms - tag - James Blog</title>
         <link>https://jamesblogger.com/tags/Algorithms/</link>
         <description>Algorithms - tag - James Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Algorithms/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jamesblogger.com/tags/Algorithms/" rel="self" type="application/rss+xml" /><item>
+    <title>[ Algorithm ] Sliding Window | Core Concepts &amp; Leetcode Problems Analysis</title>
+    <link>https://jamesblogger.com/program/sliding-window/</link>
+    <pubDate>Wed, 05 Mar 2025 00:00:00 &#43;0000</pubDate><author>
+        <name>James</name>
+    </author><guid>https://jamesblogger.com/program/sliding-window/</guid>
+    <description><![CDATA[The Sliding Window technique utilizes two pointers, left and right, to maintain a dynamic range (window). By shifting this window, we can reduce redundant computations, making it particularly useful for problems involving subarrays or substrings.
+Sliding Window is categorized into two types:
+Fixed-Size Sliding Window Variable-Size Sliding Window Fixed-Size Sliding Window Used for problems that require subarrays or substrings of a fixed length. The window moves one step to the right at a time, removing the leftmost element and adding a new rightmost element.]]></description>
+</item><item>
     <title>[ Leetcode 1343 ] Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold | Solution Approach &amp; Explanation</title>
     <link>https://jamesblogger.com/program/leetcode-1343/</link>
     <pubDate>Mon, 03 Mar 2025 00:00:00 &#43;0000</pubDate><author>
@@ -86,16 +95,5 @@ Solution - Opposite Direction Two Pointers This problem can be solved using an o
     <description><![CDATA[Given a positive integer array nums and a target value target, find the smallest contiguous subarray whose sum is greater than or equal to target. If no such subarray exists, return 0.
 Link🔗：https://leetcode.com/problems/minimum-size-subarray-sum/
 Method 1 - Sliding Window This problem can be solved using the Sliding Window technique. Since all numbers in the array are positive, we know that if a subarray sum reaches or exceeds target, adding more numbers will only make it longer but won&rsquo;t help find the shortest subarray.]]></description>
-</item><item>
-    <title>[ Leetcode 300 ] Longest Increasing Subsequence | Solution Approach &amp; Explanation</title>
-    <link>https://jamesblogger.com/program/leetcode-300/</link>
-    <pubDate>Wed, 29 Jan 2025 00:00:00 &#43;0000</pubDate><author>
-        <name>James</name>
-    </author><guid>https://jamesblogger.com/program/leetcode-300/</guid>
-    <description><![CDATA[Given an array, find the longest increasing subsequence (LIS). The elements in this subsequence must appear in increasing order but do not need to be consecutive in the original array.
-Link🔗：https://leetcode.com/problems/longest-increasing-subsequence/
-Method 1 - Dynamic Programming Time Complexity - O( n^2 ), due to the nested loops.
-Space Complexity - O( n ), as we need an array of size n for dp.
-Step 1 Create a dp array where dp[i] represents the length of the LIS that ends at nums[i].]]></description>
 </item></channel>
 </rss>
