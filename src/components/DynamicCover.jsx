@@ -92,6 +92,9 @@ export default function DynamicCover() {
           />
         </svg>
       </motion.div>
+
+
+      
     </div>
   );
 }

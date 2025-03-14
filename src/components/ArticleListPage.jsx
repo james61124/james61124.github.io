@@ -38,7 +38,7 @@ export default function ArticleListPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
+    <div className="min-h-screen bg-gray-50 p-12">
       <h1 className="text-4xl font-bold mb-12 text-center">文章列表</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {articles.map((article) => (

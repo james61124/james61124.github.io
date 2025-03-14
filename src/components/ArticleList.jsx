@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
+import { format } from "date-fns"; // 確保已安裝 date-fns
 
 const articlesPerPage = 6;
 
@@ -14,7 +15,8 @@ export default function ArticleListPage() {
       slug: `article-${i + 1}`,
       title: `文章標題 ${i + 1}`,
       description: `這是第 ${i + 1} 篇文章的簡要描述，講述了重要內容概述。`,
-      image: `https://source.unsplash.com/random/600x400?sig=${i}`,
+      image: `/images/Guitar.JPEG`,
+      date: format(new Date(), "yyyy-MM-dd"), // 日期轉為 yyyy-MM-dd 格式
     }));
     setArticles(fakeArticles);
   }, []);
@@ -33,16 +35,22 @@ export default function ArticleListPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-48 px-14">
-      <h1 className="text-4xl font-bold mb-12 text-center">文章列</h1>
+    <div
+      className="min-h-screen pt-32 pb-32 px-8"
+      style={{
+        background: "linear-gradient(to bottom, #f9fafb, #e5e7eb)",
+      }}
+    >
+      <h1 className="text-4xl font-bold mb-16 text-center text-gray-900">
+        文章列表
+      </h1>
 
-      {/* 內容區域，限制最大寬度 + 居中 */}
-      <div className="max-w-5lg mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         {currentArticles.map((article) => (
           <Link
             key={article.slug}
-            to={`/article/${article.slug}`}
-            className="group block overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-transform transform hover:-translate-y-1"
+            to={`/markdown`}
+            className="group block overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-transform transform hover:-translate-y-2 bg-white"
           >
             <img
               src={article.image}
@@ -50,20 +58,24 @@ export default function ArticleListPage() {
               className="w-full h-56 object-cover"
             />
             <div className="p-6">
-              <h2 className="text-2xl font-semibold text-gray-800 group-hover:text-blue-600">
+              <h2 className="text-2xl font-semibold text-gray-900 group-hover:text-blue-600">
                 {article.title}
               </h2>
               <p className="text-gray-600 mt-4 line-clamp-3">
                 {article.description}
               </p>
+              <p className="mt-6 text-sm text-gray-500">發佈日期：{article.date}</p>
             </div>
           </Link>
         ))}
       </div>
 
       {/* 頁碼 */}
-      <div className="flex justify-center mt-12 space-x-2">
-        <Button onClick={() => goToPage(currentPage - 1)} disabled={currentPage === 1}>
+      <div className="flex justify-center mt-16 space-x-2">
+        <Button
+          onClick={() => goToPage(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
           上一頁
         </Button>
 
@@ -72,12 +84,16 @@ export default function ArticleListPage() {
             key={i + 1}
             onClick={() => goToPage(i + 1)}
             variant={currentPage === i + 1 ? "default" : "outline"}
+            className="rounded-full w-10 h-10"
           >
             {i + 1}
           </Button>
         ))}
 
-        <Button onClick={() => goToPage(currentPage + 1)} disabled={currentPage === totalPages}>
+        <Button
+          onClick={() => goToPage(currentPage + 1)}
+          disabled={currentPage === totalPages}
+        >
           下一頁
         </Button>
       </div>

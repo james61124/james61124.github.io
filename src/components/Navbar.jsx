@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
@@ -24,6 +25,13 @@ export default function Navbar() {
   const navTextColor = isScrolled ? 'text-gray-900' : 'text-white';
   const hoverTextColor = isScrolled ? 'hover:text-black' : 'hover:text-gray-300';
 
+  const navLinks = [
+    { label: 'Life', path: '/life' },
+    { label: 'About', path: '/about' },
+    { label: 'Services', path: '/services' },
+    { label: 'Contact', path: '/contact' },
+  ];
+
   return (
     <motion.nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -32,27 +40,27 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo 區域 */}
-        <a href="/" className={`text-2xl font-bold ${navTextColor}`}>
+        <Link to="/" className={`text-2xl font-bold ${navTextColor}`}>
           MyBrand
-        </a>
+        </Link>
 
         {/* Desktop 導航連結 */}
         <div className="hidden md:flex space-x-8">
-          {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
-            <motion.a
-              key={index}
-              href={`#${item.toLowerCase()}`}
-              whileHover={{ scale: 1.1 }}
-              className={`relative transition-colors duration-300 ${navTextColor} ${hoverTextColor}`}
-            >
-              {item}
-              <motion.span
-                className="absolute left-0 bottom-0 w-full h-0.5 bg-current"
-                initial={{ scaleX: 0 }}
-                whileHover={{ scaleX: 1 }}
-                transition={{ duration: 0.3 }}
-              />
-            </motion.a>
+          {navLinks.map((link, index) => (
+            <motion.div key={index} whileHover={{ scale: 1.1 }}>
+              <Link
+                to={link.path}
+                className={`relative transition-colors duration-300 ${navTextColor} ${hoverTextColor}`}
+              >
+                {link.label}
+                <motion.span
+                  className="absolute left-0 bottom-0 w-full h-0.5 bg-current"
+                  initial={{ scaleX: 0 }}
+                  whileHover={{ scaleX: 1 }}
+                  transition={{ duration: 0.3 }}
+                />
+              </Link>
+            </motion.div>
           ))}
         </div>
 
@@ -70,15 +78,15 @@ export default function Navbar() {
             className="absolute top-20 left-0 w-full bg-black/80 backdrop-blur-lg md:hidden"
           >
             <ul className="flex flex-col items-center py-4 space-y-4">
-              {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
+              {navLinks.map((link, index) => (
                 <li key={index}>
-                  <a
-                    href={`#${item.toLowerCase()}`}
+                  <Link
+                    to={link.path}
                     className="text-white text-xl hover:text-gray-300"
                     onClick={toggleMenu}
                   >
-                    {item}
-                  </a>
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>

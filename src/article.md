@@ -3,13 +3,8 @@ title: "[Leetcode 210] Course Schedule II | 解題思路分享"
 date: 2025-03-10
 draft: false
 author: "James"
-tags:
-  - BFS
-  - DFS
-  - Graph
-  - Topological Sort
-  - Leetcode
-image: /images/program/Leetcode.jpeg
+tags: ["BFS", "DFS"]
+image: /images/Guitar.JPEG
 description: ""
 toc: true
 categories:
@@ -56,11 +51,11 @@ categories:
 
 ### 📊 複雜度分析
 
-- **時間複雜度**：`O(V + E)`，其中 `V` 是課程數，`E` 是先修課程的對數。
-  - 建圖過程需要 `O(E)`。
-  - BFS 遍歷每個節點和邊各一次，總計 `O(V + E)`。
+**時間複雜度**：`O(V + E)`，其中 `V` 是課程數，`E` 是先修課程的對數。
+- 建圖過程需要 `O(E)`。
+- BFS 遍歷每個節點和邊各一次，總計 `O(V + E)`。
 
-- **空間複雜度**：`O(V + E)`，用於存儲鄰接表、入度陣列和隊列。
+**空間複雜度**：`O(V + E)`，用於存儲鄰接表、入度陣列和隊列。
 
 ### 🧑‍💻 實作程式碼
 
