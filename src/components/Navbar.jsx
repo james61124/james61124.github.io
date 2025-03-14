@@ -7,18 +7,22 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const controls = useAnimation();
 
-  // 監聽滾動事件，切換 Navbar 大小
+  // 監聽滾動事件，切換 Navbar 狀態
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // 行動裝置切換選單動畫
+  // 控制手機選單的動畫
   const toggleMenu = () => {
     setIsOpen(!isOpen);
     controls.start({ opacity: isOpen ? 0 : 1, x: isOpen ? 50 : 0 });
   };
+
+  // 根據滾動狀態切換顏色
+  const navTextColor = isScrolled ? 'text-gray-900' : 'text-white';
+  const hoverTextColor = isScrolled ? 'hover:text-black' : 'hover:text-gray-300';
 
   return (
     <motion.nav
@@ -28,7 +32,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo 區域 */}
-        <a href="/" className="text-2xl font-bold text-gray-900">
+        <a href="/" className={`text-2xl font-bold ${navTextColor}`}>
           MyBrand
         </a>
 
@@ -39,11 +43,11 @@ export default function Navbar() {
               key={index}
               href={`#${item.toLowerCase()}`}
               whileHover={{ scale: 1.1 }}
-              className="text-gray-700 hover:text-black relative"
+              className={`relative transition-colors duration-300 ${navTextColor} ${hoverTextColor}`}
             >
               {item}
               <motion.span
-                className="absolute left-0 bottom-0 w-full h-0.5 bg-black"
+                className="absolute left-0 bottom-0 w-full h-0.5 bg-current"
                 initial={{ scaleX: 0 }}
                 whileHover={{ scaleX: 1 }}
                 transition={{ duration: 0.3 }}
@@ -53,24 +57,24 @@ export default function Navbar() {
         </div>
 
         {/* 行動裝置漢堡按鈕 */}
-        <button className="md:hidden text-gray-900" onClick={toggleMenu}>
+        <button className={`md:hidden ${navTextColor}`} onClick={toggleMenu}>
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        {/* 行動選單 (僅在打開時顯示) */}
+        {/* 行動選單 */}
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={controls}
             exit={{ opacity: 0, x: 50 }}
-            className="absolute top-20 left-0 w-full bg-white shadow-lg md:hidden"
+            className="absolute top-20 left-0 w-full bg-black/80 backdrop-blur-lg md:hidden"
           >
             <ul className="flex flex-col items-center py-4 space-y-4">
               {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
                 <li key={index}>
                   <a
                     href={`#${item.toLowerCase()}`}
-                    className="text-gray-800 text-xl hover:text-black"
+                    className="text-white text-xl hover:text-gray-300"
                     onClick={toggleMenu}
                   >
                     {item}
