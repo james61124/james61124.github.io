@@ -1,25 +1,35 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { Button } from "./ui/button";
-import { format } from "date-fns"; // 確保已安裝 date-fns
+import { Link, useSearchParams } from "react-router-dom";
+import { format } from "date-fns";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import Pagination from "./Pagination";
 
 const articlesPerPage = 6;
 
-export default function ArticleListPage() {
+export default function ArticleListPage({ json_path, title, category }) {
   const [articles, setArticles] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchParams, setSearchParams] = useSearchParams(); 
+  const [realTitle, setTitle] = useState(title);
+  const selectedTag = searchParams.get("tag"); 
 
   useEffect(() => {
-    // 模擬文章資料
-    const fakeArticles = Array.from({ length: 50 }, (_, i) => ({
-      slug: `article-${i + 1}`,
-      title: `文章標題 ${i + 1}`,
-      description: `這是第 ${i + 1} 篇文章的簡要描述，講述了重要內容概述。`,
-      image: `/images/Guitar.JPEG`,
-      date: format(new Date(), "yyyy-MM-dd"), // 日期轉為 yyyy-MM-dd 格式
-    }));
-    setArticles(fakeArticles);
-  }, []);
+    fetch(json_path)
+      .then((response) => response.json())
+      .then((data) => {
+        // 如果有 selectedTag，則過濾出包含該 tag 的文章
+        const filteredData = selectedTag
+          ? data.filter(article => article.tags && article.tags.includes(selectedTag))
+          : data;
+  
+        setArticles(filteredData);
+        if(selectedTag) setTitle(selectedTag);
+        else setTitle(title);
+      })
+      .catch((error) => {
+        console.error("Error loading metadata.json:", error);
+      });
+  }, [json_path, selectedTag]); 
 
   const totalPages = Math.ceil(articles.length / articlesPerPage);
 
@@ -42,14 +52,14 @@ export default function ArticleListPage() {
       }}
     >
       <h1 className="text-4xl font-bold mb-16 text-center text-gray-900">
-        文章列表
+        {realTitle}
       </h1>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         {currentArticles.map((article) => (
           <Link
-            key={article.slug}
-            to={`/markdown`}
+            key={article.path}
+            to={`/${category}/${article.path}`}
             className="group block overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-transform transform hover:-translate-y-2 bg-white"
           >
             <img
@@ -64,39 +74,31 @@ export default function ArticleListPage() {
               <p className="text-gray-600 mt-4 line-clamp-3">
                 {article.description}
               </p>
-              <p className="mt-6 text-sm text-gray-500">發佈日期：{article.date}</p>
+              <p className="mt-6 text-sm text-gray-500">
+                發佈日期：{article.date}
+              </p>
+
+              {/* Tag 顯示區域 */}
+              {article.tags && article.tags.length > 0 && (
+                <div className="mt-4 flex flex-wrap gap-2">
+                    {article.tags.slice(0, 4).map((tag) => (
+                    <span key={tag} className="px-3 py-1 text-sm font-medium bg-gray-200 text-gray-800 rounded-full">
+                        {tag}
+                    </span>
+                    ))}
+                    {article.tags.length > 4 && (
+                    <span className="px-3 py-1 text-sm font-medium bg-gray-300 text-gray-700 rounded-full">
+                        +{article.tags.length - 4} 更多
+                    </span>
+                    )}
+                </div>
+              )}
             </div>
           </Link>
         ))}
       </div>
 
-      {/* 頁碼 */}
-      <div className="flex justify-center mt-16 space-x-2">
-        <Button
-          onClick={() => goToPage(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          上一頁
-        </Button>
-
-        {Array.from({ length: totalPages }, (_, i) => (
-          <Button
-            key={i + 1}
-            onClick={() => goToPage(i + 1)}
-            variant={currentPage === i + 1 ? "default" : "outline"}
-            className="rounded-full w-10 h-10"
-          >
-            {i + 1}
-          </Button>
-        ))}
-
-        <Button
-          onClick={() => goToPage(currentPage + 1)}
-          disabled={currentPage === totalPages}
-        >
-          下一頁
-        </Button>
-      </div>
+      <Pagination currentPage={currentPage} totalPages={totalPages} goToPage={goToPage} />
     </div>
   );
 }

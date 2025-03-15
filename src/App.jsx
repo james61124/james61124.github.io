@@ -1,32 +1,41 @@
-import MarkdownPage from "./components/MarkdownPage";
-import DynamicCover from "./components/DynamicCover";
+import Article from "./components/Article";
+import MainPage from "./components/MainPage";
 import AboutMe from "./components/AboutMe";
 import ArticleListPage from "./components/ArticleListPage";
 import ArticleList from "./components/ArticleList";
 import ArticleCategoriesPage from "./components/ArticleCategoriesPage";
+import LeetcodeList from "./components/LeetcodeList";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import article from "./article.md";
+// import article from "./assets/article/life/article.md";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
     // <div>
     //   {/* <MarkdownPage file={article} /> */}
     //   {/* <Navbar />
-    //   <DynamicCover /> */}
+    //   <MainPage /> */}
     //   {/* <ArticleListPage /> */}
     //  <ArticleList />
     // </div>
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<DynamicCover />} />
-        <Route path="/life" element={<ArticleList />} />
-        <Route path="/markdown" element={<MarkdownPage file={article}/>} />
+        <Route path="/" element={<MainPage />} />
+        <Route path="/life/:fileName" element={<Article category="life"/>} />
+        <Route path="/life" element={<ArticleList json_path="/metadata/life_metadata.json" title="Life Journal" category="life"/>} />
+        <Route path="/travel/:fileName" element={<Article category="travel"/>} />
+        <Route path="/travel" element={<ArticleList json_path="/metadata/travel_metadata.json" title="Journey Memoirs" category="travel"/>} />
+        <Route path="/program/:fileName" element={<Article category="program"/>} />
+        <Route path="/program" element={<ArticleList json_path="/metadata/program_metadata.json" title="Program Notes" category="program"/>} />
+        <Route path="/leetcode/:fileName" element={<Article category="leetcode"/>} />
+        <Route path="/leetcode" element={<LeetcodeList json_path="/metadata/leetcode_metadata.json" title="Travel Journal" category="leetcode"/>} />
       </Routes>
       <Footer />
     </Router>
+    
   );
 }
 

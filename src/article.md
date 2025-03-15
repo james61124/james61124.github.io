@@ -2,62 +2,55 @@
 title: "[Leetcode 210] Course Schedule II | 解題思路分享"
 date: 2025-03-10
 draft: false
-author: "James"
-tags: ["BFS", "DFS"]
+author: James
+tags: BFS,DFS,Graph,DP
 image: /images/Guitar.JPEG
 description: ""
 toc: true
+readTime: 3
 categories:
   - Algorithm
 ---
 
-### 題目描述
+### **題目描述**
 
 你需要修 numCourses 門課，這些課程從 `0` 到 `numCourses - 1` 編號。某些課程有先修課，用一個 `prerequisites` array 來表示，`prerequisites[i] = [a, b]`，意思是：
 
-> **想修課 a，必須先修課 b**（`b → a`）。
+> 想修課 a，必須先修課 b（`b → a`）。
 
-題目要求返回一個可行的修課順序，讓你可以完成所有課程。如果無法完成所有課程（Graph 中存在 Cycle），則返回空陣列 `[]`。
+題目要求返回一個可行的修課順序，讓你可以完成所有課程。如果無法完成所有課程（Graph 中存在 Cycle），則返回空陣列。
 
 題目連結 🔗：[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 
-### 問題分析
+### **問題分析**
 
-題目說要返回合理的修課順序，如果把這些課程的先修後修關係畫成一張 **有向圖 (Directed Graph)**，我們要確保每門課程只有在所有先修課完成後才會出現在順序中，這個問題本質上就是尋找 **拓撲排序 (Topological Sort)**。
+題目說要返回合理的修課順序，如果把這些課程的先修後修關係畫成一張有向圖 ( Directed Graph )，我們要確保每門課程只有在所有先修課完成後才會出現在順序中，這個問題本質上就是尋找拓撲排序 ( Topological Sort )。
 
-### 為什麼使用 Topological Sort？
+### **為什麼使用 Topological Sort？**
 
-在 **DAG (Directed Acyclic Graph)** 中，拓撲排序是一種將圖中所有節點排序，並且對於每一條邊 `u → v`，節點 `u` 會出現在 `v` 之前。
+在 DAG ( Directed Acyclic Graph ) 中，拓撲排序是一種將圖中所有節點排序，並且對於每一條邊 `u → v`，節點 `u` 會出現在 `v` 之前。
 
-這剛好符合課程的先修需求，且若圖中存在環 (Cycle)，則無法完成所有課程。
+這剛好符合課程的先修需求，且若圖中存在環 ( Cycle )，則無法完成所有課程。
 
-### 解題思路 - Topological Sort
+### **解題思路 - Topological Sort**
 
-#### 1️⃣ 轉換為 Adjacency List
+題目給的是 Edges，我們需要將其轉換為 Adjacency List 來方便實作拓撲排序。
 
-題目給的是 **課程對 (Edges)**，我們需要將其轉換為 **鄰接表 (Adjacency List)** 來方便實作拓撲排序。
+我們使用 Kahn's Algorithm (BFS) 實作拓撲排序，主要流程如下：
 
-#### 2️⃣ 使用 Kahn's Algorithm (BFS)
+-  **建立圖與入度表**：遍歷 `prerequisites`，構造鄰接表和記錄每個節點的入度。
 
-我們用 **BFS** 實作拓撲排序，主要流程如下：
+-  **將入度為 0 的節點加入隊列**：這些節點沒有前置依賴，可以直接修課。
 
-1. **建立圖與入度表**：遍歷 `prerequisites`，構造鄰接表和記錄每個節點的入度。
+-  **BFS 逐層遍歷**：依次取出隊列中的節點，將其加入結果集。
 
-2. **將入度為 0 的節點加入隊列**：這些節點沒有前置依賴，可以直接修課。
-
-3. **BFS 逐層遍歷**：依次取出隊列中的節點，將其加入結果集。
-
-4. **判斷是否存在環**：若最終結果集的大小等於課程數，則返回順序；否則圖中存在環，無法完成所有課程，返回空陣列。
-
-### 📊 複雜度分析
+-  **判斷是否存在環**：若最終結果集的大小等於課程數，則返回順序；否則圖中存在環，無法完成所有課程，返回空陣列。
 
 **時間複雜度**：`O(V + E)`，其中 `V` 是課程數，`E` 是先修課程的對數。
-- 建圖過程需要 `O(E)`。
-- BFS 遍歷每個節點和邊各一次，總計 `O(V + E)`。
 
 **空間複雜度**：`O(V + E)`，用於存儲鄰接表、入度陣列和隊列。
 
-### 🧑‍💻 實作程式碼
+### **實作程式碼**
 
 ```cpp
 vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
