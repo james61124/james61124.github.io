@@ -1,42 +1,73 @@
 import { Link } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-t from-gray-100 to-gray-50 dark:from-gray-900 dark:to-gray-800 text-gray-700 dark:text-gray-300 py-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 sm:grid-cols-3 gap-8">
-        {/* 網站導航 */}
+        {/* Site Navigation */}
         <div>
-          <h2 className="text-xl font-semibold mb-4">快速導覽</h2>
+          <h2 className="text-xl font-semibold mb-4">Quick Navigation</h2>
           <ul className="space-y-2">
-            <li><Link to="/" className="hover:text-blue-600 transition">首頁</Link></li>
-            <li><Link to="/articles" className="hover:text-blue-600 transition">文章列表</Link></li>
-            <li><Link to="/about" className="hover:text-blue-600 transition">關於我</Link></li>
-            <li><Link to="/contact" className="hover:text-blue-600 transition">聯絡我</Link></li>
+            <li><Link to="/" className="hover:text-blue-600 transition">Main</Link></li>
+            <li><Link to="/life" className="hover:text-blue-600 transition">Life</Link></li>
+            <li><Link to="/travel" className="hover:text-blue-600 transition">Travel</Link></li>
+            <li><Link to="/program" className="hover:text-blue-600 transition">Programming</Link></li>
+            <li><Link to="/leetcode" className="hover:text-blue-600 transition">Leetcode</Link></li>
           </ul>
         </div>
 
-        {/* 社群連結 */}
+        {/* Social Media */}
         <div>
-          <h2 className="text-xl font-semibold mb-4">社群媒體</h2>
-          <div className="flex space-x-6">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition">
-              <FaGithub size={24} />
+          <h2 className="text-xl font-semibold mb-4">Social Media</h2>
+          <div className="flex gap-4">
+            {/* GitHub */}
+            <a
+              href="https://github.com/james61124"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:text-gray-900 hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <FaGithub size={28} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition">
-              <FaLinkedin size={24} />
+
+            {/* LinkedIn */}
+            <a
+              href="https://www.linkedin.com/in/hong-jun-chiu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 hover:text-blue-800 hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <FaLinkedin size={28} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition">
-              <FaTwitter size={24} />
+
+            {/* Facebook */}
+            <a
+              href="https://www.facebook.com/profile.php?id=100006460037940"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-700 hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <FaFacebook size={28} />
+            </a>
+
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/james51124/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink-500 hover:text-pink-600 hover:scale-110 transition-all duration-300 ease-in-out"
+            >
+              <FaInstagram size={28} />
             </a>
           </div>
         </div>
 
-        {/* 版權聲明 */}
+        {/* Copyright */}
         <div>
-          <h2 className="text-xl font-semibold mb-4">版權聲明</h2>
+          <h2 className="text-xl font-semibold mb-4">Copyright</h2>
           <p className="text-sm">© {new Date().getFullYear()} James' Blog. All rights reserved.</p>
-          <p className="text-sm mt-2">此網站由 React + Tailwind CSS 驅動。</p>
+          <p className="text-sm mt-2">This website is powered by React & Tailwind CSS.</p>
         </div>
       </div>
     </footer>

@@ -4,6 +4,9 @@ import { Button } from "./ui/button";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import { Link, useParams } from 'react-router-dom';
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { prism } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export default function Article({ category }) {
   const { fileName } = useParams();
@@ -42,56 +45,54 @@ export default function Article({ category }) {
         {metadata.title && (
           <header className="text-center">
             <h1 className="text-4xl font-bold tracking-wide leading-tight text-gray-900 mb-4 mt-16">
-              {metadata.title}
+              {metadata.title.replace(/['"]/g, '')}
             </h1>
           </header>
         )}
 
-<div className="text-gray-600 mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-  {/* Author | Date | Read Time */}
-  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center gap-6 text-lg text-center sm:text-left sm:flex-grow">
-    {metadata.author && (
-      <p className="flex items-center gap-1 text-gray-800">
-        <span role="img" aria-label="author">👨‍💻</span>
-        <span>{metadata.author}</span>
-      </p>
-    )}
-    {metadata.date && (
-      <p className="flex items-center gap-1 text-gray-800">
-        <span role="img" aria-label="date">📅</span>
-        <span>{metadata.date}</span>
-      </p>
-    )}
-    {metadata.readTime && (
-      <p className="flex items-center gap-1 text-gray-800">
-        <span>⏱️</span>
-        <span>{metadata.readTime} min read</span>
-      </p>
-    )}
-  </div>
+        <div className="text-gray-600 mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          {/* Author | Date | Read Time */}
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-center gap-6 text-lg text-center sm:text-left sm:flex-grow">
+            {metadata.author && (
+              <p className="flex items-center gap-1 text-gray-800">
+                <span role="img" aria-label="author">👨‍💻</span>
+                <span>{metadata.author}</span>
+              </p>
+            )}
+            {metadata.date && (
+              <p className="flex items-center gap-1 text-gray-800">
+                <span role="img" aria-label="date">📅</span>
+                <span>{metadata.date}</span>
+              </p>
+            )}
+            {metadata.readTime && (
+              <p className="flex items-center gap-1 text-gray-800">
+                <span>⏱️</span>
+                <span>{metadata.readTime} min read</span>
+              </p>
+            )}
+          </div>
 
-  {/* Tags (Move this below the other items) */}
-</div>
+          {/* Tags (Move this below the other items) */}
+        </div>
 
-{/* Tags should be placed outside to ensure correct positioning */}
-{metadata.tags && (
-  <div className="w-full mt-4 mb-4 text-center">
-    <div className="flex flex-wrap gap-2 text-sm justify-center">
-      {metadata.tags.split(",").map((tag) => (
-        <Link
-          key={tag}
-          to={`/${category}?tag=${encodeURIComponent(tag.trim())}`} 
-          className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full cursor-pointer hover:bg-gray-300 transition duration-300 ease-in-out"
-        >
-          {tag.trim()}
-        </Link>
-      ))}
-    </div>
-  </div>
-)}
+        {/* Tags should be placed outside to ensure correct positioning */}
+        {metadata.tags && (
+          <div className="w-full mt-4 mb-4 text-center">
+            <div className="flex flex-wrap gap-2 text-sm justify-center">
+              {metadata.tags.split(",").map((tag) => (
+                <Link
+                  key={tag}
+                  to={`/${category}?tag=${encodeURIComponent(tag.trim())}`} 
+                  className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full cursor-pointer hover:bg-gray-300 transition duration-300 ease-in-out"
+                >
+                  {tag.trim()}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
-          
-          
         {metadata.image && (
           <img
             src={`${metadata.image}`}
@@ -123,12 +124,22 @@ export default function Article({ category }) {
                   {...props}
                 />
               ),
+              h4: ({ node, ...props }) => (
+                <h3
+                  className="text-xl sm:text-xl font-medium my-3 text-gray-700"
+                  {...props}
+                />
+              ),
               p: ({ node, ...props }) => (
                 <p className="text-lg leading-relaxed mb-6 text-gray-800" {...props} />
               ),
               a: ({ node, ...props }) => (
                 <a
-                  className="text-gray-800 hover:text-gray-900 underline decoration-transparent hover:underline decoration-gray-300 transition duration-300 ease-in-out"
+                  className="relative text-gray-800 hover:text-gray-900 transition-colors duration-300 ease-in-out
+                            after:content-[''] after:absolute after:bottom-[-2px] after:left-0 
+                            after:w-full after:h-[2px] after:bg-gray-400 after:scale-x-100 
+                            after:transition-all after:duration-300 after:ease-in-out 
+                            hover:after:bg-gray-800 hover:after:scale-x-100"
                   target="_blank"
                   rel="noopener noreferrer"
                   {...props}
@@ -142,17 +153,25 @@ export default function Article({ category }) {
               ),
               pre: ({ node, children, ...props }) => {
                 const codeContent = node.children[0].children[0].value;
-                const languageClass = node.children[0].properties.className[0];
-                // console.log(node.children[0].properties.className[0])
-          
+                const languageClass = node.children[0].properties.className?.[0] || "";
+                const language = languageClass.replace("language-", "") || "plaintext"; // 預設為純文字
+
                 return (
                   <div className="relative">
-                    <pre
-                      className={`bg-gray-900 text-white text-sm p-6 overflow-x-auto rounded-xl shadow-lg ${languageClass}`}
-                      {...props}
+                    <SyntaxHighlighter
+                      language={language}
+                      style={prism} // 亮色主題
+                      className="p-4" // 只保留內距，移除圓角
+                      customStyle={{
+                        background: "transparent", // 透明背景
+                        borderRadius: "0px", // 移除圓角
+                        padding: "16px", // 內距
+                        border: "1px solid #ddd", // 添加邊框
+                        fontSize: "14px", // 調整字體大小
+                      }}
                     >
-                      <code className={`${languageClass}`}>{codeContent}</code>
-                    </pre>
+                      {codeContent}
+                    </SyntaxHighlighter>
                   </div>
                 );
               },
@@ -163,10 +182,10 @@ export default function Article({ category }) {
               ),
               hr: () => <hr className="my-12 border-t border-gray-300" />,
               ul: ({ node, ...props }) => (
-                <ul className="list-disc list-outside space-y-2 pl-5 text-gray-800" {...props} />
+                <ul className="list-disc text-lg list-outside space-y-2 pl-5 text-gray-800" {...props} />
               ),
               ol: ({ node, ...props }) => (
-                <ol className="list-decimal list-outside space-y-2 pl-5 text-gray-800" {...props} />
+                <ol className="list-decimal text-lg list-outside space-y-2 pl-5 text-gray-800" {...props} />
               ),
               li: ({ node, children, ...props }) => {
                 if (
@@ -175,9 +194,9 @@ export default function Article({ category }) {
                   typeof children[0] === "object" &&
                   children[0].type === "p"
                 ) {
-                  return <li className="leading-relaxed list-item" {...props}>{children[0].props.children}</li>;
+                  return <li className="leading-relaxed text-lg list-item" {...props}>{children[0].props.children}</li>;
                 }
-                return <li className="leading-relaxed list-item" {...props}>{children}</li>;
+                return <li className="leading-relaxed text-lg list-item" {...props}>{children}</li>;
               }
             }}
           >

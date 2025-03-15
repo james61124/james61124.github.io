@@ -1,34 +1,17 @@
 [
     {
-        "title": "[Leetcode 210] Course Schedule II | 解題思路分享",
-        "date": "2025-03-10",
+        "title": "改變人生的半年 - ASML 荷蘭總部實習全紀錄",
+        "date": "2025-02-21",
         "author": "James",
         "tags": [
-            "BFS",
-            "DFS",
-            "Graph",
-            "DP"
+            "ASML",
+            "Veldhoven",
+            "Netherlands",
+            "Intern"
         ],
-        "image": "/images/Guitar.JPEG",
-        "description": "摘要摘要",
-        "toc": true,
+        "image": "/images/life/ASML/ASML.JPG",
+        "description": "分享我在荷蘭 ASML 總部實習半年的所見所聞，從科技巨頭的工作環境、多元文化的團隊合作，到歐洲生活的點滴體驗，這段經歷讓我開拓視野，學會在工作與生活間找到平衡，也深刻體會到旅行與成長的價值。",
         "readTime": 3,
-        "path": "article"
-    },
-    {
-        "title": "[Leetcode 210] Course Schedule II 2.0 | 解題思路分享",
-        "date": "2025-03-10",
-        "author": "James",
-        "tags": [
-            "BFS",
-            "DFS",
-            "Graph",
-            "DP"
-        ],
-        "image": "/images/Guitar.JPEG",
-        "description": "摘要摘要",
-        "toc": true,
-        "readTime": 3,
-        "path": "article2"
+        "path": "ASML"
     }
 ]

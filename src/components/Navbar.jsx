@@ -45,7 +45,7 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo 區域 */}
         <Link to="/" className={`text-2xl font-bold ${navTextColor}`}>
-          MyBrand
+          James Blogger
         </Link>
 
         {/* Desktop 導航連結 */}
