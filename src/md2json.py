@@ -4,43 +4,72 @@ from datetime import datetime
 import json
 
 def parse_markdown_metadata(file_path):
+    """Parses the metadata from a Markdown file's front matter."""
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    # 找出 front matter (metadata)
+    # Extract front matter (metadata)
     front_matter = None
     if content.startswith('---'):
-        end_of_front_matter = content.find('---', 3)  # 找到結束的 '---'
-        front_matter = content[3:end_of_front_matter].strip()  # 擷取 front matter
+        end_of_front_matter = content.find('---', 3)  # Locate the ending '---'
+        front_matter = content[3:end_of_front_matter].strip()  # Extract the front matter
 
+    metadata = {}
     if front_matter:
-        # 使用 yaml 解析 metadata
+        # Parse YAML metadata
         metadata = yaml.safe_load(front_matter)
 
-        # 解析 date 為日期物件並轉換為字串
+        # Convert date to YYYY-MM-DD format
         if 'date' in metadata:
             try:
-                # 轉換為 YYYY-MM-DD 格式的字符串
                 metadata['date'] = datetime.strptime(metadata['date'], "%Y-%m-%d").strftime("%Y-%m-%d")
             except ValueError:
-                metadata['date'] = None  # 如果日期格式錯誤則設為 None
+                metadata['date'] = None  # Set to None if the date format is invalid
 
-        # 解析 tags 為列表
-        if 'tags' in metadata:
+        # Convert tags into a list
+        if 'tags' in metadata and isinstance(metadata['tags'], str):
             metadata['tags'] = [tag.strip() for tag in metadata['tags'].split(',')]
 
-        # 加入檔案的 path (去掉副檔名)
+        # Add file path (without extension)
         metadata['path'] = os.path.splitext(os.path.basename(file_path))[0]
 
-        return metadata
-    return {}
+    # Calculate estimated read time
+    metadata['readTime'] = calculate_read_time(content)
+
+    return metadata
+
+import re
+
+def calculate_read_time(content):
+    """Estimates read time based on word count (200 WPM) for English 
+    and character count (500 CPM) for Chinese."""
+    
+    words_per_minute = 200  # English: words per minute
+    chars_per_minute = 500  # Chinese: characters per minute
+    
+    # Count English words
+    english_words = re.findall(r'\b\w+\b', content)
+    
+    # Count Chinese characters (excluding punctuation)
+    chinese_chars = re.findall(r'[\u4e00-\u9fff]', content)
+
+    # Estimate read time separately for English and Chinese
+    read_time_english = len(english_words) / words_per_minute
+    read_time_chinese = len(chinese_chars) / chars_per_minute
+    
+    # Total read time (rounding up)
+    total_read_time = max(1, round(read_time_english + read_time_chinese))
+    
+    return total_read_time
+
 
 def save_metadata_to_json(metadata_list, output_path):
+    """Saves metadata list to a JSON file."""
     with open(output_path, 'w', encoding='utf-8') as json_file:
         json.dump(metadata_list, json_file, indent=4, ensure_ascii=False)
 
 def get_markdown_files(directory):
-    """遍歷指定資料夾，取得所有的 markdown 文件"""
+    """Retrieves all Markdown files from the specified directory."""
     markdown_files = []
     for root, _, files in os.walk(directory):
         for file in files:
@@ -49,27 +78,28 @@ def get_markdown_files(directory):
     return markdown_files
 
 def process_folder(folder_name, directory, output_folder):
-    # 取得資料夾中的所有 markdown 文件
+    """Processes all Markdown files in a folder and generates metadata JSON."""
+    # Get all markdown files in the directory
     markdown_files = get_markdown_files(directory)
 
-    # 儲存該資料夾的所有 metadata
+    # Store metadata from all files
     all_metadata = []
     for markdown_file in markdown_files:
         metadata = parse_markdown_metadata(markdown_file)
-        if metadata:  # 如果有 metadata 才加入
+        if metadata:  # Only add if metadata exists
             all_metadata.append(metadata)
 
-    # 輸出該資料夾的 metadata 為 JSON 檔案
+    # Output metadata to a JSON file
     output_json = os.path.join(output_folder, f"{folder_name}_metadata.json")
     save_metadata_to_json(all_metadata, output_json)
     print(f"Metadata for {folder_name} saved to {output_json}")
 
 if __name__ == "__main__":
-    # 定義資料夾和輸出目錄
-    input_root_directory = "../public/article"  # 根目錄路徑
-    output_folder = "../public/metadata"  # 輸出資料夾
+    # Define input and output directories
+    input_root_directory = "../public/article"  # Root directory path
+    output_folder = "../public/metadata"  # Output folder for JSON files
 
-    # 依次處理 life, program, travel 資料夾
+    # Process folders: life, program, travel, leetcode
     for folder_name in ["life", "program", "travel", "leetcode"]:
         directory = os.path.join(input_root_directory, folder_name)
         process_folder(folder_name, directory, output_folder)

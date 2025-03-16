@@ -1,9 +1,9 @@
 ---
-title: 改變人生的半年 - ASML 荷蘭總部實習全紀錄
+title: ASML 荷蘭總部實習全紀錄
 date: "2025-02-21"
 author: James
 tags: ASML,Veldhoven,Netherlands,Intern
-image: /images/life/ASML/ASML.JPG
+image: /images/life/asml/asml.jpg
 description: "分享我在荷蘭 ASML 總部實習半年的所見所聞，從科技巨頭的工作環境、多元文化的團隊合作，到歐洲生活的點滴體驗，這段經歷讓我開拓視野，學會在工作與生活間找到平衡，也深刻體會到旅行與成長的價值。"
 readTime: 3
 ---
@@ -57,7 +57,7 @@ ASML 荷蘭總部位在 Veldhoven，他是一個在 Eindhoven 旁邊的小鎮，
   </figcaption>
 </figure>
 
-除了工作上，這裡也有很多社團可以參加，像我就選擇每個禮拜跑來跟他們的羽球社打打球，也認識到很多世界各地的人。
+除了工作上，這裡也有很多社團可以參加，像我就選擇每個禮拜跑來跟他們的羽球社打打球，也認識到很多世界各地的人。不過印度人真的很多啊有一說一，整個場大概有 9 成亞洲人，感覺歐洲關注羽球的人確實比較少。
 
 ### **歐洲生活體驗**
 

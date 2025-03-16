@@ -1,64 +1,32 @@
 [
     {
-        "title": "[Leetcode 210] Course Schedule II | 解題思路分享",
-        "date": "2025-03-10",
+        "title": "[ Leetcode 11 ] Container With Most Water | 解題思路分享",
+        "date": "2025-02-27",
         "author": "James",
         "tags": [
-            "BFS",
-            "DFS",
-            "Graph",
-            "DP"
-        ],
-        "difficulty": "Hard",
-        "image": "/images/life/Guitar.JPEG",
-        "description": "摘要摘要",
-        "toc": true,
-        "readTime": 3,
-        "path": "article"
-    },
-    {
-        "title": "[Leetcode 210] Course Schedule II 2.0 | 解題思路分享",
-        "date": "2025-03-10",
-        "author": "James",
-        "tags": [
-            "BFS",
-            "DFS",
-            "DP",
-            "String",
             "Array",
-            "Medium",
-            "Leetcode",
-            "Binary Tree",
-            "Stack",
-            "Monotone Stack",
-            "Linked List",
-            "Bubble Sort",
-            "Selection Sort",
-            "Merge Sort"
+            "Two Pointers",
+            "Greedy"
         ],
         "difficulty": "Medium",
-        "image": "/images/life/Guitar.JPEG",
-        "description": "摘要摘要",
-        "toc": true,
-        "readTime": 3,
-        "path": "article2"
+        "image": "/images/program/leetcode.jpeg",
+        "description": "",
+        "readTime": 2,
+        "path": "leetcode-11"
     },
     {
-        "title": "[Leetcode 210] Course Schedule II 2.0 | 解題思路分享",
-        "date": "2025-03-10",
+        "title": "[ Leetcode 19 ] Remove Nth Node From End of List | 解題思路分享",
+        "date": "2025-03-03",
         "author": "James",
         "tags": [
-            "BFS",
-            "DFS",
-            "Graph",
-            "DP"
+            "Linked List",
+            "Two Pointers"
         ],
-        "difficulty": "Easy",
-        "image": "/images/life/Guitar.JPEG",
-        "description": "摘要摘要",
-        "toc": true,
-        "readTime": 3,
-        "path": "article3"
+        "difficulty": "Medium",
+        "image": "/images/program/leetcode.jpeg",
+        "description": "",
+        "readTime": 2,
+        "path": "leetcode-19"
     },
     {
         "title": "[ Leetcode 3 ] Longest Substring Without Repeating Characters | 解題思路分享",
@@ -70,7 +38,7 @@
             "Hash Table"
         ],
         "difficulty": "Medium",
-        "image": "/images/program/Leetcode.jpeg",
+        "image": "/images/program/leetcode.jpeg",
         "description": "",
         "readTime": 3,
         "path": "leetcode-3"

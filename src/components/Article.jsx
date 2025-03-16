@@ -114,7 +114,7 @@ export default function Article({ category }) {
               ),
               h2: ({ node, ...props }) => (
                 <h2
-                  className="text-4xl sm:text-4xl font-semibold tracking-wide my-8 text-gray-800"
+                  className="text-3xl sm:text-3xl font-semibold tracking-wide my-4 text-gray-800"
                   {...props}
                 />
               ),

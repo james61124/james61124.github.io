@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion"; // ✨ 加入動畫
 
 const difficultyColors = {
   Easy: "text-green-600 bg-green-100",
@@ -88,9 +89,14 @@ export default function LeetCodeList({ json_path, category }) {
 
   return (
     <div className="min-h-screen bg-gray-50 pt-20 px-6 lg:px-16">
-      <h1 className="text-4xl font-extrabold text-gray-900 text-center mb-8">
-        LeetCode 文章列表
-      </h1>
+      <motion.h1
+        className="text-4xl font-bold mb-16 text-center text-gray-900 mt-8"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        Leetcode Notes
+      </motion.h1>
 
       {/* 篩選區 */}
       <div className="flex flex-wrap items-center gap-4 mb-6">

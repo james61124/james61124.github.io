@@ -183,7 +183,7 @@ export default function MainPage() {
           </div>
         </motion.div>
 
-        {/* Achievements */}
+        {/* Achievements
         <motion.div 
           className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 md:col-span-2"
           initial={{ opacity: 0, y: 30 }} 
@@ -199,12 +199,11 @@ export default function MainPage() {
             <li>🏆 Google Code Jam Finalist (2022)</li>
             <li>🚀 Built and launched a SaaS product with 100K+ users</li>
             <li>📢 Speaker at JSConf Asia (2023)</li>
-            <li>🎖️ Published research on AI & Machine Learning</li>
           </ul>
         </motion.div>
 
         {/* Leadership */}
-        <motion.div 
+        {/* <motion.div 
           className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 md:col-span-2"
           initial={{ opacity: 0, y: 30 }} 
           whileInView={{ opacity: 1, y: 0 }} 
@@ -220,7 +219,7 @@ export default function MainPage() {
             <li>President in NYCU Guitar Club</li>
             <li>Vice Captain in NYCU CS Badminton Department Team</li>
           </ul>
-        </motion.div>
+        </motion.div>  */}
       </div>
     </section>
     </div>
