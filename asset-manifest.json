@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56584bcd.css",
+    "main.js": "/static/js/main.74ebe273.js",
+    "static/js/453.d738c67b.chunk.js": "/static/js/453.d738c67b.chunk.js",
+    "static/media/NotoSansTC-Light.ttf": "/static/media/NotoSansTC-Light.b0a6923f6bc8a1f4205e.ttf",
+    "static/media/NotoSansTC-ExtraLight.ttf": "/static/media/NotoSansTC-ExtraLight.7e0c29a67ae9b589379d.ttf",
+    "static/media/NotoSansTC-Regular.ttf": "/static/media/NotoSansTC-Regular.17327da31a67ef481b01.ttf",
+    "static/media/NotoSansTC-Thin.ttf": "/static/media/NotoSansTC-Thin.d4710422714ef9b1beb6.ttf",
+    "static/media/NotoSansTC-Medium.ttf": "/static/media/NotoSansTC-Medium.066597a7d0203c0aed07.ttf",
+    "static/media/NotoSansTC-Bold.ttf": "/static/media/NotoSansTC-Bold.8bce42ee6dedc26e6678.ttf",
+    "static/media/Charter-Regular.ttf": "/static/media/Charter-Regular.9acb6c262b15deb968ab.ttf",
+    "static/media/Charter-Bold.ttf": "/static/media/Charter-Bold.62c001d6c81420c5532b.ttf",
+    "static/media/Charter-Italic.ttf": "/static/media/Charter-Italic.4aefe405c425697e5177.ttf",
+    "static/media/Charter-BoldItalic.ttf": "/static/media/Charter-BoldItalic.c8edda3ef757319c708a.ttf",
+    "index.html": "/index.html",
+    "main.56584bcd.css.map": "/static/css/main.56584bcd.css.map",
+    "main.74ebe273.js.map": "/static/js/main.74ebe273.js.map",
+    "453.d738c67b.chunk.js.map": "/static/js/453.d738c67b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56584bcd.css",
+    "static/js/main.74ebe273.js"
+  ]
+}
