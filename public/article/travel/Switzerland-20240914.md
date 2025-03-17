@@ -102,7 +102,12 @@ TRUFFE CLASSIQUE 經典松露巧克力是這裡的鎮店之寶，據說全世界
 
 這條路線是 Interlaken 市區主要一條觀光的路線，雖然不會經過湖邊，不過可以直接地感受到瑞士市區的街景，瑞士的房子給人一種很簡約很舒服的感覺，不會太過華麗，感覺他們的生活有山有湖特別悠閒。
 
-![Interlaken](/images/travel/Switzerland-20240914/Interlaken.jpg)
+<figure>
+  <img src="/images/travel/Switzerland-20240914/Interlaken.jpg" alt="Interlaken" />
+  <figcaption style="font-size: 0.8em; text-align: center; color: gray; margin-top: 5px; margin-bottom: 10px;">
+    路邊的大草原
+  </figcaption>
+</figure>
 
 山上下來的滑翔傘都會降落在這個地方，不過滑翔傘要玩的話大概要台幣 6000，後來想想就算了。
 

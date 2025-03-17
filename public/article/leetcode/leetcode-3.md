@@ -6,7 +6,7 @@ tags: String,Sliding Window,Hash Table
 difficulty: Medium
 image: /images/program/leetcode.jpeg
 description: ""
-readTime: 3
+readTime: 1
 ---
 
 Given a string `s`, find the length of the **longest substring** without duplicate characters.

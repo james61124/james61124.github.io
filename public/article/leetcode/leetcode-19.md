@@ -51,7 +51,7 @@ Given the `head` of a linked list, remove the `nᵗʰ` node from the end of the 
 
 #### **Slow Pointer 的位置**
 
-Linked List 是單向的，如果 slow 指向需要被 detele 的 node，那我們沒有辦法 delete 這個 node，我們必須讓 slow->next 是我們要 delete 的 node，這樣 delete node 的時候才可以 slow->next = slow->next->next
+Linked List 是單向的，如果 slow 指向需要被 detele 的 node，那我們沒有辦法 delete 這個 node，我們必須讓 `slow->next` 是我們要 delete 的 node，這樣 delete node 的時候才可以 `slow->next = slow->next->next`
 
 #### **Pointers 起始位置**
 
@@ -65,8 +65,8 @@ fast 的結束位置是在最後一個 node，也就是 fast->next 的時候，�
 
 返回的時候不能直接返回 head，因為如果整條 linked list 只有一個 node 而他也必須要刪除，那應該要返回 nullptr，所以直接返回 dummy->next 即可。
 
-**Time Complexity** - O( n )，每個元素最多被 fast 掃過。<br>
-**Space Complexity** - O( 1 )，只使用了一個 dummy 的空間。
+**Time Complexity** - `O(n)`，每個元素最多被 fast 掃過<br>
+**Space Complexity** - `O(1)`，只使用了一個 dummy 的空間。
 
 #### **Implementation**
 

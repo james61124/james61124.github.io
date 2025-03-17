@@ -7,6 +7,8 @@ import { Link, useParams } from 'react-router-dom';
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { prism } from "react-syntax-highlighter/dist/esm/styles/prism";
+import ShareAndCopy from "./ShareAndCopy";
+
 
 export default function Article({ category }) {
   const { fileName } = useParams();
@@ -203,6 +205,8 @@ export default function Article({ category }) {
             {content}
           </ReactMarkdown>
         </article>
+
+        <ShareAndCopy />
 
       </main>
     </div>

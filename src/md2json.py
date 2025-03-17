@@ -45,7 +45,7 @@ def calculate_read_time(content):
     and character count (500 CPM) for Chinese."""
     
     words_per_minute = 200  # English: words per minute
-    chars_per_minute = 500  # Chinese: characters per minute
+    chars_per_minute = 600  # Chinese: characters per minute
     
     # Count English words
     english_words = re.findall(r'\b\w+\b', content)
