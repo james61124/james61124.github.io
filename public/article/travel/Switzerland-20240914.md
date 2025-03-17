@@ -145,7 +145,6 @@ Interlaken Ost 火車站位置🔗：[https://maps.app.goo.gl/xg3CzF1uNM1cqgWG8]
 
 如果天氣許可的話，這邊強烈建議這趟要搭！因為我覺得不管在哪裡看到的 view 都不會比在湖上看到的還要壯觀，不過重點是 friend ticket 有涵蓋搭船的部分，所以又更划算了。
 
-{{< youtube cEmyxzFA5Kk >}} 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe 
     src="https://www.youtube.com/embed/cEmyxzFA5Kk" 
@@ -218,7 +217,14 @@ Viewpoint 位置🔗：[https://maps.app.goo.gl/4av5oghQZj48Pvg68](https://maps.
 
 我們原本計劃是要到米倫小鎮的，但是怕當地有下雪我們裝備會不夠，所以就改到格林德瓦。我們沒有停留太久，算是直奔夢幻山坡去的，因為大家也累了，不過在這裏我們真正感受到壯觀的山谷，勞特布龍嫩的山谷也好看，但跟這裡比起來就是小巫見大巫了。
 
-{{< youtube f6w114pzoVE >}} 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/f6w114pzoVE" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</div>
 <div style="height: 15px;"></div>
 
 這裡就是夢幻山坡，可以感覺到他們的山坡的綠色都綠的很一致，山上的房子主視覺也都很一致的感覺，所以就會覺得很夢幻，很像電影才會出現的場景。
@@ -239,7 +245,14 @@ Viewpoint 位置🔗：[https://maps.app.goo.gl/4av5oghQZj48Pvg68](https://maps.
 
 ### **Grindwald Terminal**
 
-{{< youtube 6OvC_zgx0Bs >}} 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/6OvC_zgx0Bs" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</div>
 <div style="height: 15px;"></div>
 
 這是 Grindwald Terminal 旁邊的山景，今天山上的雲普遍都偏低，我們嚴重懷疑那些雲的位置就是我們原本要去的 Männlichen，所以必須得要上到這些雲層之上才會有藍天。阿爾卑斯山山谷都很大很壯觀，草的顏色也很乾淨，搭配中間隨機的幾叢小木屋，真的是超級漂亮的風景。
@@ -266,7 +279,14 @@ Viewpoint 位置🔗：[https://maps.app.goo.gl/4av5oghQZj48Pvg68](https://maps.
 
 第一個室外點這邊可以看到滑雪道的痕跡所以推測這裡應該是個滑雪場，久沒看到雪景真的很興奮，可以看到遠處疑似是冰川的峽谷，晴空萬里的藍天、還有整片的雪山超感動。我本來以為美中不足的是我穿運動鞋上雪山，不過到現場反而覺得還好，本來以為鞋子會濕掉甚麼的，不過因為可以行走的地方大部分遊客都已經踏過了，所以都是硬的那種冰，不太會弄濕我的鞋子，但是抓地力很不好，配上山上很強的風，真的是挺滑的，但還是很值得。
 
-{{< youtube Kt2qrR4l42g >}} 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/Kt2qrR4l42g" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</div>
 <div style="height: 15px;"></div>
 
 看大太陽底下的雪景感覺還是要帶太陽眼鏡比較好，當天太緊急了也太興奮了完全沒有注意到這件事，回頭想想好像真的有點亮。

@@ -26,7 +26,7 @@
     "remark-html": "^16.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://james61124.github.io/blogger",
+  "homepage": "https://james61124.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
