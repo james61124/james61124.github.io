@@ -9,9 +9,18 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import article from "./assets/article/life/article.md";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 
 
 function App() {
+
+  useEffect(() => {
+    if (window.location.search.startsWith('?/') && window.history.replaceState) {
+      const newPath = window.location.search.slice(2).replace(/~and~/g, '&');
+      window.history.replaceState(null, null, newPath);
+    }
+  }, []);
+
   return (
     // <div>
     //   {/* <MarkdownPage file={article} /> */}
